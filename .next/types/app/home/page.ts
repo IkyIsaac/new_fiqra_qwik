@@ -1,4 +1,4 @@
-// File: /Users/emmanuelmtera/Documents/GitHub/fiqra/src/app/home/page.tsx
+// File: /Users/user/Desktop/current_project/next_fiqra/fiqra/src/app/home/page.tsx
 import * as entry from '../../../../src/app/home/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
