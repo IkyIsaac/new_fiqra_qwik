@@ -72,8 +72,8 @@ export default function Footers() {
                             <path
                               d="M13 2.06635C11.8233 1.38567 10.4571 0.996094 9 0.996094C4.58172 0.996094 1 4.57782 1 8.99609C1 10.2758 1.30049 11.4854 1.83477 12.5581C1.97675 12.8431 2.02401 13.1689 1.94169 13.4766L1.46521 15.2574C1.25836 16.0305 1.96561 16.7377 2.73868 16.5309L4.51951 16.0544C4.82715 15.9721 5.15297 16.0193 5.43802 16.1613C6.51069 16.6956 7.72025 16.9961 9 16.9961C13.4183 16.9961 17 13.4144 17 8.99609C17 7.53895 16.6104 6.17279 15.9297 4.99609"
                               stroke="#595B62"
-                              stroke-width="1.5"
-                              stroke-linecap="round"
+                              strokeWidth="1.5"
+                              strokeLinecap="round"
                             />
                           </svg>
                         </span>
@@ -154,19 +154,19 @@ export default function Footers() {
                           <path
                             d="M13 14.6H5C2.6 14.6 1 13.4 1 10.6V5C1 2.2 2.6 1 5 1H13C15.4 1 17 2.2 17 5V10.6C17 13.4 15.4 14.6 13 14.6Z"
                             stroke="#5F6168"
-                            stroke-width="1.5"
+                            strokeWidth="1.5"
                             stroke-miterlimit="10"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           />
                           <path
                             opacity="0.4"
                             d="M13 5.39993L10.496 7.39993C9.672 8.05593 8.32 8.05593 7.496 7.39993L5 5.39993"
                             stroke="#5F6168"
-                            stroke-width="1.5"
+                            strokeWidth="1.5"
                             stroke-miterlimit="10"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           />
                         </svg>
                       </span>
@@ -181,16 +181,16 @@ export default function Footers() {
                           <path
                             d="M1.00098 7H13.001"
                             stroke="currentColor"
-                            stroke-width="1.5"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeWidth="1.5"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           />
                           <path
                             d="M7.00098 1L13.001 7L7.00098 13"
                             stroke="currentColor"
-                            stroke-width="1.5"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeWidth="1.5"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           />
                         </svg>
                       </button>

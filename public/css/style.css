@@ -327,6 +327,33 @@ input[type=color] {
 /*---------------------------------
     common classes css start 
 ---------------------------------*/
+.related-posts{
+  width: 370px;
+  margin-right: 30px;
+}
+.blog-bg{
+  background-image: url("/img/blog/inner-blog-1.png");
+}
+.project-testimonials{
+    width: 768px;
+    visibility: visible;
+    animation-duration: 0.9s;
+    animation-delay: 0.5s;
+    animation-name: tpfadeUp;
+    margin-right: 30px;
+}
+.about-testimonies{
+  width: 308.8px;
+  margin-right: 30px;
+}
+.testimonials-size{
+  width: 536px;
+  margin-right: 30px;
+}
+
+.customer-stories{
+  background-image: url("/img/testimonial/testi-bg-5-1.jpg");
+}
 .w-img img {
   width: 100%;
 }
@@ -2403,6 +2430,7 @@ input[type=color] {
 .about-img-height {
   min-height: 620px;
   background-repeat: no-repeat;
+  background-image: url("/img/breadcrumb/breadcrumb-2.jpg");
   background-size: cover;
   border-radius: 30px;
   margin-top: -215px;
@@ -8297,6 +8325,7 @@ input[type=color] {
 
 .tp-service-3-item {
   background-repeat: no-repeat;
+  background-image: url("/img/service/service-3-bg.png");
   background-size: cover;
   padding: 40px;
   border-radius: 30px;
@@ -9969,6 +9998,7 @@ input[type=color] {
 /*  10. CTA CSS START
 /*----------------------------------------*/
 .tp-cta-bg {
+  background-image: url("/img/cta/cta-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 40px;

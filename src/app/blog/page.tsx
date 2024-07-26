@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Blog() {
   return (
     <main>
@@ -21,7 +23,7 @@ export default function Blog() {
                   data-wow-delay=".4s"
                 >
                   <span className="child-one">
-                    <a href="#">Home</a>
+                    <Link href="#">Home</Link>
                   </span>
                   <span className="dvdr">
                     <i className="fal fa-angle-right"></i>
@@ -93,7 +95,7 @@ export default function Blog() {
                   <div className="swiper-wrapper">
                     <div className="swiper-slide">
                       <div
-                        className="blog-grid-slider blog-grid-slider-bg d-flex align-items-center blog-grid-slider-height"
+                        className="blog-grid-slider blog-grid-slider-bg d-flex align-items-center blog-grid-slider-height blog-bg"
                         data-background="/img/blog/inner-blog-1.png"
                       >
                         <div className="blog-grid-slider-wrapper">
@@ -103,9 +105,9 @@ export default function Blog() {
                           </div>
                           <div className="blog-grid-slider-title-box">
                             <h4 className="blog-grid-slider-title">
-                              <a href="blog-details.html">
+                              <Link href="blog-details">
                                 5 Companies doing Brand <br /> Marketing Right
-                              </a>
+                              </Link>
                             </h4>
                             <p>
                               From publishing content and hoping to acquire
@@ -139,9 +141,9 @@ export default function Blog() {
                           </div>
                           <div className="blog-grid-slider-title-box">
                             <h4 className="blog-grid-slider-title">
-                              <a href="blog-details.html">
+                              <Link href="blog-details">
                                 5 Companies doing Brand <br /> Marketing Right
-                              </a>
+                              </Link>
                             </h4>
                             <p>
                               From publishing content and hoping to acquire
@@ -175,9 +177,9 @@ export default function Blog() {
                           </div>
                           <div className="blog-grid-slider-title-box">
                             <h4 className="blog-grid-slider-title">
-                              <a href="#">
+                              <Link href="#">
                                 5 Companies doing Brand <br /> Marketing Right
-                              </a>
+                              </Link>
                             </h4>
                             <p>
                               From publishing content and hoping to acquire
@@ -248,9 +250,9 @@ export default function Blog() {
             <div className="col-xl-4 col-lg-6 col-md-6 mb-30 grid-item cat1 cat4 cat3 cat5">
               <div className="tp-blog-item">
                 <div className="tp-blog-thumb fix">
-                  <a href="blog-details.html">
+                  <Link href="blog-details">
                     <img src="/img/blog/blog-grid-1.jpg" alt="" />
-                  </a>
+                  </Link>
                 </div>
                 <div className="tp-blog-content">
                   <div className="tp-blog-meta d-flex align-items-center">
@@ -262,9 +264,9 @@ export default function Blog() {
                     </div>
                   </div>
                   <div className="tp-blog-title-box">
-                    <a className="tp-blog-title-sm" href="blog-details.html">
+                    <Link className="tp-blog-title-sm" href="blog-details">
                       2023 Professional Year In <br /> Review
-                    </a>
+                    </Link>
                   </div>
                   <div className="tp-blog-author-info-box d-flex align-items-center">
                     <div className="tp-blog-avata">
@@ -281,9 +283,9 @@ export default function Blog() {
             <div className="col-xl-4 col-lg-6 col-md-6 mb-30 grid-item cat4 cat3 cat2 cat1">
               <div className="tp-blog-item">
                 <div className="tp-blog-thumb fix">
-                  <a href="blog-details.html">
+                  <Link href="blog-details">
                     <img src="/img/blog/blog-grid-2.jpg" alt="" />
-                  </a>
+                  </Link>
                 </div>
                 <div className="tp-blog-content">
                   <div className="tp-blog-meta d-flex align-items-center">
@@ -295,9 +297,9 @@ export default function Blog() {
                     </div>
                   </div>
                   <div className="tp-blog-title-box">
-                    <a className="tp-blog-title-sm" href="blog-details.html">
+                    <Link className="tp-blog-title-sm" href="blog-details">
                       Leveraging Feedback on <br /> Insights best.
-                    </a>
+                    </Link>
                   </div>
                   <div className="tp-blog-author-info-box d-flex align-items-center">
                     <div className="tp-blog-avata">
@@ -314,9 +316,9 @@ export default function Blog() {
             <div className="col-xl-4 col-lg-6 col-md-6 mb-30 grid-item cat3 cat4 cat5">
               <div className="tp-blog-item">
                 <div className="tp-blog-thumb fix">
-                  <a href="blog-details.html">
+                  <Link href="blog-details">
                     <img src="/img/blog/blog-grid-3.jpg" alt="" />
-                  </a>
+                  </Link>
                 </div>
                 <div className="tp-blog-content">
                   <div className="tp-blog-meta d-flex align-items-center">
@@ -328,10 +330,10 @@ export default function Blog() {
                     </div>
                   </div>
                   <div className="tp-blog-title-box">
-                    <a className="tp-blog-title-sm" href="blog-details.html">
+                    <Link className="tp-blog-title-sm" href="blog-details">
                       Typing Tutorials For Kids <br />
                       And Beginners
-                    </a>
+                    </Link>
                   </div>
                   <div className="tp-blog-author-info-box d-flex align-items-center">
                     <div className="tp-blog-avata">
@@ -348,9 +350,9 @@ export default function Blog() {
             <div className="col-xl-4 col-lg-6 col-md-6 mb-30 grid-item cat4 cat2 cat3 cat1">
               <div className="tp-blog-item">
                 <div className="tp-blog-thumb fix">
-                  <a href="blog-details.html">
+                  <Link href="blog-details">
                     <img src="/img/blog/blog-grid-4.jpg" alt="" />
-                  </a>
+                  </Link>
                 </div>
                 <div className="tp-blog-content">
                   <div className="tp-blog-meta d-flex align-items-center">
@@ -362,10 +364,10 @@ export default function Blog() {
                     </div>
                   </div>
                   <div className="tp-blog-title-box">
-                    <a className="tp-blog-title-sm" href="blog-details.html">
+                    <Link className="tp-blog-title-sm" href="blog-details">
                       Project Management at <br />
                       Your fingertips.
-                    </a>
+                    </Link>
                   </div>
                   <div className="tp-blog-author-info-box d-flex align-items-center">
                     <div className="tp-blog-avata">
@@ -382,9 +384,9 @@ export default function Blog() {
             <div className="col-xl-4 col-lg-6 col-md-6 mb-30 grid-item cat1 cat2 cat3 cat5">
               <div className="tp-blog-item">
                 <div className="tp-blog-thumb fix">
-                  <a href="blog-details.html">
+                  <Link href="blog-details">
                     <img src="/img/blog/blog-grid-5.jpg" alt="" />
-                  </a>
+                  </Link>
                 </div>
                 <div className="tp-blog-content">
                   <div className="tp-blog-meta d-flex align-items-center">
@@ -396,10 +398,10 @@ export default function Blog() {
                     </div>
                   </div>
                   <div className="tp-blog-title-box">
-                    <a className="tp-blog-title-sm" href="blog-details.html">
+                    <Link className="tp-blog-title-sm" href="blog-details">
                       Designing the Kids Space <br />
                       Universe
-                    </a>
+                    </Link>
                   </div>
                   <div className="tp-blog-author-info-box d-flex align-items-center">
                     <div className="tp-blog-avata">
@@ -416,9 +418,9 @@ export default function Blog() {
             <div className="col-xl-4 col-lg-6 col-md-6 mb-30 grid-item cat4 cat1 cat5 cat2">
               <div className="tp-blog-item">
                 <div className="tp-blog-thumb fix">
-                  <a href="blog-details.html">
+                  <Link href="blog-details">
                     <img src="/img/blog/blog-grid-6.jpg" alt="" />
-                  </a>
+                  </Link>
                 </div>
                 <div className="tp-blog-content">
                   <div className="tp-blog-meta d-flex align-items-center">
@@ -430,9 +432,9 @@ export default function Blog() {
                     </div>
                   </div>
                   <div className="tp-blog-title-box">
-                    <a className="tp-blog-title-sm" href="blog-details.html">
+                    <Link className="tp-blog-title-sm" href="blog-details">
                       How Chatbots Can Help You <br /> Drive More Sales
-                    </a>
+                    </Link>
                   </div>
                   <div className="tp-blog-author-info-box d-flex align-items-center">
                     <div className="tp-blog-avata">
@@ -465,12 +467,12 @@ export default function Blog() {
                     business <br />
                     anywhere on the planet.
                   </p>
-                  <a
+                  <Link
                     className="tp-btn-inner white-bg text-black"
                     href="service-details.html"
                   >
                     Get Started Now
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

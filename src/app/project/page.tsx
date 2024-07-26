@@ -81,7 +81,7 @@ export default function Project() {
                     Design Wok, Branding
                   </span>
                   <h4 className="inner-project-title">
-                    <a href="project-details.html">Airbnb Upgrade</a>
+                    <a href="project-details">Airbnb Upgrade</a>
                   </h4>
                   <p>
                     Quis nostrud exercitation ullamco laboris nisi ut aliquip ex
@@ -107,7 +107,7 @@ export default function Project() {
                     Development, App Design
                   </span>
                   <h4 className="inner-project-title">
-                    <a href="project-details.html">Mobile App Design</a>
+                    <a href="project-details">Mobile App Design</a>
                   </h4>
                   <p>
                     Quis nostrud exercitation ullamco laboris nisi ut aliquip ex
@@ -133,7 +133,7 @@ export default function Project() {
                     Branding, Illusutration
                   </span>
                   <h4 className="inner-project-title">
-                    <a href="project-details.html">Branding & Identity</a>
+                    <a href="project-details">Branding & Identity</a>
                   </h4>
                   <p>
                     Quis nostrud exercitation ullamco laboris nisi ut aliquip ex
@@ -159,7 +159,7 @@ export default function Project() {
                     Design Wok, Illusutration
                   </span>
                   <h4 className="inner-project-title">
-                    <a href="project-details.html">Muckup Design</a>
+                    <a href="project-details">Muckup Design</a>
                   </h4>
                   <p>
                     Quis nostrud exercitation ullamco laboris nisi ut aliquip ex
@@ -190,7 +190,7 @@ export default function Project() {
                         Design Wok, Branding
                       </span>
                       <h4 className="inner-project-title">
-                        <a href="project-details.html">Realistic Scenarios</a>
+                        <a href="project-details">Realistic Scenarios</a>
                       </h4>
                       <p>
                         Quis nostrud exercitation ullamco laboris nisi ut
@@ -214,7 +214,7 @@ export default function Project() {
                     Design Wok, App Design
                   </span>
                   <h4 className="inner-project-title">
-                    <a href="project-details.html">Design System & Ul Kit</a>
+                    <a href="project-details">Design System & Ul Kit</a>
                   </h4>
                   <p>
                     Quis nostrud exercitation ullamco laboris nisi ut aliquip ex
@@ -240,7 +240,7 @@ export default function Project() {
                     Design Wok, Illusutration
                   </span>
                   <h4 className="inner-project-title">
-                    <a href="project-details.html">Web Design</a>
+                    <a href="project-details">Web Design</a>
                   </h4>
                   <p>
                     Quis nostrud exercitation ullamco laboris nisi ut aliquip ex
@@ -271,7 +271,7 @@ export default function Project() {
                         Design Wok, Branding
                       </span>
                       <h4 className="inner-project-title">
-                        <a href="project-details.html">Landing Page Design</a>
+                        <a href="project-details">Landing Page Design</a>
                       </h4>
                       <p>
                         Quis nostrud exercitation ullamco laboris nisi ut
@@ -295,7 +295,7 @@ export default function Project() {
                     Design Wok, App Design
                   </span>
                   <h4 className="inner-project-title">
-                    <a href="project-details.html">Mobile Design</a>
+                    <a href="project-details">Mobile Design</a>
                   </h4>
                   <p>
                     Quis nostrud exercitation ullamco laboris nisi ut aliquip ex

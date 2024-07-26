@@ -188,13 +188,13 @@ export default function Price() {
                                       cy="8"
                                       r="7"
                                       stroke="#5F6168"
-                                      stroke-width="1.5"
+                                      strokeWidth="1.5"
                                     />
                                     <path
                                       d="M8 11.5V7.3"
                                       stroke="#5F6168"
-                                      stroke-width="1.5"
-                                      stroke-linecap="round"
+                                      strokeWidth="1.5"
+                                      strokeLinecap="round"
                                     />
                                     <circle
                                       r="0.7"
@@ -228,13 +228,13 @@ export default function Price() {
                                       cy="8"
                                       r="7"
                                       stroke="#5F6168"
-                                      stroke-width="1.5"
+                                      strokeWidth="1.5"
                                     />
                                     <path
                                       d="M8 11.5V7.3"
                                       stroke="#5F6168"
-                                      stroke-width="1.5"
-                                      stroke-linecap="round"
+                                      strokeWidth="1.5"
+                                      strokeLinecap="round"
                                     />
                                     <circle
                                       r="0.7"
@@ -268,13 +268,13 @@ export default function Price() {
                                       cy="8"
                                       r="7"
                                       stroke="#5F6168"
-                                      stroke-width="1.5"
+                                      strokeWidth="1.5"
                                     />
                                     <path
                                       d="M8 11.5V7.3"
                                       stroke="#5F6168"
-                                      stroke-width="1.5"
-                                      stroke-linecap="round"
+                                      strokeWidth="1.5"
+                                      strokeLinecap="round"
                                     />
                                     <circle
                                       r="0.7"
@@ -308,13 +308,13 @@ export default function Price() {
                                       cy="8"
                                       r="7"
                                       stroke="#5F6168"
-                                      stroke-width="1.5"
+                                      strokeWidth="1.5"
                                     />
                                     <path
                                       d="M8 11.5V7.3"
                                       stroke="#5F6168"
-                                      stroke-width="1.5"
-                                      stroke-linecap="round"
+                                      strokeWidth="1.5"
+                                      strokeLinecap="round"
                                     />
                                     <circle
                                       r="0.7"
@@ -348,13 +348,13 @@ export default function Price() {
                                       cy="8"
                                       r="7"
                                       stroke="#5F6168"
-                                      stroke-width="1.5"
+                                      strokeWidth="1.5"
                                     />
                                     <path
                                       d="M8 11.5V7.3"
                                       stroke="#5F6168"
-                                      stroke-width="1.5"
-                                      stroke-linecap="round"
+                                      strokeWidth="1.5"
+                                      strokeLinecap="round"
                                     />
                                     <circle
                                       r="0.7"
@@ -533,13 +533,13 @@ export default function Price() {
                                     cy="8"
                                     r="7"
                                     stroke="#5F6168"
-                                    stroke-width="1.5"
+                                    strokeWidth="1.5"
                                   />
                                   <path
                                     d="M8 11.5V7.3"
                                     stroke="#5F6168"
-                                    stroke-width="1.5"
-                                    stroke-linecap="round"
+                                    strokeWidth="1.5"
+                                    strokeLinecap="round"
                                   />
                                   <circle
                                     r="0.7"
@@ -570,13 +570,13 @@ export default function Price() {
                                   cy="8"
                                   r="7"
                                   stroke="#5F6168"
-                                  stroke-width="1.5"
+                                  strokeWidth="1.5"
                                 />
                                 <path
                                   d="M8 11.5V7.3"
                                   stroke="#5F6168"
-                                  stroke-width="1.5"
-                                  stroke-linecap="round"
+                                  strokeWidth="1.5"
+                                  strokeLinecap="round"
                                 />
                                 <circle
                                   r="0.7"
@@ -606,13 +606,13 @@ export default function Price() {
                                   cy="8"
                                   r="7"
                                   stroke="#5F6168"
-                                  stroke-width="1.5"
+                                  strokeWidth="1.5"
                                 />
                                 <path
                                   d="M8 11.5V7.3"
                                   stroke="#5F6168"
-                                  stroke-width="1.5"
-                                  stroke-linecap="round"
+                                  strokeWidth="1.5"
+                                  strokeLinecap="round"
                                 />
                                 <circle
                                   r="0.7"
@@ -642,13 +642,13 @@ export default function Price() {
                                   cy="8"
                                   r="7"
                                   stroke="#5F6168"
-                                  stroke-width="1.5"
+                                  strokeWidth="1.5"
                                 />
                                 <path
                                   d="M8 11.5V7.3"
                                   stroke="#5F6168"
-                                  stroke-width="1.5"
-                                  stroke-linecap="round"
+                                  strokeWidth="1.5"
+                                  strokeLinecap="round"
                                 />
                                 <circle
                                   r="0.7"
@@ -678,13 +678,13 @@ export default function Price() {
                                   cy="8"
                                   r="7"
                                   stroke="#5F6168"
-                                  stroke-width="1.5"
+                                  strokeWidth="1.5"
                                 />
                                 <path
                                   d="M8 11.5V7.3"
                                   stroke="#5F6168"
-                                  stroke-width="1.5"
-                                  stroke-linecap="round"
+                                  strokeWidth="1.5"
+                                  strokeLinecap="round"
                                 />
                                 <circle
                                   r="0.7"

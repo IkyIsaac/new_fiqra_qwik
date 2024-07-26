@@ -1,3 +1,20 @@
+import Link from "next/link";
+
+<>
+  <Link rel="stylesheet" href="/css/bootstrap.min.css" />
+  <Link rel="stylesheet" href="/css/animate.css" />
+  <Link rel="stylesheet" href="/css/custom-animation.css" />
+  <Link rel="stylesheet" href="/css/slick.css" />
+  <Link rel="stylesheet" href="/css/nice-select.css" />
+  <Link rel="stylesheet" href="/css/flaticon.css" />
+  <Link rel="stylesheet" href="/css/swiper-bundle.css" />
+  <Link rel="stylesheet" href="/css/meanmenu.css" />
+  <Link rel="stylesheet" href="/css/font-awesome-pro.css" />
+  <Link rel="stylesheet" href="/css/magnific-popup.css" />
+  <Link rel="stylesheet" href="/css/spacing.css" />
+  <Link rel="stylesheet" href="/css/style.css"></Link>
+</>;
+
 export default function Contact() {
   const backgroundUrl = "/img/contact/contact-banner.jpg";
 
@@ -254,7 +271,7 @@ export default function Contact() {
                   <div className="contact-inner-img contact-img-1">
                     <img src="/img/contact/contact-icon-sm-1.png" alt="" />
                   </div>
-                  <div className="contact-inner-link">
+                  <div className="contact-inner-Link">
                     <a href="mailto:contact@softuch.com">contact@softuch.com</a>
                   </div>
                 </div>
@@ -264,7 +281,7 @@ export default function Contact() {
                   <div className="contact-inner-img contact-img-2">
                     <img src="/img/contact/contact-icon-sm-2.png" alt="" />
                   </div>
-                  <div className="contact-inner-link">
+                  <div className="contact-inner-Link">
                     <a href="tel:12025550144">+1-202-555-0144</a>
                   </div>
                 </div>
@@ -274,7 +291,7 @@ export default function Contact() {
                   <div className="contact-inner-img contact-img-3">
                     <img src="/img/contact/contact-icon-sm-3.png" alt="" />
                   </div>
-                  <div className="contact-inner-link">
+                  <div className="contact-inner-Link">
                     <a
                       href="https://www.google.com.bd/maps/@23.7806365,90.4193257,12z"
                       target="_blank"

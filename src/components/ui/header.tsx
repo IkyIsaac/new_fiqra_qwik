@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Header() {
   return (
     <>
@@ -10,12 +12,12 @@ export default function Header() {
             <div className="row g-0 align-items-center">
               <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-6">
                 <div className="header-bottom__logo">
-                  <a className="white-logo" href="index.html">
+                  <Link className="white-logo" href="index.html">
                     <img src="/img/logo/logo-white.png" alt="" />
-                  </a>
-                  <a className="black-logo" href="index.html">
+                  </Link>
+                  <Link className="black-logo" href="index.html">
                     <img src="/img/logo/logo-black.png" alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-xxl-7 col-xl-7 col-lg-7 d-none d-lg-block">
@@ -23,99 +25,57 @@ export default function Header() {
                   <nav id="mobile-menu">
                     <ul>
                       <li>
-                        <a href="index.html">Home</a>
+                        <Link href="/">Home</Link>
+                      </li>
+                      <li>
+                        <Link href="/services">Services</Link>
+                      </li>
+                      <li>
+                        <Link href="/about">About</Link>
+                      </li>
+
+                      <li>
+                        <Link href="#">Features</Link>
                         <ul className="submenu">
                           <li>
-                            <a href="index.html">Data analytics</a>
+                            <Link href="/career">Career</Link>
                           </li>
                           <li>
-                            <a href="index-2.html">Payment Gateway</a>
-                          </li>
-                          <li>
-                            <a href="index-3.html">CRM Software</a>
-                          </li>
-                          <li>
-                            <a href="index-4.html">Security Software</a>
-                          </li>
-                          <li>
-                            <a href="index-5.html">Saas</a>
+                            <Link href="/blog">Blog</Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="#">Page</a>
+                        <Link href="project-details.html">Portfolio</Link>
                         <ul className="submenu">
                           <li>
-                            <a href="about.html">About</a>
+                            <Link href="/project">Project</Link>
                           </li>
                           <li>
-                            <a href="service.html">Service</a>
-                          </li>
-                          <li>
-                            <a href="service-details.html">Service Details</a>
-                          </li>
-                          <li>
-                            <a href="team.html">Team</a>
-                          </li>
-                          <li>
-                            <a href="team-details.html">Team Details</a>
-                          </li>
-                          <li>
-                            <a href="career.html">Career</a>
-                          </li>
-                          <li>
-                            <a href="career-details.html">Career Details</a>
-                          </li>
-                          <li>
-                            <a href="integrations.html">Integrations</a>
-                          </li>
-                          <li>
-                            <a href="register.html">Register</a>
-                          </li>
-                          <li>
-                            <a href="sign-in.html">Signin</a>
-                          </li>
-                          <li>
-                            <a href="contact.html">Contact</a>
-                          </li>
-                          <li>
-                            <a href="404.html">404</a>
+                            <Link href="/project-details">Project Details</Link>
                           </li>
                         </ul>
                       </li>
-                      <li>
-                        <a href="project-details.html">Portfoilo</a>
+
+                      {/* <li>
+                        <Link href="blog-details.html">Blog</Link>
                         <ul className="submenu">
                           <li>
-                            <a href="project.html">Project</a>
+                            <Link href="blog.html">Blog</Link>
                           </li>
                           <li>
-                            <a href="project-details.html">Project Details</a>
+                            <Link href="blog-list.html">Blog List</Link>
+                          </li>
+                          <li>
+                            <Link href="blog-details.html">Blog Details</Link>
+                          </li>
+                          <li>
+                            <Link href="blog-details-2.html">Blog Details 02</Link>
                           </li>
                         </ul>
-                      </li>
+                      </li> */}
                       <li>
-                        <a href="price.html">Pricing</a>
-                      </li>
-                      <li>
-                        <a href="blog-details.html">Blog</a>
-                        <ul className="submenu">
-                          <li>
-                            <a href="blog.html">Blog</a>
-                          </li>
-                          <li>
-                            <a href="blog-list.html">Blog List</a>
-                          </li>
-                          <li>
-                            <a href="blog-details.html">Blog Details</a>
-                          </li>
-                          <li>
-                            <a href="blog-details-2.html">Blog Details 02</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a href="contact.html">Contact</a>
+                        <Link href="/contact">Contact</Link>
                       </li>
                     </ul>
                   </nav>
@@ -123,28 +83,20 @@ export default function Header() {
               </div>
               <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-8 col-6">
                 <div className="header-bottom__right d-flex align-items-center justify-content-end">
-                  <div className="header-bottom__action header-bottom__action-4">
-                    <a
-                      className="d-none d-lg-inline-block header-bottom__action-2 border-none"
-                      href="register.html"
-                    >
-                      <span>Log In</span>
-                    </a>
-                  </div>
                   <div className="header-bottom__btn d-flex align-items-center">
-                    <a
+                    <Link
                       className="tp-btn-yellow tp-btn-hover alt-color-white d-none d-md-inline-block"
-                      href="contact.html"
+                      href="contact"
                     >
                       <span>Get in Touch</span>
                       <b></b>
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       className="header-bottom__bar tp-menu-bar d-lg-none"
                       href="javascript:void(0)"
                     >
                       <i className="fal fa-bars"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

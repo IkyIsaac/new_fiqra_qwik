@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function BlogDetails() {
   return (
     <main>
@@ -31,18 +33,18 @@ export default function BlogDetails() {
             </div>
             <div className="col-xl-3 col-lg-3 col-md-3">
               <div className="blog-details-social-box z-index-3 text-md-end text-start">
-                <a href="#">
+                <Link href="#">
                   <i className="fab fa-facebook-f"></i>
-                </a>
-                <a href="#">
+                </Link>
+                <Link href="#">
                   <i className="fab fa-twitter"></i>
-                </a>
-                <a href="#">
+                </Link>
+                <Link href="#">
                   <i className="fab fa-linkedin-in"></i>
-                </a>
-                <a href="#">
+                </Link>
+                <Link href="#">
                   <i className="fab fa-vimeo-v"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -191,46 +193,46 @@ export default function BlogDetails() {
                   </div>
                   <div className="postbox__details tagcloud mb-50">
                     <span>Tags:</span>
-                    <a href="#">Envato</a>
-                    <a href="#">Development</a>
-                    <a href="#">Technology</a>
-                    <a href="#">Wordpress</a>
+                    <Link href="#">Envato</Link>
+                    <Link href="#">Development</Link>
+                    <Link href="#">Technology</Link>
+                    <Link href="#">Wordpress</Link>
                   </div>
                   <div className="postbox__navigation-more mb-70 d-flex justify-content-between">
                     <div className="postbox__navigation-left d-flex align-items-center">
                       <div className="postbox__navigation-img">
-                        <a href="#">
+                        <Link href="#">
                           <img src="/img/blog/navigation-1.png" alt="" />
-                        </a>
+                        </Link>
                       </div>
                       <div className="postbox__navigation-content">
-                        <a href="#">
+                        <Link href="#">
                           <span>
                             <i className="far fa-arrow-left"></i>
                             Previous post
                           </span>
-                        </a>
+                        </Link>
                         <h5>
-                          <a href="#">Leveraging Feedback...</a>
+                          <Link href="#">Leveraging Feedback...</Link>
                         </h5>
                       </div>
                     </div>
                     <div className="postbox__navigation-right d-flex align-items-center">
                       <div className="postbox__navigation-content">
-                        <a href="#">
+                        <Link href="#">
                           <span>
                             Next post
                             <i className="far fa-arrow-right"></i>
                           </span>
-                        </a>
+                        </Link>
                         <h5>
-                          <a href="#">Typing Tutorials For...</a>
+                          <Link href="#">Typing Tutorials For...</Link>
                         </h5>
                       </div>
                       <div className="postbox__navigation-img">
-                        <a href="#">
+                        <Link href="#">
                           <img src="/img/blog/navigation-2.png" alt="" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -248,18 +250,18 @@ export default function BlogDetails() {
                         sed at.!
                       </p>
                       <div className="postbox__details-author-social">
-                        <a href="#">
+                        <Link href="#">
                           <i className="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link href="#">
                           <i className="fab fa-twitter"></i>
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link href="#">
                           <i className="fab fa-linkedin-in"></i>
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link href="#">
                           <i className="fab fa-vimeo-v"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -287,7 +289,7 @@ export default function BlogDetails() {
                               question posed by a MedicineNet doctor.
                             </p>
                             <div className="postbox__comment-reply">
-                              <a href="#">
+                              <Link href="#">
                                 <svg
                                   width="12"
                                   height="10"
@@ -298,19 +300,19 @@ export default function BlogDetails() {
                                   <path
                                     d="M5 1L1 5L5 9"
                                     stroke="currentColor"
-                                    stroke-width="1.5"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
+                                    strokeWidth="1.5"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
                                   />
                                   <path
                                     d="M1 5.00024L9 5.00024C10.3333 5.00024 13 5.80025 13 9.00025"
                                     stroke="currentColor"
-                                    stroke-width="1.5"
-                                    stroke-linecap="round"
+                                    strokeWidth="1.5"
+                                    strokeLinecap="round"
                                   />
                                 </svg>
                                 Reply
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -333,7 +335,7 @@ export default function BlogDetails() {
                               would find useful.
                             </p>
                             <div className="postbox__comment-reply">
-                              <a href="#">
+                              <Link href="#">
                                 <svg
                                   width="12"
                                   height="10"
@@ -344,19 +346,19 @@ export default function BlogDetails() {
                                   <path
                                     d="M5 1L1 5L5 9"
                                     stroke="currentColor"
-                                    stroke-width="1.5"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
+                                    strokeWidth="1.5"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
                                   />
                                   <path
                                     d="M1 5.00024L9 5.00024C10.3333 5.00024 13 5.80025 13 9.00025"
                                     stroke="currentColor"
-                                    stroke-width="1.5"
-                                    stroke-linecap="round"
+                                    strokeWidth="1.5"
+                                    strokeLinecap="round"
                                   />
                                 </svg>
                                 Reply
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -385,7 +387,7 @@ export default function BlogDetails() {
                               question posed by a MedicineNet doctor.
                             </p>
                             <div className="postbox__comment-reply">
-                              <a href="#">
+                              <Link href="#">
                                 <svg
                                   width="12"
                                   height="10"
@@ -396,19 +398,19 @@ export default function BlogDetails() {
                                   <path
                                     d="M5 1L1 5L5 9"
                                     stroke="currentColor"
-                                    stroke-width="1.5"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
+                                    strokeWidth="1.5"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
                                   />
                                   <path
                                     d="M1 5.00024L9 5.00024C10.3333 5.00024 13 5.80025 13 9.00025"
                                     stroke="currentColor"
-                                    stroke-width="1.5"
-                                    stroke-linecap="round"
+                                    strokeWidth="1.5"
+                                    strokeLinecap="round"
                                   />
                                 </svg>
                                 Reply
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -507,16 +509,16 @@ export default function BlogDetails() {
                               <path
                                 d="M8.01371 15.2219C11.9525 15.2219 15.1456 12.0382 15.1456 8.11096C15.1456 4.18368 11.9525 1 8.01371 1C4.07488 1 0.881836 4.18368 0.881836 8.11096C0.881836 12.0382 4.07488 15.2219 8.01371 15.2219Z"
                                 stroke="#5F6168"
-                                stroke-width="1.5"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
+                                strokeWidth="1.5"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
                               />
                               <path
                                 d="M16.9287 16.9996L13.0508 13.1331"
                                 stroke="#5F6168"
-                                stroke-width="1.5"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
+                                strokeWidth="1.5"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
                               />
                             </svg>
                           </button>
@@ -533,15 +535,15 @@ export default function BlogDetails() {
                     <div className="sidebar__post rc__post">
                       <div className="rc__post mb-20 d-flex">
                         <div className="rc__post-thumb mr-20">
-                          <a href="blog-details.html">
+                          <Link href="/blog-details">
                             <img src="/img/blog/blog-list-avata-1.jpg" alt="" />
-                          </a>
+                          </Link>
                         </div>
                         <div className="rc__post-content">
                           <h3 className="rc__post-title">
-                            <a href="blog-details.html">
+                            <Link href="/blog-details">
                               Is slower team communication a bad thing?
-                            </a>
+                            </Link>
                           </h3>
                           <div className="rc__meta">
                             <span>4 March. 2022</span>
@@ -550,15 +552,15 @@ export default function BlogDetails() {
                       </div>
                       <div className="rc__post mb-20 d-flex">
                         <div className="rc__post-thumb mr-20">
-                          <a href="blog-details.html">
+                          <Link href="/blog-details">
                             <img src="/img/blog/blog-list-avata-2.jpg" alt="" />
-                          </a>
+                          </Link>
                         </div>
                         <div className="rc__post-content">
                           <h3 className="rc__post-title">
-                            <a href="blog-details.html">
+                            <Link href="/blog-details">
                               Is slower team communication a bad thing?
-                            </a>
+                            </Link>
                           </h3>
                           <div className="rc__meta">
                             <span>4 March. 2022</span>
@@ -567,15 +569,15 @@ export default function BlogDetails() {
                       </div>
                       <div className="rc__post d-flex">
                         <div className="rc__post-thumb mr-20">
-                          <a href="blog-details.html">
+                          <Link href="/blog-details">
                             <img src="/img/blog/blog-list-avata-3.jpg" alt="" />
-                          </a>
+                          </Link>
                         </div>
                         <div className="rc__post-content">
                           <h3 className="rc__post-title">
-                            <a href="blog-details.html">
+                            <Link href="/blog-details">
                               The Ultimate Marketing Design Handbook
-                            </a>
+                            </Link>
                           </h3>
                           <div className="rc__meta">
                             <span>4 March. 2022</span>
@@ -592,44 +594,44 @@ export default function BlogDetails() {
                   <div className="sidebar__widget-content">
                     <ul>
                       <li>
-                        <a href="blog.html">
+                        <Link href="/blog">
                           <span>
                             <i className="fal fa-angle-right"></i>Technology
                           </span>
                           <span>01</span>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="blog.html">
+                        <Link href="/blog">
                           <span>
                             <i className="fal fa-angle-right"></i>Fiqra
                           </span>
                           <span>02</span>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="blog.html">
+                        <Link href="/blog">
                           <span>
                             <i className="fal fa-angle-right"></i>Development
                           </span>
                           <span>03</span>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="blog.html">
+                        <Link href="/blog">
                           <span>
                             <i className="fal fa-angle-right"></i>Tips & Tricks
                           </span>
                           <span>04</span>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="blog.html">
+                        <Link href="/blog">
                           <span>
                             <i className="fal fa-angle-right"></i>News
                           </span>
                           <span>05</span>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -640,12 +642,12 @@ export default function BlogDetails() {
                   </div>
                   <div className="sidebar__widget-content">
                     <div className="tagcloud">
-                      <a href="#">Envato</a>
-                      <a href="#">Development</a>
-                      <a href="#">Technology</a>
-                      <a href="#">Wordpress</a>
-                      <a href="#">PHP</a>
-                      <a href="#">Branding</a>
+                      <Link href="#">Envato</Link>
+                      <Link href="#">Development</Link>
+                      <Link href="#">Technology</Link>
+                      <Link href="#">Wordpress</Link>
+                      <Link href="#">PHP</Link>
+                      <Link href="#">Branding</Link>
                     </div>
                   </div>
                 </div>
@@ -669,12 +671,12 @@ export default function BlogDetails() {
               <div className="blog-details-slider-wrapper">
                 <div className="swiper-container blog-slider-active pb-50">
                   <div className="swiper-wrapper">
-                    <div className="swiper-slide">
+                    <div className="swiper-slide related-posts">
                       <div className="tp-blog-item">
                         <div className="tp-blog-thumb fix">
-                          <a href="#">
+                          <Link href="#">
                             <img src="/img/blog/blog-grid-1.jpg" alt="" />
-                          </a>
+                          </Link>
                         </div>
                         <div className="tp-blog-content">
                           <div className="tp-blog-meta d-flex align-items-center">
@@ -686,9 +688,9 @@ export default function BlogDetails() {
                             </div>
                           </div>
                           <div className="tp-blog-title-box">
-                            <a className="tp-blog-title-sm" href="#">
+                            <Link className="tp-blog-title-sm" href="#">
                               2023 Professional Year <br /> In Review
-                            </a>
+                            </Link>
                           </div>
                           <div className="tp-blog-author-info-box d-flex align-items-center">
                             <div className="tp-blog-avata">
@@ -702,12 +704,12 @@ export default function BlogDetails() {
                         </div>
                       </div>
                     </div>
-                    <div className="swiper-slide">
+                    <div className="swiper-slide related-posts">
                       <div className="tp-blog-item">
                         <div className="tp-blog-thumb fix">
-                          <a href="#">
+                          <Link href="#">
                             <img src="/img/blog/blog-grid-2.jpg" alt="" />
-                          </a>
+                          </Link>
                         </div>
                         <div className="tp-blog-content">
                           <div className="tp-blog-meta d-flex align-items-center">
@@ -719,9 +721,9 @@ export default function BlogDetails() {
                             </div>
                           </div>
                           <div className="tp-blog-title-box">
-                            <a className="tp-blog-title-sm" href="#">
+                            <Link className="tp-blog-title-sm" href="#">
                               Leveraging Feedback on <br /> Insights best.
-                            </a>
+                            </Link>
                           </div>
                           <div className="tp-blog-author-info-box d-flex align-items-center">
                             <div className="tp-blog-avata">
@@ -735,12 +737,12 @@ export default function BlogDetails() {
                         </div>
                       </div>
                     </div>
-                    <div className="swiper-slide">
+                    <div className="swiper-slide related-posts">
                       <div className="tp-blog-item">
                         <div className="tp-blog-thumb fix">
-                          <a href="#">
+                          <Link href="#">
                             <img src="/img/blog/blog-grid-3.jpg" alt="" />
-                          </a>
+                          </Link>
                         </div>
                         <div className="tp-blog-content">
                           <div className="tp-blog-meta d-flex align-items-center">
@@ -752,9 +754,9 @@ export default function BlogDetails() {
                             </div>
                           </div>
                           <div className="tp-blog-title-box">
-                            <a className="tp-blog-title-sm" href="#">
+                            <Link className="tp-blog-title-sm" href="#">
                               Project Management at <br /> Your fingertips.
-                            </a>
+                            </Link>
                           </div>
                           <div className="tp-blog-author-info-box d-flex align-items-center">
                             <div className="tp-blog-avata">
@@ -768,12 +770,12 @@ export default function BlogDetails() {
                         </div>
                       </div>
                     </div>
-                    <div className="swiper-slide">
+                    <div className="swiper-slide related-posts">
                       <div className="tp-blog-item">
                         <div className="tp-blog-thumb fix">
-                          <a href="#">
+                          <Link href="#">
                             <img src="/img/blog/blog-grid-2.jpg" alt="" />
-                          </a>
+                          </Link>
                         </div>
                         <div className="tp-blog-content">
                           <div className="tp-blog-meta d-flex align-items-center">
@@ -785,9 +787,9 @@ export default function BlogDetails() {
                             </div>
                           </div>
                           <div className="tp-blog-title-box">
-                            <a className="tp-blog-title-sm" href="#">
+                            <Link className="tp-blog-title-sm" href="#">
                               Leveraging Feedback on <br /> Insights best.
-                            </a>
+                            </Link>
                           </div>
                           <div className="tp-blog-author-info-box d-flex align-items-center">
                             <div className="tp-blog-avata">

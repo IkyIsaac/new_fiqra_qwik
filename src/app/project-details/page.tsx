@@ -205,7 +205,7 @@ export default function () {
                 <div className=" swiper-container tp-project__slider-active">
                   <div className="swiper-wrapper">
                     <div
-                      className="swiper-slide wow tpfadeUp"
+                      className="swiper-slide wow tpfadeUp project-testimonials"
                       data-wow-duration=".9s"
                       data-wow-delay=".5s"
                     >
@@ -252,16 +252,16 @@ export default function () {
                                     <path
                                       d="M1.00098 7H13.001"
                                       stroke="currentColor"
-                                      stroke-width="1.5"
-                                      stroke-linecap="round"
-                                      stroke-linejoin="round"
+                                      strokeWidth="1.5"
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
                                     />
                                     <path
                                       d="M7.00098 1L13.001 7L7.00098 13"
                                       stroke="currentColor"
-                                      stroke-width="1.5"
-                                      stroke-linecap="round"
-                                      stroke-linejoin="round"
+                                      strokeWidth="1.5"
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
                                     />
                                   </svg>
                                 </a>
@@ -272,7 +272,7 @@ export default function () {
                       </div>
                     </div>
                     <div
-                      className="swiper-slide wow tpfadeUp"
+                      className="swiper-slide wow tpfadeUp project-testimonials"
                       data-wow-duration=".9s"
                       data-wow-delay=".7s"
                     >
@@ -319,16 +319,16 @@ export default function () {
                                     <path
                                       d="M1.00098 7H13.001"
                                       stroke="currentColor"
-                                      stroke-width="1.5"
-                                      stroke-linecap="round"
-                                      stroke-linejoin="round"
+                                      strokeWidth="1.5"
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
                                     />
                                     <path
                                       d="M7.00098 1L13.001 7L7.00098 13"
                                       stroke="currentColor"
-                                      stroke-width="1.5"
-                                      stroke-linecap="round"
-                                      stroke-linejoin="round"
+                                      strokeWidth="1.5"
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
                                     />
                                   </svg>
                                 </a>
@@ -339,7 +339,7 @@ export default function () {
                       </div>
                     </div>
                     <div
-                      className="swiper-slide wow tpfadeUp"
+                      className="swiper-slide wow tpfadeUp project-testimonials"
                       data-wow-duration=".9s"
                       data-wow-delay=".9s"
                     >
@@ -386,16 +386,16 @@ export default function () {
                                     <path
                                       d="M1.00098 7H13.001"
                                       stroke="currentColor"
-                                      stroke-width="1.5"
-                                      stroke-linecap="round"
-                                      stroke-linejoin="round"
+                                      strokeWidth="1.5"
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
                                     />
                                     <path
                                       d="M7.00098 1L13.001 7L7.00098 13"
                                       stroke="currentColor"
-                                      stroke-width="1.5"
-                                      stroke-linecap="round"
-                                      stroke-linejoin="round"
+                                      strokeWidth="1.5"
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
                                     />
                                   </svg>
                                 </a>
@@ -406,7 +406,7 @@ export default function () {
                       </div>
                     </div>
                     <div
-                      className="swiper-slide wow tpfadeUp"
+                      className="swiper-slide wow tpfadeUp project-testimonials"
                       data-wow-duration=".9s"
                       data-wow-delay="1s"
                     >
@@ -453,16 +453,16 @@ export default function () {
                                     <path
                                       d="M1.00098 7H13.001"
                                       stroke="currentColor"
-                                      stroke-width="1.5"
-                                      stroke-linecap="round"
-                                      stroke-linejoin="round"
+                                      strokeWidth="1.5"
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
                                     />
                                     <path
                                       d="M7.00098 1L13.001 7L7.00098 13"
                                       stroke="currentColor"
-                                      stroke-width="1.5"
-                                      stroke-linecap="round"
-                                      stroke-linejoin="round"
+                                      strokeWidth="1.5"
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
                                     />
                                   </svg>
                                 </a>

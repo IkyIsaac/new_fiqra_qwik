@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <>
@@ -16,9 +18,9 @@ export default function Footer() {
                 >
                   <div className="tp-footer__widget footer-widget-4 footer-col-4-1">
                     <div className="tp-footer__logo mb-25">
-                      <a href="index.html">
+                      <Link href="index.html">
                         <img src="/img/logo/logo-black.png" alt="" />
-                      </a>
+                      </Link>
                     </div>
                     <h3 className="footer-subtitle-3">
                       SUBSCRIBE TO OUR NEWSLETTER
@@ -42,16 +44,16 @@ export default function Footer() {
                                 <path
                                   d="M17 7.4C17 10.417 17 11.9255 16.0627 12.8627C15.1255 13.8 13.617 13.8 10.6 13.8H7.4C4.38301 13.8 2.87452 13.8 1.93726 12.8627C1 11.9255 1 10.417 1 7.4C1 4.38301 1 2.87452 1.93726 1.93726C2.87452 1 4.38301 1 7.4 1H10.6C13.617 1 15.1255 1 16.0627 1.93726C16.5853 2.4598 16.8165 3.15991 16.9188 4.2"
                                   stroke="currentColor"
-                                  stroke-opacity="0.6"
-                                  stroke-width="1.5"
-                                  stroke-linecap="round"
+                                  strokeOpacity="0.6"
+                                  strokeWidth="1.5"
+                                  strokeLinecap="round"
                                 />
                                 <path
                                   d="M13.7992 4.19922L12.0721 5.63848C10.6028 6.86291 9.86814 7.47512 8.99922 7.47512C8.47978 7.47512 8.00832 7.25634 7.39922 6.81877M4.19922 4.19922L4.91922 4.79922L5.63922 5.39922"
                                   stroke="currentColor"
-                                  stroke-opacity="0.6"
-                                  stroke-width="1.5"
-                                  stroke-linecap="round"
+                                  strokeOpacity="0.6"
+                                  strokeWidth="1.5"
+                                  strokeLinecap="round"
                                 />
                               </svg>
                             </span>
@@ -67,16 +69,16 @@ export default function Footer() {
                               <path
                                 d="M1.00098 7H13.001"
                                 stroke="currentColor"
-                                stroke-width="1.5"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
+                                strokeWidth="1.5"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
                               />
                               <path
                                 d="M7.00098 1L13.001 7L7.00098 13"
                                 stroke="currentColor"
-                                stroke-width="1.5"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
+                                strokeWidth="1.5"
+                                strokeOpacity="round"
+                                strokeLinejoin="round"
                               />
                             </svg>
                           </button>
@@ -85,25 +87,25 @@ export default function Footer() {
                     </div>
                     <p>
                       By subscribing, you accepted the our{" "}
-                      <a href="#">Policy</a>
+                      <Link href="#">Policy</Link>
                     </p>
                     <div className="tp-team-social">
-                      <a className="icon-color-1" href="#">
+                      <Link className="icon-color-1" href="#">
                         <i className="fab fa-facebook-f"></i>
                         <span></span>
-                      </a>
-                      <a className="icon-color-2" href="#">
+                      </Link>
+                      <Link className="icon-color-2" href="#">
                         <i className="fab fa-instagram"></i>
                         <span></span>
-                      </a>
-                      <a className="icon-color-3" href="#">
+                      </Link>
+                      <Link className="icon-color-3" href="#">
                         <i className="fab fa-twitter"></i>
                         <span></span>
-                      </a>
-                      <a className="icon-color-4" href="#">
+                      </Link>
+                      <Link className="icon-color-4" href="#">
                         <i className="fab fa-linkedin-in"></i>
                         <span></span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -117,37 +119,26 @@ export default function Footer() {
                     <div className="tp-footer__content">
                       <ul>
                         <li>
-                          <a href="#">Demo page</a>
+                          <Link href="/services">Services</Link>
                         </li>
                         <li>
-                          <a href="#">FAQ</a>
+                          <Link href="#">FAQ</Link>
                         </li>
                         <li>
-                          <a href="#">About</a>
+                          <Link href="/about">About</Link>
                         </li>
                         <li>
-                          <a href="#">Pricing Plan</a>
+                          <Link href="/blog">Blog</Link>
                         </li>
                         <li>
-                          <a href="#">Integrations</a>
+                          <Link href="/project">Projects</Link>
                         </li>
                         <li>
-                          <a href="#">Blog</a>
+                          <Link href="/contact">Contact</Link>
                         </li>
+
                         <li>
-                          <a href="#">Contact</a>
-                        </li>
-                        <li>
-                          <a href="#">Tools & Integrations</a>
-                        </li>
-                        <li>
-                          <a href="#">Security</a>
-                        </li>
-                        <li>
-                          <a href="#">Customers</a>
-                        </li>
-                        <li>
-                          <a href="#">Career</a>
+                          <Link href="/career">Career</Link>
                         </li>
                       </ul>
                     </div>
@@ -172,21 +163,21 @@ export default function Footer() {
                           >
                             {/* <path  
                                              d="M13.2227 1C13.2227 1 15.9115 1.24444 19.3336 4.66659C22.7558 8.08874 23.0002 10.7776 23.0002 10.7776"
-                                             stroke="#71c491" stroke-width="1.5" stroke-linecap="round" /> */}
+                                             stroke="#71c491" strokeWidth="1.5" strokeLinecap="round" /> */}
                             <path
                               d="M13.4756 5.32031C13.4756 5.32031 14.6855 5.666 16.5004 7.48087C18.3152 9.29574 18.6609 10.5056 18.6609 10.5056"
                               stroke="#71c491"
-                              stroke-width="1.5"
-                              stroke-linecap="round"
+                              strokeWidth="1.5"
+                              strokeLinecap="round"
                             />
                             <path
                               d="M1.00801 8.25232C0.919597 10.5844 1.50981 14.545 5.48265 18.5178C6.44111 19.4762 7.39885 20.2378 8.33317 20.8405M2.8795 4.59079C4.58196 2.88834 7.29819 3.11708 8.37912 5.05393L9.17234 6.47526C9.88818 7.75793 9.60081 9.44058 8.47337 10.568C8.47337 10.568 8.47337 10.568 8.47337 10.568C8.47325 10.5681 7.10592 11.9357 9.58533 14.4151C12.0641 16.8939 13.4316 15.5279 13.4324 15.5271C13.4324 15.527 13.4324 15.5271 13.4325 15.527C14.5599 14.3996 16.2425 14.1123 17.5252 14.8281L18.9465 15.6213C20.8834 16.7023 21.1121 19.4185 19.4097 21.1209C18.3867 22.1439 17.1335 22.9399 15.7481 22.9924C14.7532 23.0302 13.4619 22.9444 11.9998 22.5251"
                               stroke="#71c491"
-                              stroke-width="1.5"
-                              stroke-linecap="round"
+                              strokeWidth="1.5"
+                              strokeLinecap="round"
                             />
                           </svg>
-                          <a href="tel:(+806)0008899">(+806) 000 88 99</a>
+                          <Link href="tel:(+806)0008899">(+806) 000 88 99</Link>
                         </li>
                         <li>
                           <svg
@@ -211,11 +202,13 @@ export default function Footer() {
                             <path
                               d="M13 2.07026C11.8233 1.38958 10.4571 1 9 1C4.58172 1 1 4.58172 1 9C1 10.2797 1.30049 11.4893 1.83477 12.562C1.97675 12.847 2.02401 13.1729 1.94169 13.4805L1.46521 15.2613C1.25836 16.0344 1.96561 16.7416 2.73868 16.5348L4.51951 16.0583C4.82715 15.976 5.15297 16.0233 5.43802 16.1652C6.51069 16.6995 7.72025 17 9 17C13.4183 17 17 13.4183 17 9C17 7.54285 16.6104 6.17669 15.9297 5"
                               stroke="#71c491"
-                              stroke-width="1.5"
-                              stroke-linecap="round"
+                              strokeWidth="1.5"
+                              strokeLinecap="round"
                             />
                           </svg>
-                          <a href="mailto:contact@info.com">contact@info.com</a>
+                          <Link href="mailto:contact@info.com">
+                            contact@info.com
+                          </Link>
                         </li>
                         <li>
                           <svg
@@ -228,26 +221,26 @@ export default function Footer() {
                             <path
                               d="M3.69922 6.86317C3.69922 3.62503 6.51983 1 9.99922 1C13.4786 1 16.2992 3.62503 16.2992 6.86317C16.2992 10.0759 14.2885 13.8249 11.1513 15.1656C10.4199 15.4781 9.57849 15.4781 8.84716 15.1656C5.70996 13.8249 3.69922 10.0759 3.69922 6.86317Z"
                               stroke="#71c491"
-                              stroke-width="1.5"
+                              strokeWidth="1.5"
                             />
                             <path
                               d="M11.7992 7.3C11.7992 8.29411 10.9933 9.1 9.99922 9.1C9.00511 9.1 8.19922 8.29411 8.19922 7.3C8.19922 6.30589 9.00511 5.5 9.99922 5.5C10.9933 5.5 11.7992 6.30589 11.7992 7.3Z"
                               stroke="#71c491"
-                              stroke-width="1.5"
+                              strokeWidth="1.5"
                             />
                             <path
                               d="M18.0645 13.1504C18.6633 13.6926 19 14.3038 19 14.9504C19 17.1871 14.9706 19.0004 10 19.0004C5.02944 19.0004 1 17.1871 1 14.9504C1 14.3038 1.33671 13.6926 1.93552 13.1504"
                               stroke="#71c491"
-                              stroke-width="1.5"
-                              stroke-linecap="round"
+                              strokeWidth="1.5"
+                              strokeLinecap="round"
                             />
                           </svg>
-                          <a
+                          <Link
                             href="https://www.google.com/maps/place/Argentina,+Santiago+del+Estero+Province,+Argentina/@-28.9465488,-65.3732971,7.53z/data=!4m5!3m4!1s0x9436ede70248f47b:0x3bdbc4e928700c2a!8m2!3d-29.5355289!4d-62.2664853"
                             target="_blank"
                           >
                             1811 Silverside Rd, <br /> Wilmington, DE 19810, USA
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -266,7 +259,7 @@ export default function Footer() {
                 <div className="col-xl-4 col-lg-6 col-md-6">
                   <div className="tp-copyright__text tp-copyright__text-4 text-center">
                     <span>
-                      Full Copyright & Design By <a href="#">@Fiqra</a> –{" "}
+                      Full Copyright & Design By <Link href="#">@Fiqra</Link> –{" "}
                       <script>document.write(new Date().getFullYear());</script>
                     </span>
                   </div>

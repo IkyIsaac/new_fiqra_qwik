@@ -24,7 +24,7 @@ export default function PaymentGateway() {
               className="line-2"
               d="M234.344 52.0221C223.737 68.476 166.957 94.3438 103.492 41.3862C75.8453 16.8451 105.128 -10.4919 114.849 24.3323C124.571 59.1564 92.7914 100.54 68.4537 105.873C44.1161 111.206 27.3149 102.11 30.0997 91.4562C34.0369 76.394 74.0714 111.53 2.64231 134.089"
               stroke="white"
-              stroke-width="2"
+              strokeWidth="2"
             />
             <path
               className="line-2"
@@ -71,7 +71,7 @@ export default function PaymentGateway() {
                     <path
                       d="M0.336934 5.24122C16.3707 0.583948 58.7418 -4.19312 99.9564 13.9568"
                       stroke="white"
-                      stroke-width="1.5"
+                      strokeWidth="1.5"
                     />
                   </svg>
                 </div>

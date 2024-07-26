@@ -79,12 +79,12 @@ export default function CareerDetails() {
                       <path
                         d="M1 7.10747C1 3.73441 3.93813 1 7.5625 1C11.1869 1 14.125 3.73441 14.125 7.10747C14.125 10.4541 12.0305 14.3593 8.76256 15.7558C8.00076 16.0814 7.12424 16.0814 6.36244 15.7558C3.09452 14.3593 1 10.4541 1 7.10747Z"
                         stroke="#5F6168"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                       />
                       <path
                         d="M9.4375 7.56274C9.4375 8.59828 8.59803 9.43774 7.5625 9.43774C6.52697 9.43774 5.6875 8.59828 5.6875 7.56274C5.6875 6.52721 6.52697 5.68774 7.5625 5.68774C8.59803 5.68774 9.4375 6.52721 9.4375 7.56274Z"
                         stroke="#5F6168"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                       />
                     </svg>
                     London, UK
@@ -100,16 +100,16 @@ export default function CareerDetails() {
                       <path
                         d="M8.5 15.75C12.5041 15.75 15.75 12.5041 15.75 8.5C15.75 4.49594 12.5041 1.25 8.5 1.25C4.49594 1.25 1.25 4.49594 1.25 8.5C1.25 12.5041 4.49594 15.75 8.5 15.75Z"
                         stroke="#5F6168"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M8.5 5.52838V9.42838L11.1 10.7284"
                         stroke="#5F6168"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
                     Full-time
@@ -343,16 +343,16 @@ export default function CareerDetails() {
                               <path
                                 d="M1 5.5H13.0305"
                                 stroke="#5F6168"
-                                stroke-width="1.5"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
+                                strokeWidth="1.5"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
                               />
                               <path
                                 d="M10.0234 1.5L14.0336 5.5L10.0234 9.5"
                                 stroke="#5F6168"
-                                stroke-width="1.5"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
+                                strokeWidth="1.5"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
                               />
                             </svg>
                             Are you legally authorized to work in the <br />{" "}
@@ -377,16 +377,16 @@ export default function CareerDetails() {
                               <path
                                 d="M1 5.5H13.0305"
                                 stroke="#5F6168"
-                                stroke-width="1.5"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
+                                strokeWidth="1.5"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
                               />
                               <path
                                 d="M10.0234 1.5L14.0336 5.5L10.0234 9.5"
                                 stroke="#5F6168"
-                                stroke-width="1.5"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
+                                strokeWidth="1.5"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
                               />
                             </svg>
                             Do you or will you require sponsorship for a US{" "}
@@ -426,30 +426,30 @@ export default function CareerDetails() {
                             <path
                               d="M11.9133 10.4519L9.00453 7.54309L6.0957 10.4519"
                               stroke="#202124"
-                              stroke-width="1.5"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="1.5"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             />
                             <path
                               d="M9.00391 7.54309V14.0879"
                               stroke="#202124"
-                              stroke-width="1.5"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="1.5"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             />
                             <path
                               d="M15.1044 12.1899C15.8137 11.8032 16.374 11.1914 16.6969 10.4509C17.0198 9.7104 17.0869 8.88347 16.8877 8.1006C16.6884 7.31774 16.2341 6.62352 15.5965 6.12752C14.9588 5.63152 14.1742 5.36198 13.3664 5.36145H12.4501C12.23 4.51006 11.8197 3.71966 11.2502 3.04965C10.6806 2.37965 9.96657 1.84748 9.16174 1.49315C8.35691 1.13883 7.48222 0.971567 6.60344 1.00395C5.72467 1.03632 4.86466 1.2675 4.08808 1.68009C3.31151 2.09268 2.63857 2.67595 2.11986 3.38605C1.60115 4.09615 1.25017 4.9146 1.09331 5.77988C0.936443 6.64515 0.977774 7.53472 1.21419 8.38172C1.45061 9.22872 1.87597 10.0111 2.45829 10.67"
                               stroke="#202124"
-                              stroke-width="1.5"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="1.5"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             />
                             <path
                               d="M11.9133 10.4519L9.00453 7.54309L6.0957 10.4519"
                               stroke="#202124"
-                              stroke-width="1.5"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="1.5"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             />
                           </svg>
                           Drag to upload your resume, or browse
@@ -527,16 +527,16 @@ export default function CareerDetails() {
                       <path
                         d="M9 16.75C13.2802 16.75 16.75 13.2802 16.75 9C16.75 4.71979 13.2802 1.25 9 1.25C4.71979 1.25 1.25 4.71979 1.25 9C1.25 13.2802 4.71979 16.75 9 16.75Z"
                         stroke="#5F6168"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M9 5.7998V9.9998L11.8 11.3998"
                         stroke="#5F6168"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
                     <span>Full-time</span>
@@ -552,12 +552,12 @@ export default function CareerDetails() {
                       <path
                         d="M1 7.51463C1 3.9167 4.13401 1 8 1C11.866 1 15 3.9167 15 7.51463C15 11.0844 12.7658 15.2499 9.28007 16.7396C8.46748 17.0868 7.53252 17.0868 6.71993 16.7396C3.23416 15.2499 1 11.0844 1 7.51463Z"
                         stroke="#5F6168"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                       />
                       <path
                         d="M10 8C10 9.10457 9.10457 10 8 10C6.89543 10 6 9.10457 6 8C6 6.89543 6.89543 6 8 6C9.10457 6 10 6.89543 10 8Z"
                         stroke="#5F6168"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                       />
                     </svg>
                     <span>Newark, NJ</span>
@@ -598,16 +598,16 @@ export default function CareerDetails() {
                       <path
                         d="M9 16.75C13.2802 16.75 16.75 13.2802 16.75 9C16.75 4.71979 13.2802 1.25 9 1.25C4.71979 1.25 1.25 4.71979 1.25 9C1.25 13.2802 4.71979 16.75 9 16.75Z"
                         stroke="#5F6168"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M9 5.7998V9.9998L11.8 11.3998"
                         stroke="#5F6168"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
                     <span>Full-time</span>
@@ -623,12 +623,12 @@ export default function CareerDetails() {
                       <path
                         d="M1 7.51463C1 3.9167 4.13401 1 8 1C11.866 1 15 3.9167 15 7.51463C15 11.0844 12.7658 15.2499 9.28007 16.7396C8.46748 17.0868 7.53252 17.0868 6.71993 16.7396C3.23416 15.2499 1 11.0844 1 7.51463Z"
                         stroke="#5F6168"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                       />
                       <path
                         d="M10 8C10 9.10457 9.10457 10 8 10C6.89543 10 6 9.10457 6 8C6 6.89543 6.89543 6 8 6C9.10457 6 10 6.89543 10 8Z"
                         stroke="#5F6168"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                       />
                     </svg>
                     <span>London, UK</span>
@@ -669,16 +669,16 @@ export default function CareerDetails() {
                       <path
                         d="M9 16.75C13.2802 16.75 16.75 13.2802 16.75 9C16.75 4.71979 13.2802 1.25 9 1.25C4.71979 1.25 1.25 4.71979 1.25 9C1.25 13.2802 4.71979 16.75 9 16.75Z"
                         stroke="#5F6168"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M9 5.7998V9.9998L11.8 11.3998"
                         stroke="#5F6168"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
                     <span>Full-time</span>
@@ -694,12 +694,12 @@ export default function CareerDetails() {
                       <path
                         d="M1 7.51463C1 3.9167 4.13401 1 8 1C11.866 1 15 3.9167 15 7.51463C15 11.0844 12.7658 15.2499 9.28007 16.7396C8.46748 17.0868 7.53252 17.0868 6.71993 16.7396C3.23416 15.2499 1 11.0844 1 7.51463Z"
                         stroke="#5F6168"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                       />
                       <path
                         d="M10 8C10 9.10457 9.10457 10 8 10C6.89543 10 6 9.10457 6 8C6 6.89543 6.89543 6 8 6C9.10457 6 10 6.89543 10 8Z"
                         stroke="#5F6168"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                       />
                     </svg>
                     <span>Brooklyn, NY</span>
@@ -740,16 +740,16 @@ export default function CareerDetails() {
                       <path
                         d="M9 16.75C13.2802 16.75 16.75 13.2802 16.75 9C16.75 4.71979 13.2802 1.25 9 1.25C4.71979 1.25 1.25 4.71979 1.25 9C1.25 13.2802 4.71979 16.75 9 16.75Z"
                         stroke="#5F6168"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M9 5.7998V9.9998L11.8 11.3998"
                         stroke="#5F6168"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
                     <span>Full-time</span>
@@ -765,12 +765,12 @@ export default function CareerDetails() {
                       <path
                         d="M1 7.51463C1 3.9167 4.13401 1 8 1C11.866 1 15 3.9167 15 7.51463C15 11.0844 12.7658 15.2499 9.28007 16.7396C8.46748 17.0868 7.53252 17.0868 6.71993 16.7396C3.23416 15.2499 1 11.0844 1 7.51463Z"
                         stroke="#5F6168"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                       />
                       <path
                         d="M10 8C10 9.10457 9.10457 10 8 10C6.89543 10 6 9.10457 6 8C6 6.89543 6.89543 6 8 6C9.10457 6 10 6.89543 10 8Z"
                         stroke="#5F6168"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                       />
                     </svg>
                     <span>Newark, NJ</span>
@@ -811,16 +811,16 @@ export default function CareerDetails() {
                       <path
                         d="M9 16.75C13.2802 16.75 16.75 13.2802 16.75 9C16.75 4.71979 13.2802 1.25 9 1.25C4.71979 1.25 1.25 4.71979 1.25 9C1.25 13.2802 4.71979 16.75 9 16.75Z"
                         stroke="#5F6168"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M9 5.7998V9.9998L11.8 11.3998"
                         stroke="#5F6168"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
                     <span>Full-time</span>
@@ -836,12 +836,12 @@ export default function CareerDetails() {
                       <path
                         d="M1 7.51463C1 3.9167 4.13401 1 8 1C11.866 1 15 3.9167 15 7.51463C15 11.0844 12.7658 15.2499 9.28007 16.7396C8.46748 17.0868 7.53252 17.0868 6.71993 16.7396C3.23416 15.2499 1 11.0844 1 7.51463Z"
                         stroke="#5F6168"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                       />
                       <path
                         d="M10 8C10 9.10457 9.10457 10 8 10C6.89543 10 6 9.10457 6 8C6 6.89543 6.89543 6 8 6C9.10457 6 10 6.89543 10 8Z"
                         stroke="#5F6168"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                       />
                     </svg>
                     <span>London, UK</span>

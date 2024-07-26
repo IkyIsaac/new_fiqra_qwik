@@ -1,3 +1,6 @@
+import Link from "next/link";
+import Image from "next/image";
+
 export default function Services() {
   return (
     <>
@@ -60,15 +63,15 @@ export default function Services() {
                     Accounting Software <br />
                     That Handles it All.
                   </h3>
-                  <a
+                  <Link
                     className="tp-btn-inner tp-btn-hover alt-color-black wow tpfadeRight"
                     data-wow-duration=".9s"
                     data-wow-delay=".3s"
-                    href="service-details.html"
+                    href="service-details"
                   >
                     <span>See All Features</span>
                     <b></b>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -88,19 +91,16 @@ export default function Services() {
                   <div className="tp-service-3-content">
                     <span>CRM Management</span>
                     <h4 className="tp-service-3-title-sm">
-                      <a href="service-details.html">
+                      <Link href="service-details">
                         Generate, Manage, and Convert leads <br /> into
                         Customers. Automatically
-                      </a>
+                      </Link>
                     </h4>
                   </div>
                   <div className="tp-service-3-btn">
-                    <a
-                      className="tp-btn-white-solid"
-                      href="service-details.html"
-                    >
+                    <Link className="tp-btn-white-solid" href="service-details">
                       Learn More
-                    </a>
+                    </Link>
                   </div>
                   <div className="tp-service-3-shape">
                     <img src="/img/service/service-shape-3-1.png" alt="" />
@@ -124,33 +124,33 @@ export default function Services() {
                       <path
                         d="M10.5323 8.40774C4.17742 10.9497 1 12.2206 1 13.8C1 15.3794 4.17742 16.6503 10.5323 19.1923L19.5194 22.7871C25.8742 25.329 29.0516 26.6 33 26.6C36.9484 26.6 40.1258 25.329 46.4806 22.7871L55.4677 19.1923C61.8226 16.6503 65 15.3794 65 13.8C65 12.2206 61.8226 10.9497 55.4677 8.40774L46.4806 4.8129C40.1258 2.27097 36.9484 1 33 1C29.9474 1 27.3556 1.7597 23.4 3.27909"
                         stroke="CurrentColor"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
                       />
                       <path
                         d="M13.0516 20.2002L10.5323 21.2079C4.17742 23.7499 1 25.0208 1 26.6002C1 28.1795 4.17742 29.4505 10.5323 31.9925L19.5194 35.5873C25.8742 38.1292 29.0516 39.4002 33 39.4002C36.9484 39.4002 40.1258 38.1292 46.4806 35.5873L55.4677 31.9925C61.8226 29.4505 65 28.1795 65 26.6002C65 25.0208 61.8226 23.7499 55.4677 21.2079L52.9484 20.2002"
                         stroke="CurrentColor"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                       />
                       <path
                         d="M55.4677 44.7923C61.8226 42.2503 65 40.9794 65 39.4C65 37.8206 61.8226 36.5497 55.4677 34.0077L52.9484 33M13.0516 33L10.5323 34.0077C4.17742 36.5497 1 37.8206 1 39.4C1 40.9794 4.17742 42.2503 10.5323 44.7923L19.5194 48.3871C25.8742 50.929 29.0516 52.2 33 52.2C36.0526 52.2 38.6444 51.4403 42.6 49.9209"
                         stroke="CurrentColor"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
                       />
                     </svg>
                   </div>
                   <div className="tp-service-sm-content">
                     <span>Project management</span>
                     <h3 className="tp-service-sm-title">
-                      <a href="service-details.html">
+                      <Link href="service-details">
                         Automate Workflows <br /> and Monitor your Sales.
-                      </a>
+                      </Link>
                     </h3>
                     <div className="tp-service-sm-link">
-                      <a href="service-details.html">
+                      <Link href="service-details">
                         Learn More <i className="far fa-arrow-right"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -178,27 +178,27 @@ export default function Services() {
                         cy="9.09994"
                         r="8.09994"
                         stroke="CurrentColor"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                       />
                       <path
                         d="M54.9996 23.9498V27.9998C54.9996 40.7276 54.9996 47.0915 51.0456 51.0456C47.0915 54.9996 40.7276 54.9996 27.9998 54.9996C15.272 54.9996 8.90806 54.9996 4.95403 51.0456C1 47.0915 1 40.7276 1 27.9998C1 24.9533 1 22.2714 1.05422 19.8999M32.0498 1H27.9998C15.272 1 8.90806 1 4.95403 4.95403C3.76357 6.14449 2.93152 7.5534 2.34999 9.28867"
                         stroke="CurrentColor"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
                       />
                     </svg>
                   </div>
                   <div className="tp-service-sm-content">
                     <span>Sales analytics</span>
                     <h3 className="tp-service-sm-title">
-                      <a href="service-details.html">
+                      <Link href="service-details">
                         Track your Marketing to see the best Results.
-                      </a>
+                      </Link>
                     </h3>
                     <div className="tp-service-sm-link">
-                      <a href="service-details.html">
+                      <Link href="service-details">
                         Learn More <i className="far fa-arrow-right"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -220,33 +220,33 @@ export default function Services() {
                       <path
                         d="M51 6.62001C51 4.63217 49.0236 2.80248 45.7074 1.34903C42.7708 0.0619693 39.75 2.51698 39.75 5.72523V13.7748M51 6.62001C51 9.61027 46.5278 12.2426 39.75 13.7748M51 6.62001V14.4762M1 6.62001C1 4.63217 2.97638 2.80248 6.29262 1.34903C9.22923 0.0619696 12.25 2.51698 12.25 5.72523V13.7748M1 6.62001V38.4345C1 43.1651 12.1929 47 26 47C39.8071 47 51 43.1651 51 38.4345V24.4835M1 6.62001C1 9.61027 5.47222 12.2426 12.25 13.7748M12.25 13.7748C16.1947 14.6665 20.9205 15.1856 26 15.1856C31.0795 15.1856 35.8053 14.6665 39.75 13.7748"
                         stroke="currentcolor"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
                       />
                       <path
                         d="M44.7539 24.4847C44.7539 26.5573 43.075 28.2374 41.0039 28.2374C38.9328 28.2374 37.2539 26.5573 37.2539 24.4847C37.2539 22.4121 38.9328 20.7319 41.0039 20.7319C43.075 20.7319 44.7539 22.4121 44.7539 24.4847Z"
                         stroke="currentcolor"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                       />
                       <path
                         d="M48.4961 41.9963L42.257 36.621C40.245 34.8875 37.2487 34.7149 35.034 36.2048L34.4569 36.5931C32.9179 37.6285 30.8241 37.4549 29.4939 36.1816L21.1912 28.2335C19.5341 26.6471 16.8758 26.5624 15.1121 28.0397L11.7219 30.8794L2.24609 39.7535"
                         stroke="currentcolor"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
                       />
                     </svg>
                   </div>
                   <div className="tp-service-sm-content">
                     <span>Easy Invoicing</span>
                     <h3 className="tp-service-sm-title">
-                      <a href="service-details.html">
+                      <Link href="service-details">
                         Automate recurring invoices and save time.
-                      </a>
+                      </Link>
                     </h3>
                     <div className="tp-service-sm-link">
-                      <a href="service-details.html">
+                      <Link href="service-details">
                         Learn More <i className="far fa-arrow-right"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -276,22 +276,22 @@ export default function Services() {
                       <path
                         d="M14.5 41.5H19M41.5 41.5H28"
                         stroke="CurrentColor"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
                       />
                     </svg>
                   </div>
                   <div className="tp-service-sm-content">
                     <span>Complete Visibility</span>
                     <h3 className="tp-service-sm-title">
-                      <a href="service-details.html">
+                      <Link href="service-details">
                         Get real-time visibility into every expense.
-                      </a>
+                      </Link>
                     </h3>
                     <div className="tp-service-sm-link">
-                      <a href="service-details.html">
+                      <Link href="service-details">
                         Learn More <i className="far fa-arrow-right"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -313,42 +313,42 @@ export default function Services() {
                       <path
                         d="M16.5987 29.5987V37.3987H37.3987V16.5986H16.5987V19.1986"
                         stroke="CurrentColor"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
                       />
                       <path
                         d="M37.3987 37.4014L45.1988 37.4001C49.5066 37.3995 52.9993 40.8911 53 45.1989C53.0007 49.5068 49.509 52.9995 45.2012 53.0002C40.8934 53.0009 37.4007 49.5092 37.4 45.2014L37.3987 37.4014Z"
                         stroke="CurrentColor"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                       />
                       <path
                         d="M16.6013 37.4014L8.80124 37.4001C4.49341 37.3995 1.00068 40.8911 1 45.1989C0.999321 49.5068 4.49096 52.9995 8.79878 53.0002C13.1066 53.0009 16.5993 49.5092 16.6 45.2014L16.6013 37.4014Z"
                         stroke="CurrentColor"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                       />
                       <path
                         d="M37.3987 16.5988L45.1988 16.6C49.5066 16.6007 52.9993 13.1091 53 8.80124C53.0007 4.49341 49.509 1.00068 45.2012 1C40.8934 0.999321 37.4007 4.49096 37.4 8.79878L37.3987 16.5988Z"
                         stroke="CurrentColor"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                       />
                       <path
                         d="M16.6013 16.5988L8.80124 16.6C4.49341 16.6007 1.00068 13.1091 1 8.80124C0.999321 4.49341 4.49096 1.00068 8.79878 1C13.1066 0.999321 16.5993 4.49096 16.6 8.79878L16.6013 16.5988Z"
                         stroke="CurrentColor"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                       />
                     </svg>
                   </div>
                   <div className="tp-service-sm-content">
                     <span>FIELDS OPTION</span>
                     <h3 className="tp-service-sm-title">
-                      <a href="service-details.html">
+                      <Link href="service-details">
                         Quick & Easy Repeater Fields Option
-                      </a>
+                      </Link>
                     </h3>
                     <div className="tp-service-sm-link">
-                      <a href="service-details.html">
+                      <Link href="service-details">
                         Learn More <i className="far fa-arrow-right"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -370,54 +370,54 @@ export default function Services() {
                       <path
                         d="M51.4 29C51.4 44.464 45.7588 57 38.8 57M38.8 1C43.9668 1 48.4073 7.91093 50.3516 17.8"
                         stroke="CurrentColor"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
                       />
                       <path
                         d="M1 29C1 13.536 6.64121 1 13.6 1C20.5588 1 26.2 13.536 26.2 29C26.2 44.464 20.5588 57 13.6 57C8.4332 57 3.99275 50.0891 2.04843 40.2"
                         stroke="CurrentColor"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
                       />
                       <path
                         d="M13.6 57C20.5588 57 26.2 44.464 26.2 29C26.2 13.536 20.5588 1 13.6 1"
                         stroke="CurrentColor"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                       />
                       <path
                         d="M17.8 29C17.8 38.2783 15.9196 45.8 13.6 45.8C11.2804 45.8 9.39999 38.2783 9.39999 29C9.39999 19.7216 11.2804 12.2 13.6 12.2C15.9196 12.2 17.8 19.7216 17.8 29Z"
                         stroke="CurrentColor"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                       />
                       <path
                         d="M13.6 1L38.8 1"
                         stroke="CurrentColor"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                       />
                       <path
                         d="M13.6 57L38.8 57"
                         stroke="CurrentColor"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                       />
                       <path
                         d="M17.8 29H15"
                         stroke="CurrentColor"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
                       />
                     </svg>
                   </div>
                   <div className="tp-service-sm-content">
                     <span>Safe Online Services</span>
                     <h3 className="tp-service-sm-title">
-                      <a href="service-details.html">
+                      <Link href="service-details">
                         Online services to view company level.
-                      </a>
+                      </Link>
                     </h3>
                     <div className="tp-service-sm-link">
-                      <a href="service-details.html">
+                      <Link href="service-details">
                         Learn More <i className="far fa-arrow-right"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -439,33 +439,33 @@ export default function Services() {
                       <path
                         d="M10.5323 8.40774C4.17742 10.9497 1 12.2206 1 13.8C1 15.3794 4.17742 16.6503 10.5323 19.1923L19.5194 22.7871C25.8742 25.329 29.0516 26.6 33 26.6C36.9484 26.6 40.1258 25.329 46.4806 22.7871L55.4677 19.1923C61.8226 16.6503 65 15.3794 65 13.8C65 12.2206 61.8226 10.9497 55.4677 8.40774L46.4806 4.8129C40.1258 2.27097 36.9484 1 33 1C29.9474 1 27.3556 1.7597 23.4 3.27909"
                         stroke="CurrentColor"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
                       />
                       <path
                         d="M13.0516 20.2002L10.5323 21.2079C4.17742 23.7499 1 25.0208 1 26.6002C1 28.1795 4.17742 29.4505 10.5323 31.9925L19.5194 35.5873C25.8742 38.1292 29.0516 39.4002 33 39.4002C36.9484 39.4002 40.1258 38.1292 46.4806 35.5873L55.4677 31.9925C61.8226 29.4505 65 28.1795 65 26.6002C65 25.0208 61.8226 23.7499 55.4677 21.2079L52.9484 20.2002"
                         stroke="CurrentColor"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                       />
                       <path
                         d="M55.4677 44.7923C61.8226 42.2503 65 40.9794 65 39.4C65 37.8206 61.8226 36.5497 55.4677 34.0077L52.9484 33M13.0516 33L10.5323 34.0077C4.17742 36.5497 1 37.8206 1 39.4C1 40.9794 4.17742 42.2503 10.5323 44.7923L19.5194 48.3871C25.8742 50.929 29.0516 52.2 33 52.2C36.0526 52.2 38.6444 51.4403 42.6 49.9209"
                         stroke="CurrentColor"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
                       />
                     </svg>
                   </div>
                   <div className="tp-service-sm-content">
                     <span>Online marketing</span>
                     <h3 className="tp-service-sm-title">
-                      <a href="service-details.html">
+                      <Link href="service-details">
                         Get real-time visibility into every expense.
-                      </a>
+                      </Link>
                     </h3>
                     <div className="tp-service-sm-link">
-                      <a href="service-details.html">
+                      <Link href="service-details">
                         Learn More <i className="far fa-arrow-right"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -518,13 +518,13 @@ export default function Services() {
                     started and they <br />
                     can be extremely profitable
                   </p>
-                  <a
+                  <Link
                     className="tp-btn-inner tp-btn-hover alt-color-black"
-                    href="service-details.html"
+                    href="service-details"
                   >
                     <span>Get Started Free</span>
                     <b></b>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -594,7 +594,7 @@ export default function Services() {
         </div>
 
         <div
-          className="tp-testimonial-area pt-130 pb-130 fix"
+          className="tp-testimonial-area pt-130 pb-130 fix customer-stories"
           data-background="/img/testimonial/testi-bg-5-1.jpg"
         >
           <div className="container">
@@ -628,10 +628,10 @@ export default function Services() {
           <div className="container-fluid p-0">
             <div className="row g-0">
               <div className="col-12">
-                <div className="tp-testimonial-five-slider-section">
+                <div className="tp-testimonial-five-slider-section ">
                   <div className=" swiper-container testimonial-five-slider-active">
                     <div className="swiper-wrapper">
-                      <div className="swiper-slide">
+                      <div className="swiper-slide testimonials-size">
                         <div className="tp-testimonial-five-item">
                           <div className="tp-testimonial-five-wrapper d-flex justify-content-between align-items-center">
                             <div className="tp-testimonial-five-top-info d-flex align-items-center">
@@ -663,7 +663,7 @@ export default function Services() {
                           </div>
                         </div>
                       </div>
-                      <div className="swiper-slide">
+                      <div className="swiper-slide testimonials-size swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index={"1"}>
                         <div className="tp-testimonial-five-item">
                           <div className="tp-testimonial-five-wrapper d-flex justify-content-between align-items-center">
                             <div className="tp-testimonial-five-top-info d-flex align-items-center">
@@ -695,7 +695,7 @@ export default function Services() {
                           </div>
                         </div>
                       </div>
-                      <div className="swiper-slide">
+                      <div className="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next testimonials-size" data-swiper-slide-index={"2"}>
                         <div className="tp-testimonial-five-item">
                           <div className="tp-testimonial-five-wrapper d-flex justify-content-between align-items-center">
                             <div className="tp-testimonial-five-top-info d-flex align-items-center">
@@ -727,7 +727,7 @@ export default function Services() {
                           </div>
                         </div>
                       </div>
-                      <div className="swiper-slide">
+                      <div className="swiper-slide testimonials-size swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index={"3"}>
                         <div className="tp-testimonial-five-item">
                           <div className="tp-testimonial-five-wrapper d-flex justify-content-between align-items-center">
                             <div className="tp-testimonial-five-top-info d-flex align-items-center">
@@ -759,7 +759,7 @@ export default function Services() {
                           </div>
                         </div>
                       </div>
-                      <div className="swiper-slide">
+                      <div className="swiper-slide testimonials-size swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index={"4"}>
                         <div className="tp-testimonial-five-item">
                           <div className="tp-testimonial-five-wrapper d-flex justify-content-between align-items-center">
                             <div className="tp-testimonial-five-top-info d-flex align-items-center">
@@ -820,13 +820,13 @@ export default function Services() {
                     </p>
                   </div>
                   <div className="tp-faq-btn">
-                    <a
+                    <Link
                       className="tp-btn-inner tp-btn-hover alt-color-black"
-                      href="contact.html"
+                      href="/contact"
                     >
                       <span>Get in Touch</span>
                       <b></b>
-                    </a>
+                    </Link>
                   </div>
                   <div className="tp-faq-img">
                     <img src="/img/faq/faq-1.png" alt="" />
@@ -1006,12 +1006,12 @@ export default function Services() {
                       business <br />
                       anywhere on the planet.
                     </p>
-                    <a
+                    <Link
                       className="tp-btn-inner white-bg text-black"
-                      href="service-details.html"
+                      href="service-details"
                     >
                       Get Started Now
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

@@ -293,15 +293,15 @@ export default function BlogDetails2() {
                                   <path
                                     d="M5 1L1 5L5 9"
                                     stroke="currentColor"
-                                    stroke-width="1.5"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
+                                    strokeWidth="1.5"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
                                   />
                                   <path
                                     d="M1 5.00024L9 5.00024C10.3333 5.00024 13 5.80025 13 9.00025"
                                     stroke="currentColor"
-                                    stroke-width="1.5"
-                                    stroke-linecap="round"
+                                    strokeWidth="1.5"
+                                    strokeLinecap="round"
                                   />
                                 </svg>
                                 Reply
@@ -342,15 +342,15 @@ export default function BlogDetails2() {
                                   <path
                                     d="M5 1L1 5L5 9"
                                     stroke="currentColor"
-                                    stroke-width="1.5"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
+                                    strokeWidth="1.5"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
                                   />
                                   <path
                                     d="M1 5.00024L9 5.00024C10.3333 5.00024 13 5.80025 13 9.00025"
                                     stroke="currentColor"
-                                    stroke-width="1.5"
-                                    stroke-linecap="round"
+                                    strokeWidth="1.5"
+                                    strokeLinecap="round"
                                   />
                                 </svg>
                                 Reply
@@ -394,15 +394,15 @@ export default function BlogDetails2() {
                                   <path
                                     d="M5 1L1 5L5 9"
                                     stroke="currentColor"
-                                    stroke-width="1.5"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
+                                    strokeWidth="1.5"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
                                   />
                                   <path
                                     d="M1 5.00024L9 5.00024C10.3333 5.00024 13 5.80025 13 9.00025"
                                     stroke="currentColor"
-                                    stroke-width="1.5"
-                                    stroke-linecap="round"
+                                    strokeWidth="1.5"
+                                    strokeLinecap="round"
                                   />
                                 </svg>
                                 Reply
@@ -505,16 +505,16 @@ export default function BlogDetails2() {
                               <path
                                 d="M8.01371 15.2219C11.9525 15.2219 15.1456 12.0382 15.1456 8.11096C15.1456 4.18368 11.9525 1 8.01371 1C4.07488 1 0.881836 4.18368 0.881836 8.11096C0.881836 12.0382 4.07488 15.2219 8.01371 15.2219Z"
                                 stroke="#5F6168"
-                                stroke-width="1.5"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
+                                strokeWidth="1.5"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
                               />
                               <path
                                 d="M16.9287 16.9996L13.0508 13.1331"
                                 stroke="#5F6168"
-                                stroke-width="1.5"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
+                                strokeWidth="1.5"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
                               />
                             </svg>
                           </button>
