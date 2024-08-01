@@ -15,6 +15,8 @@ import "../../public/css/spacing.css";
 import "../../public/css/style.css";
 import Preloader from "@/components/ui/preloader";
 import Header from "@/components/ui/header";
+import Script from "next/script";
+import Footer from "@/components/ui/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 

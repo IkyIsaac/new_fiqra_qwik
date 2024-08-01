@@ -96,6 +96,7 @@
 /*---------------------------------
 	typography css start 
 ---------------------------------*/
+
 body {
   font-family: var(--tp-ff-body);
   font-size: 15px;
@@ -17195,5 +17196,3 @@ input[type=color] {
 .footer-widget-5 .tp-footer__contact-info p {
   font-weight: 500;
 }
-
-/*# sourceMappingURL=style.css.map */
