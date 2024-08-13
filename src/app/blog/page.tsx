@@ -469,7 +469,7 @@ export default function Blog() {
                   </p>
                   <Link
                     className="tp-btn-inner white-bg text-black"
-                    href="service-details.html"
+                    href="\service-details"
                   >
                     Get Started Now
                   </Link>

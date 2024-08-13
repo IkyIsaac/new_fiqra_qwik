@@ -1,4 +1,5 @@
 "use client";
+import ContactForm from "@/components/ui/contact_form";
 import Link from "next/link";
 import Script from "next/script";
 import { useEffect } from "react";
@@ -40,10 +41,10 @@ export default function Home() {
                     className="tp-btn-yellow-border wow tpfadeRight"
                     data-wow-duration=".9s"
                     data-wow-delay=".7s"
-                    href="/contact"
+                    href="#about_us"
                   >
                     <span>
-                      <Link href="/contact">Get in Touch</Link>
+                      <a href="#about_us">Get in Touch</a>
                       <i className="far fa-angle-right"></i>
                     </span>
                   </a>
@@ -80,6 +81,12 @@ export default function Home() {
                 <div className="col-xl-8 col-lg-8">
                   <div className="tp-barnd-slider-wrapper">
                     <div className="tp-barnd-slider-active p-relative">
+                      <div className="tp-brand-item">
+                        <img src="/img/hero/mcard.png" alt="" />
+                      </div>
+                      <div className="tp-brand-item">
+                        <img src="/img/hero/sc.png" alt="" />
+                      </div>
                       <div className="tp-brand-item">
                         <img src="/img/hero/hero-slider-icon-2.png" alt="" />
                       </div>
@@ -150,75 +157,68 @@ export default function Home() {
                 <div className="col-xl-3 col-lg-4 col-md-6 mb-50 tp-service-4-border-right service-border-trang-1">
                   <div className="tp-service-4-item z-index">
                     <div className="tp-service-4-icon">
-                      <img src="/img/service/sv-icon-4-1.png" alt="" />
+                      <img src="/img/service/web.png" alt="" />
                     </div>
                     <div className="tp-service-4-content">
                       <span>Web Development</span>
                       <h4 className="tp-service-4-title">
-                        <Link href="service-details">
-                          Custom Web Development
-                        </Link>
+                        <Link href="#">Custom Web Development</Link>
                       </h4>
-                      <Link className="tp-btn-service" href="/service-details">
+                      {/* <Link className="tp-btn-service" href="/service-details">
                         Learn More
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 </div>
                 <div className="col-xl-3 col-lg-4 col-md-6 mb-50 tp-service-4-border-right service-border-trang-2">
                   <div className="tp-service-4-item z-index">
                     <div className="tp-service-4-icon">
-                      <img src="/img/service/sv-icon-4-2.png" alt="" />
+                      <img src="/img/service/customers.png" alt="" />
+                      {/* fiqra/public/img/service/customers.png */}
                     </div>
                     <div className="tp-service-4-content">
                       <span>Digital Marketing</span>
                       <h4 className="tp-service-4-title">
-                        <Link href="/service-details">
-                          Bringing Customers to You
-                        </Link>
+                        <Link href="#">Bringing Customers to You</Link>
                       </h4>
-                      <Link className="tp-btn-service" href="/service-details">
+                      {/* <Link className="tp-btn-service" href="/service-details">
                         Learn More
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 </div>
                 <div className="col-xl-3 col-lg-4 col-md-6 mb-50 tp-service-4-border-right service-border-trang-3">
                   <div className="tp-service-4-item z-index">
                     <div className="tp-service-4-icon">
-                      <img src="/img/service/sv-icon-4-3.png" alt="" />
+                      <img src="/img/service/edu.png" alt="" />
                     </div>
                     <div className="tp-service-4-content">
                       <span>Fiqra Academy LMS</span>
                       <h4 className="tp-service-4-title">
-                        <Link href="Linkservice-details">
-                          Creating Digital Leaders
-                        </Link>
+                        <Link href="#">Creating Digital Leaders</Link>
                       </h4>
-                      <Link
+                      {/* <Link
                         className="tp-btn-service"
-                        href="Linkservice-details"
+                        href="service-details"
                       >
                         Learn More
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 </div>
                 <div className="col-xl-3 col-lg-4 col-md-6 mb-50 tp-service-4-border-right service-border-trang-">
                   <div className="tp-service-4-item z-index">
                     <div className="tp-service-4-icon">
-                      <img src="/img/service/sv-icon-4-4.png" alt="" />
+                      <img src="/img/service/mobile.png" alt="" />
                     </div>
                     <div className="tp-service-4-content">
                       <span>Mobile App Development</span>
                       <h4 className="tp-service-4-title">
-                        <Link href="/service-details">
-                          Bespoke Mobile Apps Development
-                        </Link>
+                        <Link href="#">Mobile Apps Development</Link>
                       </h4>
-                      <Link className="tp-btn-service" href="/service-details">
+                      {/* <Link className="tp-btn-service" href="/service-details">
                         Learn More
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 </div>
@@ -226,7 +226,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="tp-about-area pb-135 blue-bg p-relative">
+        <div className="tp-about-area pb-135 blue-bg p-relative" id="about_us">
           <div className="tp-about-top-img-2">
             <img src="/img/about/about-4-3.png" alt="" />
           </div>
@@ -283,16 +283,16 @@ export default function Home() {
                     </ul>
                   </div>
                   <div className="tp-security-btn">
-                    <Link className="tp-btn-yellow-border" href="/about">
+                    {/* <Link className="tp-btn-yellow-border" href="/about">
                       About Us <i className="far fa-angle-right"></i>
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="tp-fun-fact-area pb-75 blue-bg">
+        {/* <div className="tp-fun-fact-area pb-75 blue-bg">
           <div className="container">
             <div className="row">
               <div className="col-xl-4 col-lg-4 col-md-4 mb-60 tp-counter-br">
@@ -348,7 +348,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="tp-platform-area border-tb blue-bg pt-115 pb-105 p-relative z-index">
           <div className="tp-platform-bg-shape">
             <img src="/img/Platform/p-bg.png" alt="" />
@@ -422,12 +422,11 @@ export default function Home() {
                           <span>02.</span>
                           <h4 className="tp-panel-title-2">UI & UX Design</h4>
                           <p>
-                            At Fiqra Technologies, we provide innovative UI and
-                            UX design services with the goal of delivering an
-                            outstanding finished product on time. Through an
-                            innovative design process, our in-house creative
-                            unit functions as a dedicated design studio within a
-                            comprehensive software company.
+                            At Fiqra Technologies, we provide innovative UI/UX
+                            design services, delivering an outstanding product
+                            on time. Our creative unit functions as a dedicated
+                            design studio within a comprehensive software
+                            company.
                           </p>
                         </div>
                       </div>
@@ -471,12 +470,11 @@ export default function Home() {
                           <span>04.</span>
                           <h4 className="tp-panel-title-2">Fiqra Academy</h4>
                           <p>
-                            It's not the usual e-Learning platform. It is a
-                            platform for rebellious game changers and
-                            professional knowledge sharers. Invest in your
-                            personal learning journey or upskill your entire
-                            organization by studying future-ready technology
-                            skills and more.
+                            Not the usual e-Learning platform. It's for
+                            rebellious game changers and knowledge sharers.
+                            Invest in your personal learning journey or upskill
+                            your organization with future-ready technology
+                            skills.
                           </p>
                         </div>
                       </div>
@@ -487,8 +485,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        
-        <div className="tp-team-area blue-bg pb-95">
+
+        {/* <div className="tp-team-area blue-bg pb-95">
           <div className="container">
             <div className="tp-team-section-wrapper mb-70">
               <div className="row align-items-end">
@@ -520,7 +518,7 @@ export default function Home() {
                   </div>
                   <div className="tp-team-content">
                     <h4 className="tp-team-title-sm">
-                      <a href="team-details.html">Gerald Revocatus</a>
+                      <a href="#">Gerald Revocatus</a>
                     </h4>
                     <span>Co-Founder & CEO</span>
                   </div>
@@ -533,8 +531,12 @@ export default function Home() {
                       <i className="fab fa-instagram"></i>
                       <span></span>
                     </a>
-                    <a className="icon-color-3 box" href="#">
-                      <i className="fab fa-twitter"></i>
+                    <a
+                      className="icon-color-3 box"
+                      href="#"
+                      style={{ color: "#ffffff" }}
+                    >
+                      <i className="fab fa-x"></i>
                       <span></span>
                     </a>
                     <a className="icon-color-4 box" href="#">
@@ -544,6 +546,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+
               <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-50 tp-team-border-right tp-border-after-2">
                 <div className="tp-team-item text-center z-index">
                   <div className="tp-team-img">
@@ -551,7 +554,7 @@ export default function Home() {
                   </div>
                   <div className="tp-team-content">
                     <h4 className="tp-team-title-sm">
-                      <a href="team-details.html">Patricia Mhekwa</a>
+                      <a href="#">Patricia Mhekwa</a>
                     </h4>
                     <span>COO</span>
                   </div>
@@ -582,7 +585,7 @@ export default function Home() {
                   </div>
                   <div className="tp-team-content">
                     <h4 className="tp-team-title-sm">
-                      <a href="team-details.html">Emmanuel Mtera</a>
+                      <a href="#">Emmanuel Mtera</a>
                     </h4>
                     <span>CEO & Founder</span>
                   </div>
@@ -613,7 +616,7 @@ export default function Home() {
                   </div>
                   <div className="tp-team-content">
                     <h4 className="tp-team-title-sm">
-                      <a href="team-details.html">Lusekelo Mwakipiti</a>
+                      <a href="#">Lusekelo Mwakipiti</a>
                     </h4>
                     <span>Design Lead</span>
                   </div>
@@ -639,8 +642,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="tp-security-area blue-bg pb-180 fix z-index">
+        </div> */}
+        {/* <div className="tp-security-area blue-bg pb-180 fix z-index">
           <div className="container-fluid g-0">
             <div className="row justify-content-center">
               <div className="col-xl-8">
@@ -866,7 +869,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="tp-blog-area blue-bg pb-90">
           <div className="container">
             <div className="row align-items-end tp-blog-four-section-space">
@@ -882,7 +885,10 @@ export default function Home() {
                 data-wow-delay=".5s"
               >
                 <div className="tp-blog-four-btn text-start text-lg-end">
-                  <Link className="tp-btn-yellow-border" href="/blog">
+                  <Link
+                    className="tp-btn-yellow-border"
+                    href="https://fiqra.academy/blog"
+                  >
                     Show More <i className="far fa-angle-right"></i>
                   </Link>
                 </div>
@@ -895,9 +901,13 @@ export default function Home() {
                 data-wow-delay=".7s"
               >
                 <div className="tp-blog-four-item p-relative fix">
-                  <div className="tp-blog-four-img fix">
-                    <a href="blog-details">
-                      <img src="/img/blog/blog-4-1.jpg" alt="" />
+                  <div className="tp-blog-four-img fix ">
+                    <a href="https://fiqra.academy/blog/Reflecting-on-Our-Unforgettable-Experience-at-the-MasterCard-Edtech-Conference-in-Abuja-Nigeria">
+                      <img
+                        src="/img/blog/abuja1.png"
+                        className="pic-size"
+                        alt=""
+                      />
                     </a>
                   </div>
                   <div className="tp-blog-four-content-wrapper">
@@ -907,17 +917,22 @@ export default function Home() {
                     </div>
                     <div className="tp-blog-four-info">
                       <h4 className="tp-blog-four-title-sm">
-                        <a href="blog-details">
-                          Building for the real world
+                        <a href="https://fiqra.academy/blog/Reflecting-on-Our-Unforgettable-Experience-at-the-MasterCard-Edtech-Conference-in-Abuja-Nigeria">
+                          Our Unforgettable Experience at the MasterCard
+                          Foundation Edtech Conference in Abuja, Nigeria{" "}
                         </a>
                       </h4>
                       <p>
-                        How friends from college went on to build one powerful
-                        platform (hint: it was ours).
+                        Discover Fiqra Academy's incredible journey at the
+                        MasterCard Edtech Conference in Abuja. From insightful
+                        sessions to exploring the vibrant city, it was an ...
                       </p>
                     </div>
                     <div className="tp-blog-four-btn">
-                      <a className="tp-btn-service" href="/blog-details">
+                      <a
+                        className="tp-btn-service"
+                        href="https://fiqra.academy/blog/Reflecting-on-Our-Unforgettable-Experience-at-the-MasterCard-Edtech-Conference-in-Abuja-Nigeria"
+                      >
                         Read More
                       </a>
                     </div>
@@ -931,8 +946,8 @@ export default function Home() {
               >
                 <div className="tp-blog-four-item fix">
                   <div className="tp-blog-four-img fix">
-                    <a href="blog-details">
-                      <img src="/img/blog/blog-4-2.jpg" alt="" />
+                    <a href="https://fiqra.academy/blog/Unleashing-Success-in-2024-Master-Your-Goals-with-7-ChatGPT-Powered-Prompts">
+                      <img src="/img/blog/blog-image.png" alt="" />
                     </a>
                   </div>
                   <div className="tp-blog-four-content-wrapper">
@@ -942,15 +957,22 @@ export default function Home() {
                     </div>
                     <div className="tp-blog-four-info">
                       <h4 className="tp-blog-four-title-sm">
-                        <a href="/blog-details">High Returns on Investment</a>
+                        <a href="https://fiqra.academy/blog/Unleashing-Success-in-2024-Master-Your-Goals-with-7-ChatGPT-Powered-Prompts">
+                          Unleashing Success in 2024: Master Your Goals with 7
+                          ChatGPT-Powered Prompts
+                        </a>
                       </h4>
                       <p>
-                        How friends from college went on to build one powerful
-                        platform (hint: it was ours).
+                        Explore the transformative power of ChatGPT with "7
+                        ChatGPT Prompts to Smash Your Goals in 2024." This
+                        article unveils a strategic toolkit, guiding ...
                       </p>
                     </div>
                     <div className="tp-blog-four-btn">
-                      <a className="tp-btn-service" href="/blog-details">
+                      <a
+                        className="tp-btn-service"
+                        href="https://fiqra.academy/blog/Unleashing-Success-in-2024-Master-Your-Goals-with-7-ChatGPT-Powered-Prompts"
+                      >
                         Read More
                       </a>
                     </div>
@@ -960,7 +982,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="tp-contact-area tp-contact-overlay pt-120 pb-120 blue-bg z-index p-relative fix">
+        <ContactForm />
+        {/* <div className="tp-contact-area tp-contact-overlay pt-120 pb-120 blue-bg z-index p-relative fix">
           <div className="tp-contact-glob-img">
             <img src="/img/hero/hero-4-3.png" alt="" />
           </div>
@@ -1118,7 +1141,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </main>
     </>
   );

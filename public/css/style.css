@@ -328,6 +328,14 @@ input[type=color] {
 /*---------------------------------
     common classes css start 
 ---------------------------------*/
+/* .service-dashboard{
+  background-image: url("/img/service/sv-bg.jpg");
+} */
+.pic-size{
+  width: 100%;
+  max-height: 406px;
+}
+
 .related-posts{
   width: 370px;
   margin-right: 30px;

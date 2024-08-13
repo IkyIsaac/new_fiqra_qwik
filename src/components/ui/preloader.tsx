@@ -17,12 +17,20 @@ export default function Preloader({ children }: { children: React.ReactNode }) {
 
   const Loader = () => {
     return (
-      <div id="preloader">
-        <div className="preloader">
-          <span></span>
-          <span></span>
+      <>
+        <div id="preloader">
+          <div className="preloader">
+            <span></span>
+            <span></span>
+          </div>
         </div>
-      </div>
+        <div className="mouseCursor cursor-outer"></div>
+        <div className="mouseCursor cursor-inner">
+          <a href="#">
+            <i className="fas fa-play"></i>
+          </a>
+        </div>
+      </>
     );
   };
 

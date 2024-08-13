@@ -79,7 +79,7 @@ export default function Contact() {
                 </div>
                 <div className="contact-info-title-box">
                   <h5 className="contact-info-title-sm">
-                    <a href="#">Colombia</a>
+                    <Link href="#">Colombia</Link>
                   </h5>
                   <p>
                     Bogota D.C., Colombia, b. a 181 <br />C No. 930 Ap 202
@@ -97,7 +97,7 @@ export default function Contact() {
                 </div>
                 <div className="contact-info-title-box">
                   <h5 className="contact-info-title-sm">
-                    <a href="#">France</a>
+                    <Link href="#">France</Link>
                   </h5>
                   <p>
                     9 Pearse Street, Kinsale,Cork, <br />
@@ -113,7 +113,7 @@ export default function Contact() {
                 </div>
                 <div className="contact-info-title-box">
                   <h5 className="contact-info-title-sm">
-                    <a href="#">Egypt</a>
+                    <Link href="#">Egypt</Link>
                   </h5>
                   <p>
                     Av. Cordoba 1309, 3'A, City of <br />
@@ -175,18 +175,18 @@ export default function Contact() {
                 </div>
                 <div className="contact-form-social-box p-relative">
                   <div className="contact-form-social-item">
-                    <a href="#">
+                    <Link href="#">
                       <i className="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link href="#">
                       <i className="fab fa-twitter"></i>
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link href="#">
                       <i className="fab fa-linkedin-in"></i>
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link href="#">
                       <i className="fab fa-instagram"></i>
-                    </a>
+                    </Link>
                   </div>
                   <div className="contact-form-section-img">
                     <img src="/img/contact/contact-icon-sm-4.png" alt="" />
@@ -272,7 +272,7 @@ export default function Contact() {
                     <img src="/img/contact/contact-icon-sm-1.png" alt="" />
                   </div>
                   <div className="contact-inner-Link">
-                    <a href="mailto:contact@softuch.com">contact@softuch.com</a>
+                    <Link href="mailto:contact@softuch.com">contact@softuch.com</Link>
                   </div>
                 </div>
               </div>
@@ -282,7 +282,7 @@ export default function Contact() {
                     <img src="/img/contact/contact-icon-sm-2.png" alt="" />
                   </div>
                   <div className="contact-inner-Link">
-                    <a href="tel:12025550144">+1-202-555-0144</a>
+                    <Link href="tel:12025550144">+1-202-555-0144</Link>
                   </div>
                 </div>
               </div>
@@ -292,12 +292,12 @@ export default function Contact() {
                     <img src="/img/contact/contact-icon-sm-3.png" alt="" />
                   </div>
                   <div className="contact-inner-Link">
-                    <a
+                    <Link
                       href="https://www.google.com.bd/maps/@23.7806365,90.4193257,12z"
                       target="_blank"
                     >
                       35Park Avenue, Uk
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -321,12 +321,12 @@ export default function Contact() {
                     business <br />
                     anywhere on the planet.
                   </p>
-                  <a
+                  <Link
                     className="tp-btn-inner white-bg text-black"
-                    href="service-details.html"
+                    href="/service-details"
                   >
                     Get Started Now
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

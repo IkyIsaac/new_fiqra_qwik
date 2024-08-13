@@ -28,31 +28,30 @@ export default function Header() {
                         <Link href="/">Home</Link>
                       </li>
                       <li>
-                        <Link href="/services">Services</Link>
+                        <Link href="#about_us">About</Link>
                       </li>
                       <li>
-                        <Link href="/about">About</Link>
+                        <Link href="#">Services</Link>
                       </li>
-
                       <li>
                         <Link href="#">Features</Link>
                         <ul className="submenu">
                           <li>
-                            <Link href="/career">Career</Link>
+                            <Link href="#">Career</Link>
                           </li>
                           <li>
-                            <Link href="/blog">Blog</Link>
+                            <Link href="#">Blog</Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <Link href="project-details.html">Portfolio</Link>
+                        <Link href="#">Portfolio</Link>
                         <ul className="submenu">
                           <li>
-                            <Link href="/project">Project</Link>
+                            <Link href="#">Project</Link>
                           </li>
                           <li>
-                            <Link href="/project-details">Project Details</Link>
+                            <Link href="#">Project Details</Link>
                           </li>
                         </ul>
                       </li>
@@ -74,9 +73,9 @@ export default function Header() {
                           </li>
                         </ul>
                       </li> */}
-                      <li>
-                        <Link href="/contact">Contact</Link>
-                      </li>
+                      {/* <li>
+                        <Link href="#">Contact</Link>
+                      </li> */}
                     </ul>
                   </nav>
                 </div>
@@ -86,7 +85,7 @@ export default function Header() {
                   <div className="header-bottom__btn d-flex align-items-center">
                     <Link
                       className="tp-btn-yellow tp-btn-hover alt-color-white d-none d-md-inline-block"
-                      href="contact"
+                      href="#about_us"
                     >
                       <span>Get in Touch</span>
                       <b></b>

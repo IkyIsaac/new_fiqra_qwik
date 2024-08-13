@@ -712,7 +712,7 @@ export default function AboutPage() {
                   <div className="job-post-apply-btn text-start text-md-end">
                     <Link
                       className="tp-btn-inner tp-btn-hover alt-color-orange"
-                      href="career-details.html"
+                      href="career-details"
                     >
                       <span>Apply</span> <b></b>
                     </Link>
@@ -783,7 +783,7 @@ export default function AboutPage() {
                   <div className="job-post-apply-btn text-start text-md-end">
                     <Link
                       className="tp-btn-inner tp-btn-hover alt-color-orange"
-                      href="career-details.html"
+                      href="career-details"
                     >
                       <span>Apply</span> <b></b>
                     </Link>
@@ -854,7 +854,7 @@ export default function AboutPage() {
                   <div className="job-post-apply-btn text-start text-md-end">
                     <Link
                       className="tp-btn-inner tp-btn-hover alt-color-orange"
-                      href="career-details.html"
+                      href="career-details"
                     >
                       <span>Apply</span> <b></b>
                     </Link>
@@ -925,7 +925,7 @@ export default function AboutPage() {
                   <div className="job-post-apply-btn text-start text-md-end">
                     <Link
                       className="tp-btn-inner tp-btn-hover alt-color-orange"
-                      href="career-details.html"
+                      href="career-details"
                     >
                       <span>Apply</span> <b></b>
                     </Link>
@@ -996,7 +996,7 @@ export default function AboutPage() {
                   <div className="job-post-apply-btn text-start text-md-end">
                     <Link
                       className="tp-btn-inner tp-btn-hover alt-color-orange"
-                      href="career-details.html"
+                      href="career-details"
                     >
                       <span>Apply</span> <b></b>
                     </Link>
