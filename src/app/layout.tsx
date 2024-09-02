@@ -14,6 +14,7 @@ import "../../public/css/magnific-popup.css";
 import "../../public/css/spacing.css";
 import "../../public/css/style.css";
 import Preloader from "@/components/ui/preloader";
+import Head from "next/head";
 import Header from "@/components/ui/header";
 import Script from "next/script";
 import Footer from "@/components/ui/footer";
@@ -31,10 +32,21 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    <>
+    <Head>
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+          integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd"
+          crossOrigin="anonymous"
+        />
+      </Head>
     <html lang="en">
       <body className={inter.className}>
         <Preloader>{children}</Preloader>
       </body>
     </html>
+    </>
+
   );
 }

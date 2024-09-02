@@ -69,7 +69,7 @@ export default function ContactForm() {
                           strokeLinecap="round"
                         />
                       </svg>
-                      <a href="tel:(+255)753525629">(+255) 753 52 29</a>
+                      <a href="tel:(+255)753525629">(+255) 753 525 629</a>
                     </li>
                     <li>
                       <svg

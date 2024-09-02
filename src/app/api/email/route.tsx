@@ -14,14 +14,25 @@ export async function POST(req: any) {
   } else {
     try {
       const body = {
+        //   service_id: "service_i3c391e",
+        //   template_id: "template_rsw31wh",
+        //   user_id: "-s6-Kbh5QA1q6DwpV",
+        //   template_params: {
+        //     userName: data.get("userName"),
+        //     email: data.get("email"),
+        //     subject: data.get("subject"),
+        //     message: data.get("message"),
+        //   },
+        // }
+
         service_id: "service_i3c391e",
         template_id: "template_rsw31wh",
-        user_id: "_s6-Kbh5QA1q6DwpV",
+        user_id: "-s6-Kbh5QA1q6DwpV",
         template_params: {
-          userName: data.get("userName"),
-          email: data.get("email"),
-          subject: data.get("subject"),
-          message: data.get("message"),
+          userName: "emmanuel",
+          email: "ikes@go.com",
+          subject: "Online support",
+          message: "hello",
         },
       };
       const response = await axios.post(
@@ -30,7 +41,7 @@ export async function POST(req: any) {
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify(body),
+          body: body,
         }
       );
       if (response.status === 200) {
@@ -41,6 +52,7 @@ export async function POST(req: any) {
       }
       return Response.json(res);
     } catch (err) {
+      console.log("email error", err);
       return Response.json({ message: "We have an internal server error" });
     }
   }

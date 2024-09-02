@@ -44,7 +44,7 @@ export default function Home() {
                     href="#about_us"
                   >
                     <span>
-                      <a href="#about_us">Get in Touch</a>
+                      <a href="#contact">Get in Touch</a>
                       <i className="far fa-angle-right"></i>
                     </span>
                   </a>
@@ -486,7 +486,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* <div className="tp-team-area blue-bg pb-95">
+        <div className="tp-team-area blue-bg pb-95">
           <div className="container">
             <div className="tp-team-section-wrapper mb-70">
               <div className="row align-items-end">
@@ -536,7 +536,17 @@ export default function Home() {
                       href="#"
                       style={{ color: "#ffffff" }}
                     >
-                      <i className="fab fa-x"></i>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        className="bi bi-twitter-x"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                      </svg>{" "}
+                      {/* <i className="fab fa-twitter"></i> */}
                       <span></span>
                     </a>
                     <a className="icon-color-4 box" href="#">
@@ -546,7 +556,6 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-
               <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-50 tp-team-border-right tp-border-after-2">
                 <div className="tp-team-item text-center z-index">
                   <div className="tp-team-img">
@@ -559,7 +568,7 @@ export default function Home() {
                     <span>COO</span>
                   </div>
                   <div className="tp-team-social">
-                    <a className="icon-color-1" href="#">
+                    <a className="icon-color-1 box" href="#">
                       <i className="fab fa-facebook-f"></i>
                       <span></span>
                     </a>
@@ -567,8 +576,17 @@ export default function Home() {
                       <i className="fab fa-instagram"></i>
                       <span></span>
                     </a>
-                    <a className="icon-color-3" href="#">
-                      <i className="fab fa-twitter"></i>
+                    <a className="icon-color-1" href="#">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        className="bi bi-twitter-x"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                      </svg>{" "}
                       <span></span>
                     </a>
                     <a className="icon-color-4" href="#">
@@ -599,7 +617,16 @@ export default function Home() {
                       <span></span>
                     </a>
                     <a className="icon-color-3" href="#">
-                      <i className="fab fa-twitter"></i>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        className="bi bi-twitter-x"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                      </svg>{" "}
                       <span></span>
                     </a>
                     <a className="icon-color-4" href="#">
@@ -630,7 +657,16 @@ export default function Home() {
                       <span></span>
                     </a>
                     <a className="icon-color-3" href="#">
-                      <i className="fab fa-twitter"></i>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        className="bi bi-twitter-x"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                      </svg>
                       <span></span>
                     </a>
                     <a className="icon-color-4" href="#">
@@ -642,7 +678,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
         {/* <div className="tp-security-area blue-bg pb-180 fix z-index">
           <div className="container-fluid g-0">
             <div className="row justify-content-center">

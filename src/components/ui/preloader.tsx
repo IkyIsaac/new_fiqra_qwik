@@ -74,19 +74,31 @@ export default function Preloader({ children }: { children: React.ReactNode }) {
                     </a>
                   </div>
                   <div className="tpoffcanvas__info text-center">
-                    <h4 className="offcanva-title">we are here</h4>
+                    <h4 className="offcanva-title">We are here</h4>
                     <a
-                      href="https://www.google.com/maps/@23.506657,90.3443647,7z"
+                      href="https://maps.app.goo.gl/6m7Z6ZANoPKJdNuq5"
                       target="_blank"
                     >
-                      27 Division St, New York, <br />
-                      NY 10002, USA
+                      6th floor Mwanga Tower <br />
+                      Makumbusho, DSM
                     </a>
                   </div>
                   <div className="tpoffcanvas__social">
                     <div className="social-icon text-center">
                       <a href="#">
-                        <i className="fab fa-twitter"></i>
+                        <a className="icon-color-1" href="#">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            className="bi bi-twitter-x"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                          </svg>{" "}
+                          <span></span>
+                        </a>{" "}
                       </a>
                       <a href="#">
                         <i className="fab fa-instagram"></i>
