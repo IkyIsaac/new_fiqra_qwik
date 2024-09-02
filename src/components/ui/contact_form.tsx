@@ -11,7 +11,7 @@ export default function ContactForm() {
   async function formAction(formData: any) {
     try {
       setLoading(true);
-      const res = await fetch("http://localhost:3000/api/email", {
+      const res = await fetch("http://localhost:3001/api/email", {
         method: "POST",
         body: formData,
       });

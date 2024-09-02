@@ -6,3 +6,9 @@ coverage/
 .vscode/
 .idea/
 .next/
+
+#ignore local env files
+.env.local
+.env.development.local
+.env.test.local
+.env
