@@ -514,7 +514,7 @@ export default function Home() {
               <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-50 tp-team-border-right tp-border-after-1">
                 <div className="tp-team-item text-center z-index">
                   <div className="tp-team-img tp-tilt-effect">
-                    <img src="/img/team/team-4-1.png" alt="" />
+                    <img src="/img/team/IMG_7987.jpg" alt="" />
                   </div>
                   <div className="tp-team-content">
                     <h4 className="tp-team-title-sm">
@@ -559,13 +559,13 @@ export default function Home() {
               <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-50 tp-team-border-right tp-border-after-2">
                 <div className="tp-team-item text-center z-index">
                   <div className="tp-team-img">
-                    <img src="/img/team/team-4-2.png" alt="" />
+                    <img src="\img\team\WhatsApp Image 2024-09-03 at 15.18.29.jpeg" alt="" />
                   </div>
                   <div className="tp-team-content">
                     <h4 className="tp-team-title-sm">
                       <a href="#">Patricia Mhekwa</a>
                     </h4>
-                    <span>COO</span>
+                    <span>CSO</span>
                   </div>
                   <div className="tp-team-social">
                     <a className="icon-color-1 box" href="#">
@@ -576,7 +576,7 @@ export default function Home() {
                       <i className="fab fa-instagram"></i>
                       <span></span>
                     </a>
-                    <a className="icon-color-1" href="#">
+                    <a className="icon-color-1" href="https://x.com/pattycalztz">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16"
@@ -589,7 +589,7 @@ export default function Home() {
                       </svg>{" "}
                       <span></span>
                     </a>
-                    <a className="icon-color-4" href="#">
+                    <a className="icon-color-4" href="https://www.linkedin.com/in/patricia-mhekwa">
                       <i className="fab fa-linkedin-in"></i>
                       <span></span>
                     </a>
@@ -599,7 +599,7 @@ export default function Home() {
               <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-50 tp-team-border-right tp-border-after-3">
                 <div className="tp-team-item text-center z-index">
                   <div className="tp-team-img">
-                    <img src="/img/team/team-4-3.png" alt="" />
+                    <img src="\img\team\IMG_7942.jpg" alt="" />
                   </div>
                   <div className="tp-team-content">
                     <h4 className="tp-team-title-sm">
@@ -639,7 +639,7 @@ export default function Home() {
               <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-50 tp-team-border-right tp-border-after-4">
                 <div className="tp-team-item text-center z-index">
                   <div className="tp-team-img">
-                    <img src="/img/team/team-4-4.png" alt="" />
+                    <img src="\img\team\IMG_7895.jpg" alt="" />
                   </div>
                   <div className="tp-team-content">
                     <h4 className="tp-team-title-sm">

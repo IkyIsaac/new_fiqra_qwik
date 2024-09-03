@@ -129,7 +129,7 @@ export default function ContactForm() {
                         href="https://maps.app.goo.gl/6m7Z6ZANoPKJdNuq5"
                         target="_blank"
                       >
-                        6th Floor, Right Wing, <br /> Mwanga Tower, Makumbusho.
+                        6th Floor, <br/> Mwanga Tower, Makumbusho.
                       </a>
                     </li>
                   </ul>
