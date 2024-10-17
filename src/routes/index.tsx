@@ -1,5 +1,4 @@
 
-import ImgAbuja1 from '~/media/assets/img/blog/abuja1.png?jsx';
 import ImgBlogImage from '~/media/assets/img/blog/blog-image.png?jsx';import ImgHeroSliderIcon1 from "~/media/assets/img/hero/hero-slider-icon-1.png?jsx";
 import ImgPlatform1 from "~/media/assets/img/payment/platform-1.png?jsx";
 import ImgMobile from "~/media/assets/img/service/mobile.png?jsx";
@@ -10,7 +9,6 @@ import ImgServiceShapeRight from "~/media/assets/img/service/service-shape-right
 import ImgImage01 from "~/media/assets/img/brand/image_01.png?jsx";
 import ImgAbout43 from "~/media/assets/img/about/about-4-3.png?jsx";
 import ImgAbout41 from "~/media/assets/img/about/about-4-1.png?jsx";
-import ImgShape41 from "~/media/assets/img/contact/shape-4-1.png?jsx";
 import ImgHero42 from "~/media/assets/img/hero/hero-4-2.png?jsx";
 import ImgHeroShape41 from "~/media/assets/img/hero/hero-shape-4-1.png?jsx";
 import ImgAbout42 from "~/media/assets/img/about/about-4-2.png?jsx";

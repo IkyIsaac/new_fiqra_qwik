@@ -1,5 +1,4 @@
 import { component$, useResource$, Resource } from "@builder.io/qwik";
-import { useLocation } from "@builder.io/qwik-city";
 import Footer_ from "~/components/footer_";
 
 interface TeamMember {
@@ -16,7 +15,6 @@ interface TeamMember {
 }
 
 export default component$(() => {
-  const location = useLocation();
 
   // UseResource$ to fetch data
   const teamResource = useResource$<TeamMember[]>(async () => {

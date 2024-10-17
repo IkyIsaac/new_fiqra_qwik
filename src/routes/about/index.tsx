@@ -1,4 +1,3 @@
-
 import ImgTeam44 from '~/media/assets/img/team/team-4-4.png?jsx';
 import ImgTeam43 from '~/media/assets/img/team/team-4-3.png?jsx';
 import ImgTeam41 from '~/media/assets/img/team/team-4-1.png?jsx';
@@ -17,34 +16,16 @@ import ImgBrandInner1 from '~/media/assets/img/brand/brand-inner-1.png?jsx';
 import ImgTeam42 from '~/media/assets/img/team/team-4-2.png?jsx';
 import ImgBrandInner2 from '~/media/assets/img/brand/brand-inner-2.png?jsx';
 import ImgBreadcrumbShape2 from '~/media/assets/img/breadcrumb/breadcrumb-shape-2.png?jsx';
-import ImgHero45 from '~/media//assets/img/hero/hero-4-5.png?jsx';
-import { component$, useTask$, useSignal } from "@builder.io/qwik";
+import { component$} from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import { generateHTMLWithDimensionsFromDirectory } from '~/utils/imageDimensionExtractor';
-// import  Header  from "../../components/header_";
 import Footer_ from "../../components/footer_"
 
-import path from 'path';
-import imageData from '../../../imageData.json'; // Adjust path to go up to root
 
 
 
 
 export default component$(() => {
 
-  const html = useSignal<string>(''); // Declare the html signal to hold the generated HTML
-
-
-  useTask$(async () => {
-    const imagesDirectoryPath = '/assets/img'; // Adjusted path for public assets
-
-    try {
-      const generatedHtml = await generateHTMLWithDimensionsFromDirectory(imagesDirectoryPath);
-      html.value = generatedHtml; // Update the signal with generated HTML
-    } catch (error) {
-      console.error('Error generating image dimensions:', error);
-    }
-  });
 
   return (
     <>
@@ -750,12 +731,10 @@ export const head: DocumentHead = {
   title: "Fiqra Technologies",
   meta: [
     {
-      name: "Fiqra Tecnologies",
-      content: "Where Innovative Talents Emerge",
+      name: "Fiqra Technologies",
+      content: "Where Indispensable Talents Emerge",
     },
   ],
 };
-function useEffect$(arg0: () => void) {
-  throw new Error('Function not implemented.');
-}
+
 

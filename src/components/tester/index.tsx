@@ -78,7 +78,7 @@ export default component$(() => {
     </div>
     <div class="body-overlay"></div>
     <div id="smooth-wrapper">
-      <div id="smooth-content">{children}</div>
+      <div id="smooth-content"></div>
     </div>
   </div>
   )
