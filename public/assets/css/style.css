@@ -93,6 +93,31 @@
   box-sizing: border-box;
 }
 
+/* --------------------------------------------
+       Correcting the X icon at footer_
+   -------------------------------------------- */
+
+.icon-link {
+  text-decoration: none; 
+}
+
+.twitter-icon {
+  fill: currentColor; 
+  transition: fill 0.3s ease; 
+}
+
+.twitter-icon:hover {
+  fill: #003366; 
+}
+
+.icon-link:hover {
+  color: #003366; 
+}
+
+.icon-link:hover .twitter-icon {
+  fill: #003366; 
+}
+
 /*---------------------------------
 	typography css start 
 ---------------------------------*/

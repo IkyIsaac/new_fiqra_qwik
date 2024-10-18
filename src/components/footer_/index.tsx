@@ -1,8 +1,8 @@
+import ImgFooterInner1 from "~/media/assets/img/footer/footer-inner-1.png?jsx";
+import ImgLogoBlack from "~/media/assets/img/logo/logo-black.png?jsx";
+import ImgFooterInner2 from "~/media/assets/img/footer/footer-inner-2.png?jsx";
+import { component$ } from "@builder.io/qwik";
 
-import ImgFooterInner1 from '~/media/assets/img/footer/footer-inner-1.png?jsx';
-import ImgLogoBlack from '~/media/assets/img/logo/logo-black.png?jsx';
-import ImgFooterInner2 from '~/media/assets/img/footer/footer-inner-2.png?jsx';import { component$ } from '@builder.io/qwik';
- 
 export default component$(() => {
   return (
     <footer>
@@ -24,7 +24,10 @@ export default component$(() => {
                     </a>
                   </div>
                   <div class="tp-footer__contact-info">
-                    <p>Build a modern and creative website with Fiqra Technologies</p>
+                    <p>
+                      Build a modern and creative website with Fiqra
+                      Technologies
+                    </p>
                     <ul>
                       <li>
                         <span>
@@ -50,7 +53,7 @@ export default component$(() => {
                           </svg>
                         </span>
                         <a class="first-child" href="tel:(+255)753525629">
-                        (+255) 753 525 629
+                          (+255) 753 525 629
                         </a>
                       </li>
                       <li>
@@ -195,8 +198,17 @@ export default component$(() => {
                       <i class="fab fa-facebook-f"></i>
                       <span></span>
                     </a>
-                    <a href="#">
-                      <i class="fab fa-twitter"></i>
+                    <a href="https://x.com/FiqraTech" class="icon-link">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        fill="currentColor"
+                        class="bi bi-twitter-x twitter-icon"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                      </svg>
                     </a>
                     <a
                       class="icon-color-2"
@@ -224,8 +236,7 @@ export default component$(() => {
               <div class="col-xl-4 col-lg-6 col-md-6">
                 <div class="tp-copyright__text tp-copyright__text-3 text-center">
                   <span>
-                    <a href="#">Fiqra Technologies</a> –
-                    2024
+                    <a href="#">Fiqra Technologies</a> – 2024
                   </span>
                 </div>
               </div>

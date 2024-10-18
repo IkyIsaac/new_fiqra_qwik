@@ -496,9 +496,10 @@ export default component$(() => {
                           </p>
                           <a
                             class="tp-btn-yellow tp-btn-hover alt-color-white d-none d-md-inline-block"
-                            href="#"
+                            href="/team"
                           >
                             <span>Meet the Team</span>
+                            <b></b>
                           </a>
                         </div>
                       </div>
