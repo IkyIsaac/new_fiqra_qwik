@@ -1,3 +1,4 @@
+/* eslint-disable qwik/jsx-img */
 
 import ImgLogoWhite from '~/media/assets/img/logo/logo-white.png?jsx';import { component$ } from '@builder.io/qwik';
  
@@ -16,7 +17,7 @@ export default component$(() => {
               <a class="white-logo" href="/">
               <ImgLogoWhite alt=""/>
               </a>
-              <a class="black-logo" href="index.html">
+              <a class="black-logo" href="/">
                 <img src="/assets/img/logo/logo-black.png" alt="" />
               </a>
             </div>
@@ -29,7 +30,7 @@ export default component$(() => {
                     <a href="/">Home</a>
                   </li>
                   <li>
-                    <a href="#">About</a>
+                    <a href="/about">About</a>
                   </li>
                   <li>
                     <a href="#">Services</a>
@@ -38,7 +39,7 @@ export default component$(() => {
                     <a href="#">Features</a>
                     <ul class="submenu">
                       <li>
-                        <a href="#">Career</a>
+                        <a href="/career">Career</a>
                       </li>
                       <li>
                         <a href="#">Blog</a>
@@ -65,7 +66,7 @@ export default component$(() => {
               <div class="header-bottom__btn d-flex align-items-center">
                 <a
                   class="tp-btn-yellow tp-btn-hover alt-color-white d-none d-md-inline-block" 
-                  href="#">
+                  href="/contact">
                   <span>Get in Touch</span>
                   <b></b>
                 </a>

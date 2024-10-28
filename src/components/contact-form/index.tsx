@@ -6,7 +6,7 @@ import emailjs from 'emailjs-com';
 export default component$(() => {
   const userName = useSignal('');
   const email = useSignal('');
-  const subject = useSignal('Website Design & Development');
+  const subject = useSignal('');
   const userMessage = useSignal('');
   const loading = useSignal(false);
   const message = useSignal('');

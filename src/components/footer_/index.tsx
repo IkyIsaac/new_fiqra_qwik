@@ -93,20 +93,20 @@ export default component$(() => {
               </div>
               <div class="col-xl-3 col-lg-3 col-md-6 pb-30">
                 <div class="tp-footer__widget tp-footer__widget-inner footer-widget-3 footer-col-3-2">
-                  <h4 class="tp-footer__widget-title">Platform</h4>
+                  <h4 class="tp-footer__widget-title">Explore More</h4>
                   <div class="tp-footer__content">
                     <ul>
                       <li>
                         <a href="#">Services</a>
                       </li>
                       <li>
-                        <a href="#">About</a>
+                        <a href="/about">About</a>
                       </li>
                       <li>
                         <a href="#">Projects</a>
                       </li>
                       <li>
-                        <a href="#">Career</a>
+                        <a href="/career">Career</a>
                       </li>
                     </ul>
                   </div>
@@ -114,17 +114,17 @@ export default component$(() => {
               </div>
               <div class="col-xl-2 col-lg-2 col-md-6 pb-30">
                 <div class="tp-footer__widget tp-footer__widget-inner footer-widget-3 footer-col-3-3">
-                  <h4 class="tp-footer__widget-title">Other Pages</h4>
+                  <h4 class="tp-footer__widget-title">Useful Links</h4>
                   <div class="tp-footer__content">
                     <ul>
                       <li>
-                        <a href="#">Fiqra Academy</a>
+                        <a href="https://fiqra.academy/">Fiqra Academy</a>
                       </li>
                       <li>
-                        <a href="#">Blog</a>
+                        <a href="https://fiqra.academy/blog">Blog</a>
                       </li>
                       <li>
-                        <a href="#">Contact</a>
+                        <a href="/contact">Contact</a>
                       </li>
                     </ul>
                   </div>

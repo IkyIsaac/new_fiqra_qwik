@@ -25,7 +25,7 @@ export default component$(() => {
                   </p>
 
                   <a
-                    class="tp-btn-yellow tp-btn-hover alt-color-white d-none d-md-inline-block px-5"
+                    class="tp-btn-yellow tp-btn-hover alt-color-white  d-md-inline-block px-5"
                     href="https://fiqra.academy/"
                   >
                     <span>Start Now</span>

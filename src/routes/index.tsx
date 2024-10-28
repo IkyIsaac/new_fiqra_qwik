@@ -1,5 +1,7 @@
+/* eslint-disable qwik/jsx-img */
 
-import ImgBlogImage from '~/media/assets/img/blog/blog-image.png?jsx';import ImgHeroSliderIcon1 from "~/media/assets/img/hero/hero-slider-icon-1.png?jsx";
+import ImgBlogImage from "~/media/assets/img/blog/blog-image.png?jsx";
+import ImgHeroSliderIcon1 from "~/media/assets/img/hero/hero-slider-icon-1.png?jsx";
 import ImgPlatform1 from "~/media/assets/img/payment/platform-1.png?jsx";
 import ImgMobile from "~/media/assets/img/service/mobile.png?jsx";
 import ImgEdu from "~/media/assets/img/service/edu.png?jsx";
@@ -18,7 +20,7 @@ import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 // import  Header  from "../components/header"
 import Footer from "../components/footer";
-import ContactForm from "../components/contact-form"
+import ContactForm from "../components/contact-form";
 export default component$(() => {
   return (
     <>
@@ -52,7 +54,8 @@ export default component$(() => {
                     class="tp-btn-yellow-border wow tpfadeRight"
                     data-wow-duration=".9s"
                     data-wow-delay=".7s"
-                    href="#" >
+                    href="/contact"
+                  >
                     <span>
                       Get in Touch<i class="far fa-angle-right"></i>
                     </span>
@@ -72,7 +75,7 @@ export default component$(() => {
             </div>
           </div>
         </div>
-                   {/* Trusted By */}
+        {/* Trusted By */}
         <div class="tp-barnd-area tp-barnd-plr blue-bg z-index-3 fix">
           <div class="tp-barnd-main-wrapper p-relative">
             <div class="tp-barnd-shape-1">
@@ -92,61 +95,89 @@ export default component$(() => {
                   <div class="tp-barnd-slider-wrapper">
                     <div class="tp-barnd-slider-active p-relative">
                       <div class="tp-brand-item">
-                        <img width="160" height="80" src="/assets/img/hero/mcard.png" alt="" />
+                        <img
+                          width="160"
+                          height="80"
+                          src="/assets/img/hero/mcard.png"
+                          alt=""
+                        />
                       </div>
                       <div class="tp-brand-item">
-                        <img width="160" height="80" src="/assets/img/hero/sc.png" alt="" />
+                        <img
+                          width="160"
+                          height="80"
+                          src="/assets/img/hero/sc.png"
+                          alt=""
+                        />
                       </div>
                       <div class="tp-brand-item">
-                        <img width="160" height="64"
+                        <img
+                          width="160"
+                          height="64"
                           src="/assets/img/hero/hero-slider-icon-2.png"
                           alt=""
                         />
                       </div>
                       <div class="tp-brand-item">
-                        <img width="160" height="64"
+                        <img
+                          width="160"
+                          height="64"
                           src="/assets/img/hero/hero-slider-icon-3.png"
                           alt=""
                         />
                       </div>
                       <div class="tp-brand-item">
-                        <img width="160" height="64"
+                        <img
+                          width="160"
+                          height="64"
                           src="/assets/img/hero/hero-slider-icon-4.png"
                           alt=""
                         />
                       </div>
                       <div class="tp-brand-item">
-                        <img width="160" height="64"
+                        <img
+                          width="160"
+                          height="64"
                           src="/assets/img/hero/hero-slider-icon-5.png"
                           alt=""
                         />
                       </div>
                       <div class="tp-brand-item">
-                        <img width="160" height="64"
+                        <img
+                          width="160"
+                          height="64"
                           src="/assets/img/hero/hero-slider-icon-6.png"
                           alt=""
                         />
                       </div>
                       <div class="tp-brand-item">
-                        <img width="160" height="64"
+                        <img
+                          width="160"
+                          height="64"
                           src="/assets/img/hero/hero-slider-icon-7.png"
                           alt=""
                         />
                       </div>
                       <div class="tp-brand-item">
-                        <img width="160" height="64"
+                        <img
+                          width="160"
+                          height="64"
                           src="/assets/img/hero/hero-slider-icon-8.png"
                           alt=""
                         />
                       </div>
                       <div class="tp-brand-item">
-                        <img width="160" height="64"
+                        <img
+                          width="160"
+                          height="64"
                           src="/assets/img/hero/hero-slider-icon-9.png"
                           alt=""
                         />
                       </div>
                       <div class="tp-brand-item">
-                        <img width="160" height="64"
+                        <img
+                          width="160"
+                          height="64"
                           src="/assets/img/hero/hero-slider-icon-10.png"
                           alt=""
                         />
@@ -309,11 +340,11 @@ export default component$(() => {
                       </li>
                     </ul>
                   </div>
-                  {/* <div class="tp-security-btn">
-                    <a class="tp-btn-yellow-border" href="#">
+                  <div class="tp-security-btn">
+                    <a class="tp-btn-yellow-border" href="/about">
                       About Us <i class="far fa-angle-right"></i>
                     </a>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>
@@ -321,9 +352,9 @@ export default component$(() => {
         </div>
 
         <div class="tp-platform-area border-tb blue-bg pt-115 pb-105 p-relative z-index">
-          <div class="tp-platform-bg-shape">
+          {/* <div class="tp-platform-bg-shape">
             <img src="/assets/img/Platform/p-bg.png" alt="" />
-          </div>
+          </div> */}
           <div class="container">
             <div class="row align-items-end mb-40">
               <div class="col-xl-7 col-lg-6">
@@ -468,12 +499,7 @@ export default component$(() => {
                   data-wow-duration=".9s"
                   data-wow-delay=".5s"
                 >
-                  <div class="tp-team-top-content d-flex justify-content-md-start justify-content-end">
-                    {/* <p>
-                      Our clients are the companies and startups who <br /> make
-                      the world go round,!
-                    </p> */}
-                  </div>
+                  <div class="tp-team-top-content d-flex justify-content-md-start justify-content-end"></div>
                 </div>
               </div>
             </div>
@@ -484,8 +510,8 @@ export default component$(() => {
                   <div class="row">
                     <div class="col-12">
                       <div
-                        class="tp-cta-bg background-container"
-                        // data-background="/assets/img/fiqra_team/team-bg.png"
+                        class="tp-cta-bg background-dark-overlay"
+                        data-background="/assets/img/fiqra_team/team-bg.png"
                       >
                         <div class="tp-cta-content tp-inner-font text-center">
                           <h3 class="tp-section-title text-white">
@@ -545,7 +571,7 @@ export default component$(() => {
                 <div class="tp-blog-four-item p-relative fix">
                   <div class="tp-blog-four-img fix ">
                     <a href="https://fiqra.academy/blog/Reflecting-on-Our-Unforgettable-Experience-at-the-MasterCard-Edtech-Conference-in-Abuja-Nigeria">
-                    <img
+                      <img
                         src="/assets/img/blog/abuja1.png"
                         class="pic-size"
                         alt=""
@@ -625,7 +651,7 @@ export default component$(() => {
           </div>
         </div>
 
-      <ContactForm/>
+        <ContactForm />
       </main>
       <Footer />
     </>
@@ -636,7 +662,7 @@ export const head: DocumentHead = {
   title: "Fiqra Technologies",
   meta: [
     {
-      name: "Fiqra Tecnologies",
+      name: "Fiqra Technologies",
       content: "Where Innovative Talents Emerge",
     },
   ],

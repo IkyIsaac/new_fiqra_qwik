@@ -132,7 +132,7 @@ export default component$(() => {
                 data-wow-delay=".5s"
               >
                 <div class="tp-footer__widget footer-widget-4 footer-col-4-2">
-                  <h4 class="tp-footer__widget-title">Platform</h4>
+                  <h4 class="tp-footer__widget-title">Useful Links</h4>
                   <div class="tp-footer__content">
                     <ul>
                       <li>

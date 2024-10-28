@@ -1,6 +1,7 @@
 import { component$, Slot } from "@builder.io/qwik";
-import type { RequestHandler } from "@builder.io/qwik-city";
+import { useLocation, type RequestHandler } from "@builder.io/qwik-city";
 import  Header  from "../components/header"
+import Header_ from "~/components/header_";
 
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
@@ -10,6 +11,9 @@ export const onGet: RequestHandler = async ({ cacheControl }) => {
   });
 };
 export default component$(() => {
+  const location = useLocation();
+
+  const isHomePage = location.url.pathname === '/';
   return (
 <>
         {/* preloader */}
@@ -24,7 +28,10 @@ export default component$(() => {
         <button class="scroll-top scroll-to-target" data-target="html">
           <i class="far fa-angle-double-up"></i>
         </button>
-        <Header/>
+        <div class="mouseCursor cursor-outer"></div>
+        <div class="mouseCursor cursor-inner"><a  href="#"><i class="fas fa-play"></i></a></div>
+        {isHomePage ? <Header /> : <Header_ />}
+
         {/* Main content wrapper */}
         <div id="smooth-wrapper">
           <div id="smooth-content">
