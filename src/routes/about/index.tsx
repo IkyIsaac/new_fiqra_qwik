@@ -249,7 +249,7 @@ export default component$(() => {
                 </div>
               </div>
             </div>
-            <div class="row align-items-center">
+            {/* <div class="row align-items-center">
               <div class="col-xl-4">
                 <div class="ab-company-video">
                   <a
@@ -298,7 +298,7 @@ export default component$(() => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 

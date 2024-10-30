@@ -34,7 +34,6 @@ export default component$(() => {
       yearsOfExperience: yearsOfExperience.value,
       expectedSalary: expectedSalary.value,
       usWorkAuthorization: usWorkAuthorization.value ? "Yes" : "No",
-      visaSponsorship: visaSponsorship.value ? "Yes" : "No",
       personalNote: personalNote.value,
       resumeFile: resumeFile.value ? resumeFile.value.name : "No file uploaded",
     };
@@ -288,8 +287,8 @@ export default component$(() => {
                       hidden
                       multiple
                       onChange$={(e) => {
-                        const file = (e.target as HTMLInputElement).files?.[0];
-                        resumeFile.value = noSerialize(file); // Use noSerialize to store the file
+                        const file = (e.target as HTMLInputElement).files?.[0]|| undefined;
+                        resumeFile.value = (noSerialize(file) as unknown as File | null) ?? null; 
                       }}
                     />
                     <label class="custom-file-label" for="cv">

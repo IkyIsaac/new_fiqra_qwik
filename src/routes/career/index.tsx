@@ -2,9 +2,10 @@
 import ImgPlatform1 from '~/media/assets/img/payment/platform-1.png?jsx';
 import ImgBreadcrumbShape2 from '~/media/assets/img/breadcrumb/breadcrumb-shape-2.png?jsx';
 import ImgBreadcrumbShape1 from '~/media/assets/img/breadcrumb/breadcrumb-shape-1.png?jsx';
-import ImgImage2 from '~/media/assets/img/career/image-2.png?jsx';import { component$ } from '@builder.io/qwik';
+import { component$ } from '@builder.io/qwik';
 import Footer_ from '~/components/footer_';
 import Try_service from '~/components/try_service';
+import { DocumentHead } from '@builder.io/qwik-city';
 
 export default component$(() => {
   return (
@@ -223,3 +224,13 @@ export default component$(() => {
     </>
   );
 });
+
+export const head: DocumentHead = {
+   title: "Fiqra Technologies",
+   meta: [
+     {
+       name: "Fiqra Technologies",
+       content: "Where Indispensable Talents Emerge",
+     },
+   ],
+ };

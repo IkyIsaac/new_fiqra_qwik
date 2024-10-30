@@ -237,7 +237,7 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: `Fiqra Technologies`,
+  title: `Fiqra Team`,
   meta: [
     {
       name: "Fiqra Technologies",
