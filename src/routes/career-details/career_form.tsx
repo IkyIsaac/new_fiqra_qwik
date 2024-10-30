@@ -18,6 +18,8 @@ export default component$(() => {
   const usWorkAuthorization = useSignal(false);
   const personalNote = useSignal("");
   const resumeFile = useSignal<string | null>(null);
+  const coverLetter = useSignal<string | null>(null);
+  const portfolio = useSignal<string | null>(null);
   const loading = useSignal(false);
   const message = useSignal("");
 
@@ -40,6 +42,8 @@ export default component$(() => {
       usWorkAuthorization: usWorkAuthorization.value ? "Yes" : "No",
       personalNote: personalNote.value,
       resumeFile: resumeFile.value ?? "No file link",
+      coverLetter: coverLetter.value ?? "No file link",
+      portfolio: portfolio.value ?? "No file link",
     };
 
     console.log("Form Data:", formData);
@@ -65,6 +69,8 @@ export default component$(() => {
         expectedSalary.value = "";
         personalNote.value = "";
         resumeFile.value = null;
+        coverLetter.value = null;
+        portfolio.value = null;
       } else {
         message.value = "Failed to submit the application.";
       }
@@ -248,7 +254,7 @@ export default component$(() => {
                 <div class="col-xxl-12">
                   <div class="postbox__authorization-title-box">
                     <h5 class="career-details-title-xs pb-15">
-                      US work authorization<span>*</span>
+                      Work authorization<span>*</span>
                     </h5>
                   </div>
                   <div class="postbox__authorization p-relative">
@@ -338,20 +344,56 @@ export default component$(() => {
                     </label>
                   </div>
                 </div> */}
+                
                 <div class="col-12">
                   <div class="postbox__comment-input mb-30">
                     <input
                       type="url"
                       class="inputText"
+                      // placeholder="https://example.com/resume.pdf"
                       required
-                      value={resumeFile.value ?? ""}
+                      value={resumeFile.value}
                       onInput$={(e) =>
                         (resumeFile.value = (
                           e.target as HTMLInputElement
                         ).value)
                       }
                     />
-                    <span class="floating-label">Resume/CV URL</span>
+                    <span class="floating-label">Resume/CV (Link)</span>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="postbox__comment-input mb-30">
+                    <input
+                      type="url"
+                      class="inputText"
+                      // placeholder="https://example.com/coverletter.pdf"
+                      required
+                      value={coverLetter.value}
+                      onInput$={(e) =>
+                        (coverLetter.value = (
+                          e.target as HTMLInputElement
+                        ).value)
+                      }
+                    />
+                    <span class="floating-label">Cover Letter (Link)</span>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="postbox__comment-input mb-30">
+                    <input
+                      type="url"
+                      class="inputText"
+                      // placeholder="https://example.com/resume.pdf"
+                      required
+                      value={portfolio.value}
+                      onInput$={(e) =>
+                        (portfolio.value = (
+                          e.target as HTMLInputElement
+                        ).value)
+                      }
+                    />
+                    <span class="floating-label">Portfolio (Link)</span>
                   </div>
                 </div>
 
