@@ -1,7 +1,10 @@
 /* eslint-disable qwik/valid-lexical-scope */
-import { component$, useSignal, $ } from "@builder.io/qwik";
+import {
+  component$,
+  useSignal,
+  $,
+} from "@builder.io/qwik";
 import emailjs from "emailjs-com";
-import { noSerialize } from "@builder.io/qwik";
 
 export default component$(() => {
   const fullName = useSignal("");
@@ -14,7 +17,7 @@ export default component$(() => {
   const expectedSalary = useSignal("");
   const usWorkAuthorization = useSignal(false);
   const personalNote = useSignal("");
-  const resumeFile = useSignal<File | null>(null);
+  const resumeFile = useSignal<string | null>(null);
   const loading = useSignal(false);
   const message = useSignal("");
 
@@ -25,6 +28,7 @@ export default component$(() => {
     loading.value = true;
 
     const formData = {
+      subject: "Career Job Application",
       email: email.value,
       fullName: fullName.value,
       phoneNumber: phoneNumber.value,
@@ -35,7 +39,7 @@ export default component$(() => {
       expectedSalary: expectedSalary.value,
       usWorkAuthorization: usWorkAuthorization.value ? "Yes" : "No",
       personalNote: personalNote.value,
-      resumeFile: resumeFile.value ? resumeFile.value.name : "No file uploaded",
+      resumeFile: resumeFile.value ?? "No file link",
     };
 
     console.log("Form Data:", formData);
@@ -84,6 +88,7 @@ export default component$(() => {
         </div>
         <div class="postbox__comment-form">
           <form
+            enctype="multipart/form-data"
             preventdefault:submit
             onSubmit$={handleFormSubmit}
             method="POST"
@@ -121,7 +126,7 @@ export default component$(() => {
               <div class="col-12">
                 <div class="postbox__comment-input mb-30">
                   <input
-                    type="text"
+                    type="number"
                     class="inputText"
                     required
                     value={phoneNumber.value}
@@ -158,9 +163,8 @@ export default component$(() => {
                   <div class="col-12">
                     <div class="postbox__comment-input mb-30">
                       <input
-                        type="text"
+                        type="url"
                         class="inputText"
-                        required
                         value={linkedInProfile.value}
                         onInput$={(e) =>
                           (linkedInProfile.value = (
@@ -174,9 +178,8 @@ export default component$(() => {
                   <div class="col-12">
                     <div class="postbox__comment-input mb-30">
                       <input
-                        type="text"
+                        type="url"
                         class="inputText"
-                        required
                         value={personalWebsite.value}
                         onInput$={(e) =>
                           (personalWebsite.value = (
@@ -184,19 +187,36 @@ export default component$(() => {
                           ).value)
                         }
                       />
-                      <span class="floating-label">Personal website(Optional)</span>
+                      <span class="floating-label">
+                        Personal website(Optional)
+                      </span>
                     </div>
                   </div>
                   <div class="col-12">
-                    <div class="postbox__select mb-30">
-                      <select
-                        
+                    <div class="postbox__comment-input mb-30">
+                      <input
+                        type="number"
+                        class="inputText"
+                        required
                         value={yearsOfExperience.value}
-                        onChange$={(e) =>
+                        onInput$={(e) =>
                           (yearsOfExperience.value = (
-                            e.target as HTMLSelectElement
+                            e.target as HTMLInputElement
                           ).value)
                         }
+                      />
+                      <span class="floating-label">Years of experience</span>
+                    </div>
+                  </div>
+                  {/* <div class="col-12">
+                    <div class="postbox__select mb-30">
+                      <select
+                        name="yearsOfExperience"
+                        onChange$={(e) => {
+                          yearsOfExperience.value = (
+                            e.target as HTMLSelectElement
+                          ).value;
+                        }}
                       >
                         <option value="">Years of experience</option>
                         <option value="01 Year">01 Year</option>
@@ -206,7 +226,7 @@ export default component$(() => {
                         <option value="05 Years">05 Years</option>
                       </select>
                     </div>
-                  </div>
+                  </div> */}
                   <div class="col-12">
                     <div class="postbox__comment-input mb-35">
                       <input
@@ -235,10 +255,28 @@ export default component$(() => {
                     <div class="switcher mb-15">
                       <label for="toggle-0">
                         <small class="switcher-icon">
-                        <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 5.5H13.0305" stroke="#5F6168" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M10.0234 1.5L14.0336 5.5L10.0234 9.5" stroke="#5F6168" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
+                          <svg
+                            width="15"
+                            height="11"
+                            viewBox="0 0 15 11"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M1 5.5H13.0305"
+                              stroke="#5F6168"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M10.0234 1.5L14.0336 5.5L10.0234 9.5"
+                              stroke="#5F6168"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
                           Are you legally authorized to work in the United
                           Republic Of Tanzania?
                         </small>
@@ -252,7 +290,9 @@ export default component$(() => {
                             ).checked)
                           }
                         />
-                        <span><small></small></span>
+                        <span>
+                          <small></small>
+                        </span>
                       </label>
                     </div>
                   </div>
@@ -274,7 +314,7 @@ export default component$(() => {
                   </div>
                 </div>
 
-                <div class="col-xxl-12">
+                {/* <div class="col-xxl-12">
                   <div class="postbox__resume-title-box">
                     <h5 class="career-details-title-xs pb-15">
                       Upload a recent resume or CV (All the requested documents)
@@ -297,14 +337,30 @@ export default component$(() => {
                         : "Choose file"}
                     </label>
                   </div>
+                </div> */}
+                <div class="col-12">
+                  <div class="postbox__comment-input mb-30">
+                    <input
+                      type="url"
+                      class="inputText"
+                      required
+                      value={resumeFile.value ?? ""}
+                      onInput$={(e) =>
+                        (resumeFile.value = (
+                          e.target as HTMLInputElement
+                        ).value)
+                      }
+                    />
+                    <span class="floating-label">Resume/CV URL</span>
+                  </div>
                 </div>
 
                 <div class="col-xxl-12">
-                <div class="postbox__btn-box mb-50">
-                  <button type="submit" class="submit-btn w-100">
-                    {loading.value ? "Submitting..." : "Submit Application"}
-                  </button>
-                  {message.value && <p>{message.value}</p>}
+                  <div class="postbox__btn-box mb-50">
+                    <button type="submit" class="submit-btn w-100">
+                      {loading.value ? "Submitting..." : "Submit Application"}
+                    </button>
+                    {message.value && <p>{message.value}</p>}
                   </div>
                 </div>
               </div>
