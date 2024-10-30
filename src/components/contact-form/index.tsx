@@ -14,12 +14,12 @@ export default component$(() => {
   const formAction = $(async () => {
     try {
       loading.value = true;
-      const formData = {
-        userName: userName.value,
-        email: email.value,
-        subject: subject.value,
-        message: userMessage.value,
-      };
+      // const formData = {
+      //   userName: userName.value,
+      //   email: email.value,
+      //   subject: subject.value,
+      //   message: userMessage.value,
+      // };
   
       if (!userName.value.trim() || !email.value.trim() || !subject.value.trim() || !userMessage.value.trim()) {
         message.value = 'Please fill all the required fields!';
