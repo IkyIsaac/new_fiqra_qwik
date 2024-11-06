@@ -61,7 +61,7 @@ export default component$(() => {
    </div>
 </div>
 
-<div class="tp-platform-area tp-platform-inner pt-120 p-relative z-index">
+{/* <div class="tp-platform-area tp-platform-inner pt-120 p-relative z-index">
    <div class="container">
       <div class="row align-items-end mb-60">
          <div class="col-xl-7 col-lg-6 wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay=".3s">
@@ -168,7 +168,7 @@ export default component$(() => {
          </div>
       </div>
    </div>
-</div>
+</div> */}
 
 <div class="job-area pt-120 pb-120">
    <div class="container">
