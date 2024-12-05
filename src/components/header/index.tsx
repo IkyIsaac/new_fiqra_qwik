@@ -33,9 +33,9 @@ export default component$(() => {
                     <a href="/about">About</a>
                   </li>
                   <li>
-                    <a href="#">Services</a>
+                        <a href="/career">Careers</a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="#">Features</a>
                     <ul class="submenu">
                       <li>
@@ -45,17 +45,20 @@ export default component$(() => {
                         <a href="#">Blog</a>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
                   <li>
-                    <a href="#">Portfolio</a>
-                    <ul class="submenu">
+                    <a href="/projects">Portfolio</a>
+                    {/* <ul class="submenu">
                       <li>
-                        <a href="#">Project</a>
+                        <a href="/project">Project</a>
                       </li>
                       <li>
                         <a href="#">Project Details</a>
                       </li>
-                    </ul>
+                    </ul> */}
+                  </li>
+                  <li>
+                    <a href="/team">Our Team</a>
                   </li>
                 </ul>
               </nav>

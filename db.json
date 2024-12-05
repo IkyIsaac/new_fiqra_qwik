@@ -110,6 +110,28 @@
             "x": "https://x.com/lusekelorex",
             "linkedin": "https://www.linkedin.com/in/lusekelo-rex-mwakipiti-7b9a45264/"
           }
+        }        ,
+        {
+          "id": "9",
+          "name": "Janeth Mosha",
+          "title": "Digital Marketer",
+          "main_title":"The Deal Closer",
+          "nickname":"Deal Closer",
+          "description": "Highly motivated and results-driven professional with a diverse skill set in software development, event management, leadership, and customer service management.\n\nWith a proven track record of delivering innovative solutions and exceeding client expectations, I thrive in environments where collaboration and creativity are valued.\n\nMy passion for technology, coupled with my strong leadership abilities, enables me to drive teams towards success while ensuring exceptional customer satisfaction. Let's connect and explore opportunities to leverage my expertise for mutual growth and success.",
+          "images": "/assets/img/fiqra_team/9.png",
+          "email": "janeth.mosha@fiqra.io",
+          "experience": "2 years",
+          "skills": {
+            "skill1":"Digital Marketing",
+            "skill2":"Event Planning",
+            "skill3":"Software Development"
+          },
+          "social_media": {
+            "facebook": "https://www.facebook.com/profile.php?id=100092433581087",
+            "instagram": "https://www.instagram.com/janethowns/",
+            "x": "https://x.com/Janeth_Owns",
+            "linkedin": "https://www.linkedin.com/in/janeth-mosha/"
+          }
         }
         ,
         {
@@ -132,6 +154,28 @@
             "instagram": "https://www.instagram.com/bre_llah?utm_source=qr&igsh=MWJwMTlvMzVneW9oNA==",
             "x": "https://x.com/deogratiuskibi1?t=B6kfhbIql9mEchnW5-e9Kw&s=09",
             "linkedin": "https://www.linkedin.com/in/deogratius-kibiki-804a79320"
+          }
+        },
+        {
+          "id": "10",
+          "name": "Mary Msovera",
+          "title": "Software Developer",
+          "main_title":"The Quality Guardian",
+          "nickname":"Quality Guardian",
+          "description": "",
+          "email": "",
+          "experience": "",
+          "skills": {
+            "skill1":"",
+            "skill2":"",
+            "skill3":""
+          },
+          "images": "/assets/img/fiqra_team/10.png",
+          "social_media": {
+            "facebook": "",
+            "instagram": "s",
+            "x": "",
+            "linkedin": ""
           }
         }
         ,
@@ -179,51 +223,5 @@
             "linkedin": "https://www.linkedin.com/in/isaac-kitomari-95461026b/"
           }
         }
-        ,
-        {
-          "id": "9",
-          "name": "Janeth Mosha",
-          "title": "Digital Marketer",
-          "main_title":"The Deal Closer",
-          "nickname":"Deal Closer",
-          "description": "Highly motivated and results-driven professional with a diverse skill set in software development, event management, leadership, and customer service management.\n\nWith a proven track record of delivering innovative solutions and exceeding client expectations, I thrive in environments where collaboration and creativity are valued.\n\nMy passion for technology, coupled with my strong leadership abilities, enables me to drive teams towards success while ensuring exceptional customer satisfaction. Let's connect and explore opportunities to leverage my expertise for mutual growth and success.",
-          "images": "/assets/img/fiqra_team/9.png",
-          "email": "janeth.mosha@fiqra.io",
-          "experience": "2 years",
-          "skills": {
-            "skill1":"Digital Marketing",
-            "skill2":"Event Planning",
-            "skill3":"Software Development"
-          },
-          "social_media": {
-            "facebook": "https://www.facebook.com/profile.php?id=100092433581087",
-            "instagram": "https://www.instagram.com/janethowns/",
-            "x": "https://x.com/Janeth_Owns",
-            "linkedin": "https://www.linkedin.com/in/janeth-mosha/"
-          }
-        },
-        {
-          "id": "10",
-          "name": "Mary Msovera",
-          "title": "Software Developer",
-          "main_title":"The Quality Guardian",
-          "nickname":"Quality Guardian",
-          "description": "",
-          "email": "",
-          "experience": "",
-          "skills": {
-            "skill1":"",
-            "skill2":"",
-            "skill3":""
-          },
-          "images": "/assets/img/fiqra_team/10.png",
-          "social_media": {
-            "facebook": "",
-            "instagram": "s",
-            "x": "",
-            "linkedin": ""
-          }
-        }
-        
   ]
   }

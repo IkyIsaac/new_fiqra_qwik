@@ -1,34 +1,32 @@
 
-import ImgLogoBlack from '~/media/assets/img/logo/logo-black.png?jsx';
 import { component$ } from '@builder.io/qwik';
  
 export default component$(() => {
   return (
     <>
-      <header>
-      <div id="header-sticky" class="header-bottom__area header-sticky-bg-2 header-bottom__transparent header-bottom__bdr z-index-5">
-         <div class="container">
-            <div class="row g-0 align-items-center">
-               <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-6">
-                  <div class="header-bottom__logo">
-                     <a class="white-logo" href="/"><img src="/assets/img/logo/logo-white.png" alt=""/></a>
-                     <a class="black-logo" href="/"><ImgLogoBlack alt=""/></a>
+   <header>
+         <div id="header-sticky" class="header-bottom__area header-bottom__transparent header-sticky-bg-2 inner-header-2 header-bottom__bdr z-index-5">
+            <div class="container">
+               <div class="row g-0 align-items-center">
+                  <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-6">
+                     <div class="header-bottom__logo">
+                        <a href="index.html"><img src="assets/img/logo/logo-black.png" alt=""/></a>
+                     </div>
                   </div>
-               </div>
-               <div class="col-xxl-7 col-xl-7 col-lg-7 d-none d-lg-block">
-                  <div class="header-bottom__main-menu header-bottom__main-menu-4 header-bottom__main-menu-inner">
-                  <nav id="mobile-menu">
-                <ul>
+                  <div class="col-xxl-7 col-xl-7 col-lg-7 d-none d-lg-block">
+                     <div class="header-bottom__main-menu header-bottom__main-menu-4 header-bottom__main-menu-inner">
+                        <nav id="mobile-menu">
+                        <ul>
                   <li>
-                    <a href="/">Home</a>
+                    <a href="/">Home Project</a>
                   </li>
                   <li>
                     <a href="/about">About</a>
                   </li>
                   <li>
-                    <a href="/career">Careers</a>
+                    <a href="#">Services</a>
                   </li>
-                  {/* <li>
+                  <li>
                     <a href="#">Features</a>
                     <ul class="submenu">
                       <li>
@@ -38,34 +36,42 @@ export default component$(() => {
                         <a href="#">Blog</a>
                       </li>
                     </ul>
-                  </li> */}
-                  <li>
-                    <a href="/projects">Portfolio</a>
                   </li>
                   <li>
-                    <a href="/team">Our Team</a>
+                    <a href="/projects">Our Work</a>
                   </li>
                 </ul>
-              </nav>
-                  </div>
-               </div>
-               <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-8 col-6">
-                  <div class="header-bottom__right d-flex align-items-center justify-content-end">
-                     <div class="header-bottom__action header-bottom__action-4 d-none d-xl-block">
+                        </nav>
                      </div>
-                     <div class="header-bottom__btn d-flex align-items-center">
-                        <a class="tp-btn-yellow tp-btn-white tp-btn-hover alt-color-white d-none d-md-inline-block" href="/contact">
-                           <span>Get in Touch</span>
-                           <b></b>
-                        </a>
-                        <a class="header-bottom__bar tp-menu-bar d-lg-none" href="#"><i class="fal fa-bars"></i></a>
+                  </div>
+                  <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-8 col-6">
+                     <div class="header-bottom__right d-flex align-items-center justify-content-end">
+                        <div class="header-bottom__action header-bottom__action-4 d-none d-xl-block">
+                           <a class="d-none d-lg-inline-block header-bottom__action-2 border-none" href="register.html">
+                              <svg width="14" height="16" viewBox="0 0 14 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M7 8C8.92882 8 10.4924 6.433 10.4924 4.5C10.4924 2.567 8.92882 1 7 1C5.07118 1 3.50757 2.567 3.50757 4.5C3.50757 6.433 5.07118 8 7 8Z"
+                                       stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M13 15C13 12.291 10.3108 10.1 7 10.1C3.68917 10.1 1 12.291 1 15" stroke="currentColor"
+                                       stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                              <span>Log In</span>
+                           </a>
+                        </div>
+                        <div class="header-bottom__btn d-flex align-items-center">
+                           <a class="tp-btn-inner tp-btn-hover alt-color-orange d-none d-md-inline-block" href="service-details.html">
+                              <span class="white-text">Get Started</span>
+                              <b></b>
+                           </a>
+                           <a class="header-bottom__bar tp-menu-bar d-lg-none" href="javascript:void(0)"><i class="fal fa-bars"></i></a>
+                        </div>
                      </div>
                   </div>
                </div>
             </div>
          </div>
-      </div>
-   </header>
+      </header>
    <div class="flex-grow">
     <div class="tpoffcanvas-area">
       <div class="tpoffcanvas">

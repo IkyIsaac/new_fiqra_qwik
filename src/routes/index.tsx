@@ -1,5 +1,4 @@
 /* eslint-disable qwik/jsx-img */
-
 import ImgBlogImage from "~/media/assets/img/blog/blog-image.png?jsx";
 import ImgHeroSliderIcon1 from "~/media/assets/img/hero/hero-slider-icon-1.png?jsx";
 import ImgPlatform1 from "~/media/assets/img/payment/platform-1.png?jsx";
@@ -521,7 +520,7 @@ export default component$(() => {
                             Experience and Dedication driving our mission
                           </p>
                           <a
-                            class="tp-btn-yellow tp-btn-hover alt-color-white d-none d-md-inline-block"
+                            class="tp-btn-yellow tp-btn-hover alt-color-white d-md-inline-block"
                             href="/team"
                           >
                             <span>Meet the Team</span>
@@ -571,8 +570,7 @@ export default component$(() => {
                 <div class="tp-blog-four-item p-relative fix">
                   <div class="tp-blog-four-img fix ">
                     <a href="https://fiqra.academy/blog/Reflecting-on-Our-Unforgettable-Experience-at-the-MasterCard-Edtech-Conference-in-Abuja-Nigeria">
-                      <img
-                        src="/assets/img/blog/abuja1.png"
+                      <img src='/assets/img/blog/abuja1.png'
                         class="pic-size"
                         alt=""
                       />

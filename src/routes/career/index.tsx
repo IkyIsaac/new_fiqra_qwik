@@ -1,17 +1,15 @@
 
-import ImgPlatform1 from '~/media/assets/img/payment/platform-1.png?jsx';
 import ImgBreadcrumbShape2 from '~/media/assets/img/breadcrumb/breadcrumb-shape-2.png?jsx';
 import ImgBreadcrumbShape1 from '~/media/assets/img/breadcrumb/breadcrumb-shape-1.png?jsx';
 import { component$ } from '@builder.io/qwik';
 import Footer_ from '~/components/footer_';
 import Try_service from '~/components/try_service';
-import { DocumentHead } from '@builder.io/qwik-city';
+import type { DocumentHead } from '@builder.io/qwik-city';
 
 export default component$(() => {
   return (
     <>
-              <main>
-
+   <main>
 <div class="breadcrumb__area breadcrumb-height-3 p-relative blue-bg-2 fix">
    <div class="breadcrumb__shape-1">
       <ImgBreadcrumbShape1 alt=""/>

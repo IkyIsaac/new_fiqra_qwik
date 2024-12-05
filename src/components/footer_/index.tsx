@@ -97,13 +97,13 @@ export default component$(() => {
                   <div class="tp-footer__content">
                     <ul>
                       <li>
-                        <a href="#">Services</a>
+                        <a href="/team">Our Team</a>
                       </li>
                       <li>
                         <a href="/about">About</a>
                       </li>
                       <li>
-                        <a href="#">Projects</a>
+                        <a href="/projects">Portfolio</a>
                       </li>
                       <li>
                         <a href="/career">Career</a>

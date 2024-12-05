@@ -23,13 +23,13 @@ export default component$(() => {
             <span></span>
           </div>
         </div>
-
+{/* var(--tp-common-yellow-3) */}
         {/* back-to-top button */}
         <button class="scroll-top scroll-to-target" data-target="html">
           <i class="far fa-angle-double-up"></i>
         </button>
         <div class="mouseCursor cursor-outer"></div>
-        <div class="mouseCursor cursor-inner"><a  href="#"><i class="fas fa-play"></i></a></div>
+        <div class="mouseCursor cursor-inner "><a  href="#"><i class="fas fa-play"></i></a></div>
         {isHomePage ? <Header /> : <Header_ />}
 
         {/* Main content wrapper */}

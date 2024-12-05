@@ -95,7 +95,7 @@ export default component$(() => {
                   <div class="col-xl-4 col-lg-4 col-md-4">
                     <div class="team-details-img-box text-center">
                       <div class="team-details-img">
-                        <img width="360" height="280" src={memberStore.data.images} alt="" />
+                        <img width="200" height="200" src={memberStore.data.images} alt="" />
                       </div>
                     </div>
                   </div>

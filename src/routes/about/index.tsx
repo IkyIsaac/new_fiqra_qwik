@@ -1,4 +1,6 @@
 
+import ImgAbout3 from '~/media/assets/img/about/about-3.jpeg?jsx';
+import ImgAbout1 from '~/media/assets/img/about/about-1.png?jsx';
 import ImgBreadcrumbShape1 from '~/media/assets/img/breadcrumb/breadcrumb-shape-1.png?jsx';
 import ImgBrandInner8 from '~/media/assets/img/brand/brand-inner-8.png?jsx';
 import ImgBrandInner3 from '~/media/assets/img/brand/brand-inner-3.png?jsx';
@@ -12,10 +14,7 @@ import ImgBrandInner1 from '~/media/assets/img/brand/brand-inner-1.png?jsx';
 import ImgBrandInner5 from '~/media/assets/img/brand/brand-inner-5.png?jsx';
 import ImgBrandInner0 from '~/media/assets/img/brand/brand-inner-0.png?jsx';
 import ImgBrandInner10 from '~/media/assets/img/brand/brand-inner-10.png?jsx';
-import ImgAbout3 from "~/media/assets/img/about/about-3.jpg?jsx";
 import ImgAboutBgShape from "~/media/assets/img/about/about-bg-shape.png?jsx";
-import ImgAbout2 from "~/media/assets/img/about/about-2.jpg?jsx";
-import ImgAbout1 from "~/media/assets/img/about/about-1.jpg?jsx";
 import type { TeamMember } from "../team/teamLoader";
 import { loadTeamMembers } from "../team/teamLoader";
 import ImgBreadcrumbShape2 from "~/media/assets/img/breadcrumb/breadcrumb-shape-2.png?jsx";
@@ -315,7 +314,7 @@ export default component$(() => {
                     <ImgAboutBgShape alt="" />
                   </div>
                   <div class="tp-about__main-img z-index">
-                    <ImgAbout2 alt="" />
+                    < img width="365" height="265" src="/assets/img/about/about-2.jpeg" alt="" />
                   </div>
                   <div class="tp-about__sub-img-1 d-none d-sm-block z-index-3">
                     <ImgAbout1 alt="" />
@@ -335,7 +334,7 @@ export default component$(() => {
               >
                 <div class="tp-about__right">
                   <div class="tp-about__section-box">
-                    <h4 class="tp-section-subtitle">OVER 150K+ CLIENT</h4>
+                    {/* <h4 class="tp-section-subtitle">OVER 1K+ CLIENTS</h4> */}
                     <h3 class="tp-section-title mb-15">We provide support</h3>
                     <p>
                       At Fiqra Technologies, we offer a comprehensive range of

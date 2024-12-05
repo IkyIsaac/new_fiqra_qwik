@@ -132,30 +132,29 @@ export default component$(() => {
                 data-wow-delay=".5s"
               >
                 <div class="tp-footer__widget footer-widget-4 footer-col-4-2">
-                  <h4 class="tp-footer__widget-title">Useful Links</h4>
+                  <h4 class="tp-footer__widget-title">Explore More</h4>
                   <div class="tp-footer__content">
-                    <ul>
+                  <ul>
                       <li>
-                        <a href="#">Services</a>
+                        <a href="/about">About Us</a>
                       </li>
                       <li>
-                        <a href="#">FAQ</a>
+                        <a href="https://fiqra.academy/">Fiqra Academy</a>
                       </li>
                       <li>
-                        <a href="#">About</a>
+                        <a href="/team">Our Team</a>
                       </li>
                       <li>
-                        <a href="#">Blog</a>
+                        <a href="https://fiqra.academy/blog">Blog</a>
                       </li>
                       <li>
-                        <a href="#">Projects</a>
+                        <a href="/projects">Portfolio</a>
                       </li>
                       <li>
-                        <a href="#">Contact</a>
+                        <a href="/career">Careers</a>
                       </li>
-
                       <li>
-                        <a href="#">Career</a>
+                        <a href="/contact">Contact</a>
                       </li>
                     </ul>
                   </div>
