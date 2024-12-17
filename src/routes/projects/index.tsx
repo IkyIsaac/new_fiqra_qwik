@@ -3,7 +3,6 @@ import ImgBreadcrumbSub3 from '~/media/assets/img/breadcrumb/breadcrumb-sub-3.pn
 import ImgShuuLogo from '~/media/assets/img/project/shuu_logo.png?jsx';
 import ImgDebeLogo from '~/media/assets/img/project/debe_logo.png?jsx';
 import ImgTeyaLogo from '~/media/assets/img/project/teya_logo.png?jsx';
-import ImgDebeProject from '~/media/assets/img/project/debe_project.png?jsx';
 import ImgFiqraLogo from '~/media/assets/img/project/fiqra_logo.png?jsx';import { component$ } from "@builder.io/qwik";
 import Footer_ from "~/components/footer_";
 import Try_service from "~/components/try_service";
