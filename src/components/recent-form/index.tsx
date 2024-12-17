@@ -31,6 +31,8 @@ export default component$(() => {
                       <div class="tp-project__item d-flex align-items-center">
                         <div class="tp-project__thumb">
                           <img
+                            width="298"
+                            height="400"
                             src="/assets/img/project/debe_recent.png"
                             alt=""
                           />
@@ -44,7 +46,7 @@ export default component$(() => {
                           </div>
                           <div class="tp-project__title-box">
                             <h4 class="tp-project__title-sm">
-                              <a href="#">Debe App</a>
+                              <a href="/projects/debe">Debe App</a>
                             </h4>
                             <p>
                               Designed to help businesses enhance their online
@@ -62,7 +64,7 @@ export default component$(() => {
                                             <h4>$200-250k</h4>
                                          </div> */}
                             <div class="tp-project__link">
-                              <a href="#">
+                              <a target="_blank" href="https://debeapp.com/">
                                 <svg
                                   width="14"
                                   height="14"
@@ -116,7 +118,9 @@ export default component$(() => {
                           </div>
                           <div class="tp-project__title-box">
                             <h4 class="tp-project__title-sm">
-                              <a href="#">Fiqra Academy</a>
+                              <a href="/projects/fiqra_academy">
+                                Fiqra Academy
+                              </a>
                             </h4>
                             <p>
                               An e-learning platform for mastering in-demand
@@ -135,7 +139,7 @@ export default component$(() => {
                                             <h4>$200-250k</h4>
                                          </div> */}
                             <div class="tp-project__link">
-                              <a href="#">
+                              <a target="_blank" href="https://fiqra.academy">
                                 <svg
                                   width="14"
                                   height="14"
@@ -202,7 +206,7 @@ export default component$(() => {
                           <div class="tp-project__meta d-flex align-items-center">
                             <div class="tp-project__author-info">
                               <span>Client Name</span>
-                              <h4>Debe Application</h4>
+                              <h4>Shu Services</h4>
                             </div>
                             {/* <div class="tp-project__budget">
                                             <span>Budget</span>
@@ -263,7 +267,7 @@ export default component$(() => {
                           </div>
                           <div class="tp-project__title-box">
                             <h4 class="tp-project__title-sm">
-                              <a href="#">TEYA Website</a>
+                              <a href="/projects/teya">TEYA Website</a>
                             </h4>
                             <p>
                               A platform dedicated to empowering and celebrating
@@ -281,7 +285,7 @@ export default component$(() => {
                                             <h4>$200-250k</h4>
                                          </div> */}
                             <div class="tp-project__link">
-                              <a href="#">
+                              <a href="https://www.teya.or.tz/">
                                 <svg
                                   width="14"
                                   height="14"

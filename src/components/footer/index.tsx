@@ -90,20 +90,20 @@ export default component$(() => {
                   </p>
                   <div class="tp-team-social">
                     <a
-                      class="icon-color-1"
+                      class="icon-color-1" target="_blank"
                       href="https://www.facebook.com/techfiqra"
                     >
                       <i class="fab fa-facebook-f"></i>
                       <span></span>
                     </a>
                     <a
-                      class="icon-color-2"
+                      class="icon-color-2" target="_blank"
                       href="https://www.instagram.com/fiqra.tech/"
                     >
                       <i class="fab fa-instagram"></i>
                       <span></span>
                     </a>
-                    <a class="icon-color-3" href="https://x.com/FiqraTech">
+                    <a class="icon-color-3" target="_blank" href="https://x.com/FiqraTech">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="14"
@@ -117,7 +117,7 @@ export default component$(() => {
                       <span></span>
                     </a>
                     <a
-                      class="icon-color-4"
+                      class="icon-color-4" target="_blank"
                       href="https://www.linkedin.com/company/vijanatech/"
                     >
                       <i class="fab fa-linkedin-in"></i>
@@ -139,13 +139,13 @@ export default component$(() => {
                         <a href="/about">About Us</a>
                       </li>
                       <li>
-                        <a href="https://fiqra.academy/">Fiqra Academy</a>
+                        <a target="_blank" href="https://fiqra.academy/">Fiqra Academy</a>
                       </li>
                       <li>
                         <a href="/team">Our Team</a>
                       </li>
                       <li>
-                        <a href="https://fiqra.academy/blog">Blog</a>
+                        <a target="_blank" href="https://fiqra.academy/blog">Blog</a>
                       </li>
                       <li>
                         <a href="/projects">Portfolio</a>
@@ -225,7 +225,7 @@ export default component$(() => {
                             stroke-linecap="round"
                           />
                         </svg>
-                        <a href="mailto:info@fiqra.io">info@fiqra.io</a>
+                        <a target="_blank" href="mailto:info@fiqra.io">info@fiqra.io</a>
                       </li>
                       <li>
                         <svg

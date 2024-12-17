@@ -511,7 +511,7 @@ export default component$(() => {
                             <h2>01</h2>
                           </div>
                           <div class="journey-slider-meta">
-                            <span>OCT 2019</span>
+                            <span>Innovative</span>
                           </div>
                           <div class="journey-slider-content">
                             <h4 class="journey-slider-title">
@@ -534,7 +534,7 @@ export default component$(() => {
                             <h2>02</h2>
                           </div>
                           <div class="journey-slider-meta">
-                            <span>OCT 2020</span>
+                            <span>Flexible</span>
                           </div>
                           <div class="journey-slider-content">
                             <h4 class="journey-slider-title">
@@ -556,7 +556,7 @@ export default component$(() => {
                             <h2>03</h2>
                           </div>
                           <div class="journey-slider-meta">
-                            <span>OCT 2021</span>
+                            <span>Collaborative</span>
                           </div>
                           <div class="journey-slider-content">
                             <h4 class="journey-slider-title">
@@ -580,7 +580,7 @@ export default component$(() => {
                             <h2>04</h2>
                           </div>
                           <div class="journey-slider-meta">
-                            <span>OCT 2022</span>
+                            <span>Quality</span>
                           </div>
                           <div class="journey-slider-content">
                             <h4 class="journey-slider-title">
@@ -588,7 +588,7 @@ export default component$(() => {
                               to Excellence
                             </h4>
                             <p>
-                            At Fiqra Technologies, quality isn’t just a goal; it’s a guarantee. We are committed to delivering exceptionalresults, driven by a passion for excellence in every project.
+                            At Fiqra Technologies, quality isn’t just a goal; it’s a guarantee. We are committed to delivering exceptional results, driven by a passion for excellence in every project.
                             </p>
                           </div>
                         </div>

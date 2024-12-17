@@ -104,16 +104,16 @@ export default component$(() => {
           <div class="tpoffcanvas__instagram-title">
             <h4>trustees</h4>
           </div>
-          <a href="https://mastercardfdn.org/">
+          <a target="_blank" href="https://mastercardfdn.org/">
             <img src="/assets/img/project/mcard.png" alt="" />
           </a>
-          <a href="https://consult.saharaventures.com/">
+          <a target="_blank" href="https://consult.saharaventures.com/">
             <img src="/assets/img/project/sahara.png" alt="" />
           </a>
-          <a href="https://dotrust.org/">
+          <a target="_blank" href="https://dotrust.org/">
             <img src="/assets/img/project/dot.png" alt="" />
           </a>
-          <a href="#">
+          <a target="_blank" href="#">
             <img src="/assets/img/project/qct.png" alt="" />
           </a>
         </div>
@@ -130,7 +130,7 @@ export default component$(() => {
         <div class="tpoffcanvas__social">
           <div class="social-icon text-center">
               <a
-                class="icon-color-1"
+                class="icon-color-1" target="_blank"
                 href="https://x.com/FiqraTech"
               >
                 <svg
@@ -145,13 +145,13 @@ export default component$(() => {
                 </svg>{" "}
                 <span></span>
               </a>{" "}
-            <a href="https://www.instagram.com/fiqra.tech/">
+            <a target="_blank" href="https://www.instagram.com/fiqra.tech/">
               <i class="fab fa-instagram"></i>
             </a>
-            <a href="https://www.facebook.com/techfiqra">
+            <a target="_blank" href="https://www.facebook.com/techfiqra">
               <i class="fab fa-facebook-square"></i>
             </a>
-            <a href="https://www.linkedin.com/company/vijanatech/">
+            <a target="_blank" href="https://www.linkedin.com/company/vijanatech/">
               <i class="fab fa-linkedin"></i>
             </a>
           </div>

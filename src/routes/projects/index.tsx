@@ -1,10 +1,8 @@
 
-import ImgFiqraProject from '~/media/assets/img/project/fiqra_project.png?jsx';
 import ImgBreadcrumbSub3 from '~/media/assets/img/breadcrumb/breadcrumb-sub-3.png?jsx';
 import ImgShuuLogo from '~/media/assets/img/project/shuu_logo.png?jsx';
 import ImgDebeLogo from '~/media/assets/img/project/debe_logo.png?jsx';
 import ImgTeyaLogo from '~/media/assets/img/project/teya_logo.png?jsx';
-import ImgTeyaProject from '~/media/assets/img/project/teya_project.png?jsx';
 import ImgDebeProject from '~/media/assets/img/project/debe_project.png?jsx';
 import ImgFiqraLogo from '~/media/assets/img/project/fiqra_logo.png?jsx';import { component$ } from "@builder.io/qwik";
 import Footer_ from "~/components/footer_";
@@ -94,7 +92,7 @@ export default component$(() => {
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 grid-item  cat4 cat2 cat1 ">
               <div class="inner-project-item  mb-30">
                 <div class="inner-project-img fix p-relative">
-                  <ImgFiqraProject alt="" />
+                  < img src='/assets/img/project/fiqra_project.png' alt="" />
                   <div class="inner-project-brand">
                     <ImgFiqraLogo
                       class="w-100"
@@ -118,7 +116,7 @@ export default component$(() => {
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 grid-item  cat3 cat4 cat5 ">
               <div class="inner-project-item mb-30">
                 <div class="inner-project-img fix p-relative">
-                  <ImgTeyaProject
+                  <img src='/assets/img/project/teya_project.png'
                     class="w-100"
                     alt=""
                   />
@@ -144,7 +142,7 @@ export default component$(() => {
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 grid-item  cat4 cat2 cat1">
               <div class="inner-project-item mb-30">
                 <div class="inner-project-img fix p-relative">
-                  <ImgDebeProject
+                  <img src='/assets/img/project/debe_project.png'
                     class="w-100"
                     alt=""
                   />

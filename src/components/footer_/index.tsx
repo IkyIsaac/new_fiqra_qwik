@@ -118,10 +118,10 @@ export default component$(() => {
                   <div class="tp-footer__content">
                     <ul>
                       <li>
-                        <a href="https://fiqra.academy/">Fiqra Academy</a>
+                        <a target="_blank" href="https://fiqra.academy/">Fiqra Academy</a>
                       </li>
                       <li>
-                        <a href="https://fiqra.academy/blog">Blog</a>
+                        <a target="_blank" href="https://fiqra.academy/blog">Blog</a>
                       </li>
                       <li>
                         <a href="/contact">Contact</a>
@@ -192,13 +192,13 @@ export default component$(() => {
                   <div class="tp-footer__social-3">
                     <h4>Social media</h4>
                     <a
-                      class="icon-color-1"
+                      class="icon-color-1" target="_blank"
                       href="https://www.facebook.com/techfiqra"
                     >
                       <i class="fab fa-facebook-f"></i>
                       <span></span>
                     </a>
-                    <a href="https://x.com/FiqraTech" class="icon-link">
+                    <a target="_blank" href="https://x.com/FiqraTech" class="icon-link">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="14"
@@ -211,14 +211,14 @@ export default component$(() => {
                       </svg>
                     </a>
                     <a
-                      class="icon-color-2"
+                      class="icon-color-2" target="_blank"
                       href="https://www.instagram.com/fiqra.tech/"
                     >
                       <i class="fab fa-instagram"></i>
                       <span></span>
                     </a>
                     <a
-                      class="icon-color-4"
+                      class="icon-color-4" target="_blank"
                       href="https://www.linkedin.com/company/vijanatech/"
                     >
                       <i class="fab fa-linkedin-in"></i>
@@ -236,7 +236,7 @@ export default component$(() => {
               <div class="col-xl-4 col-lg-6 col-md-6">
                 <div class="tp-copyright__text tp-copyright__text-3 text-center">
                   <span>
-                    <a href="#">Fiqra Technologies</a> – 2024
+                    <a target="_blank" href="https://fiqra.io">Fiqra Technologies</a> – 2024
                   </span>
                 </div>
               </div>
