@@ -1,6 +1,7 @@
 /* eslint-disable qwik/jsx-img */
 
-import ImgLogoWhite from '~/media/assets/img/logo/logo-white.png?jsx';import { component$ } from '@builder.io/qwik';
+import ImgLogoWhite from '~/media/assets/img/logo/logo-white.png?jsx';
+import { component$ } from '@builder.io/qwik';
  
 export default component$(() => {
   return (
@@ -33,7 +34,7 @@ export default component$(() => {
                     <a href="/about">About</a>
                   </li>
                   <li>
-                        <a href="/career">Careers</a>
+                        <a href="/careers">Careers</a>
                   </li>
                   {/* <li>
                     <a href="#">Features</a>

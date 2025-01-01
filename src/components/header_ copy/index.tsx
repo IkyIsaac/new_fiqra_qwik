@@ -30,7 +30,7 @@ export default component$(() => {
                     <a href="#">Features</a>
                     <ul class="submenu">
                       <li>
-                        <a href="/career">Career</a>
+                        <a href="/careers">Careers</a>
                       </li>
                       <li>
                         <a href="#">Blog</a>

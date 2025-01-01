@@ -684,7 +684,7 @@ export default component$(() => {
             </div>
             <div class="col-lg-3 col-md-3">
                <div class="job-post-apply-btn text-start text-md-end">
-                  <a class="tp-btn-inner tp-btn-hover alt-color-orange" href="/career-details"><span>Apply</span> <b></b></a>
+                  <a class="tp-btn-inner tp-btn-hover alt-color-orange" href="/careers/instructional_designer"><span>Apply</span> <b></b></a>
                </div>
             </div>
          </div>

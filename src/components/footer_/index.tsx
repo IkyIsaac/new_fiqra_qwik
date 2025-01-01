@@ -106,7 +106,7 @@ export default component$(() => {
                         <a href="/projects">Portfolio</a>
                       </li>
                       <li>
-                        <a href="/career">Career</a>
+                        <a href="/careers">Career</a>
                       </li>
                     </ul>
                   </div>

@@ -26,7 +26,7 @@ export default component$(() => {
                     <a href="/about">About</a>
                   </li>
                   <li>
-                    <a href="/career">Careers</a>
+                    <a href="/careers">Careers</a>
                   </li>
                   {/* <li>
                     <a href="#">Features</a>

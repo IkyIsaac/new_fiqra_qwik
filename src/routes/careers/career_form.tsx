@@ -214,25 +214,7 @@ export default component$(() => {
                       <span class="floating-label">Years of experience</span>
                     </div>
                   </div>
-                  {/* <div class="col-12">
-                    <div class="postbox__select mb-30">
-                      <select
-                        name="yearsOfExperience"
-                        onChange$={(e) => {
-                          yearsOfExperience.value = (
-                            e.target as HTMLSelectElement
-                          ).value;
-                        }}
-                      >
-                        <option value="">Years of experience</option>
-                        <option value="01 Year">01 Year</option>
-                        <option value="02 Years">02 Years</option>
-                        <option value="03 Years">03 Years</option>
-                        <option value="04 Years">04 Years</option>
-                        <option value="05 Years">05 Years</option>
-                      </select>
-                    </div>
-                  </div> */}
+                  
                   <div class="col-12">
                     <div class="postbox__comment-input mb-35">
                       <input
@@ -319,32 +301,6 @@ export default component$(() => {
                     <span class="floating-label-2">Personal note</span>
                   </div>
                 </div>
-
-                {/* <div class="col-xxl-12">
-                  <div class="postbox__resume-title-box">
-                    <h5 class="career-details-title-xs pb-15">
-                      Upload a recent resume or CV (All the requested documents)
-                    </h5>
-                  </div>
-                  <div class="postbox__resume mb-30">
-                    <input
-                      id="cv"
-                      type="file"
-                      hidden
-                      multiple
-                      onChange$={(e) => {
-                        const file = (e.target as HTMLInputElement).files?.[0]|| undefined;
-                        resumeFile.value = (noSerialize(file) as unknown as File | null) ?? null; 
-                      }}
-                    />
-                    <label class="custom-file-label" for="cv">
-                      {resumeFile.value
-                        ? (resumeFile.value as File)?.name
-                        : "Choose file"}
-                    </label>
-                  </div>
-                </div> */}
-                
                 <div class="col-12">
                   <div class="postbox__comment-input mb-30">
                     <input
