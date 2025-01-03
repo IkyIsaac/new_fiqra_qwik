@@ -238,6 +238,10 @@ export default component$(() => {
                      <li>3. A portfolio showcasing your e-learning projects, including storyboards, course designs, and multimedia elements.</li>
                   </ul>
                </div>
+               <div class="career-details-job-responsiblity">
+                    <h4 class="career-details-title-sm">Deadline:</h4>
+                    <p>Applications must be submitted by <strong>20th January 2025</strong></p>
+                  </div>
             </div>
          </div>
          <div class="col-xl-5 col-lg-5 career-details-pin">

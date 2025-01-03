@@ -56,7 +56,7 @@ export default component$(() => {
                    <div class="breadcrumb__client-info space-left-4">
                       <span>Project Date</span>
                       <div class="breadcrumb__live-btn">
-                         <a class="tp-btn-inner-border" href="https://fiqra.io/">See live <i class="fal fa-arrow-up"></i></a>
+                         <a class="tp-btn-inner-border" href="https://teya.or.tz/">See live <i class="fal fa-arrow-up"></i></a>
                       </div>
                    </div>
                 </div>

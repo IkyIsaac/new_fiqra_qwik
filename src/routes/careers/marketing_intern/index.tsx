@@ -77,11 +77,11 @@ export default component$(() => {
               <div class="col-xl-7 col-lg-7">
                 <div class="career-details-wrapper">
                   <div class="career-details-title-box">
-                    <span>Business</span>
+                    <span>Marketing</span>
                     <h4 class="career-details-title">
-                    Business Development <br />
+                      Marketing <br />
                       <br />
-                      Manager
+                      Intern
                     </h4>
                   </div>
                   <div class="career-details-location-box">
@@ -129,25 +129,25 @@ export default component$(() => {
                           stroke-linejoin="round"
                         />
                       </svg>
-                      Contract
+                      Intern
                     </span>
-                    <span>Senior</span>
+                    <span>Junior</span>
                   </div>
                   <div class="career-details-job-responsiblity mb-45">
                     <h4 class="career-details-title-sm">Position Overview</h4>
                     <p>
-                      Fiqra Technologies is seeking a highly motivated and
-                      results-driven{" "}
-                      <strong>Business Development Manager</strong> to join our
-                      dynamic team. This role is instrumental in driving
-                      business growth by establishing and nurturing strategic
-                      partnerships, managing client relationships, and
-                      contributing to revenue generation. The ideal candidate
-                      will have a strong background in business development,
-                      sales, and relationship management, particularly within
-                      the B2B and B2B2C sectors. They will be instrumental in
-                      positioning Fiqra Academy as the premier LMS solution for
-                      institutions, organizations, and corporate training teams.
+                      Fiqra Technologies is seeking a creative, ambitious, and
+                      tech-savvy <strong>Marketing Intern</strong>to join our team. This
+                      role is ideal for individuals passionate about marketing,
+                      technology, and education who want to gain hands-on
+                      experience in a fast-paced, innovative environment. As a
+                      Marketing Intern, you will support our marketing efforts
+                      for both Fiqra Technologies and Fiqra Academy,
+                      contributing to campaigns, managing content, and analyzing
+                      marketing performance. You’ll work closely with our
+                      marketing team to develop and execute strategies that
+                      align with our mission to empower businesses and learners
+                      through technology.
                     </p>
                   </div>
                   <div class="career-details-job-responsiblity mb-45">
@@ -158,138 +158,126 @@ export default component$(() => {
                       <ul>
                         {/* <!-- Strategic Planning --> */}
                         <li>
-                          <strong>Strategic Planning</strong>
+                          <strong>Content Creation and Management</strong>
                           <ul>
                             <li>
                               <i class="fal fa-long-arrow-right"></i>
-                              Develop and execute comprehensive business
-                              development strategies to drive user acquisition,
-                              revenue growth, and market penetration.
+                              Develop engaging content for social media, blogs,
+                              newsletters, and other digital platforms.
                             </li>
                             <li>
                               <i class="fal fa-long-arrow-right"></i>
-                              Identify and pursue new business opportunities,
-                              partnerships, and collaborations across private,
-                              public, and developmental sectors.
+                              Assist in designing promotional materials such as
+                              flyers, banners, and graphics.
                             </li>
                             <li>
                               <i class="fal fa-long-arrow-right"></i>
-                              Conduct market research to understand client
-                              needs, industry trends, and competitive
-                              landscapes.
+                              Write and edit copy for campaigns, ensuring
+                              consistency in tone and branding.
                             </li>
                           </ul>
                         </li>
 
                         {/* <!-- Relationship Management --> */}
                         <li>
-                          <strong>Relationship Management</strong>
+                          <strong>Social Media Management</strong>
                           <ul>
                             <li>
                               <i class="fal fa-long-arrow-right"></i>
-                              Build and maintain strong relationships with
-                              educators, training institutions, and corporate
-                              training teams.
+                              Manage and grow Fiqra Technologies' and Fiqra
+                              Academy's presence on social media platforms.
                             </li>
                             <li>
                               <i class="fal fa-long-arrow-right"></i>
-                              Engage proactively with potential clients to
-                              present tailored solutions that meet their unique
-                              needs.
+                              Plan and schedule posts, ensuring alignment with
+                              the overall marketing strategy.
                             </li>
                             <li>
                               <i class="fal fa-long-arrow-right"></i>
-                              Manage client onboarding processes and ensure
-                              exceptional client satisfaction and retention.
+                              Monitor engagement and respond to comments and
+                              inquiries.
                             </li>
                           </ul>
                         </li>
 
                         {/* <!-- Sales Growth --> */}
                         <li>
-                          <strong>Sales Growth</strong>
+                          <strong>Campaign Support</strong>
                           <ul>
                             <li>
                               <i class="fal fa-long-arrow-right"></i>
-                              Manage the entire sales cycle, from lead
-                              generation and prospecting to closing deals and
-                              ensuring successful implementation.
+                              Assist in planning and executing marketing
+                              campaigns to promote Fiqra Academy’s LMS and Fiqra
+                              Technologies’ software solutions.
                             </li>
                             <li>
                               <i class="fal fa-long-arrow-right"></i>
-                              Generate leads through networking, outreach,
-                              attending industry events, and leveraging personal
-                              networks.
+                              Conduct market research to identify trends and
+                              insights that can improve campaign effectiveness.
                             </li>
                             <li>
                               <i class="fal fa-long-arrow-right"></i>
-                              Drive sales targets and provide regular updates on
-                              sales performance and revenue contributions.
+                              Track and report on the performance of campaigns,
+                              providing actionable recommendations.
                             </li>
                           </ul>
                         </li>
 
                         {/* <!-- Partnership Development --> */}
                         <li>
-                          <strong>Partnership Development</strong>
+                          <strong>Event Coordination</strong>
                           <ul>
-                        <li>
-                          <i class="fal fa-long-arrow-right"></i>
-                          Establish strategic partnerships with key stakeholders
-                          in the education and training sectors to enhance Fiqra
-                          Academy’s reach and reputation.
-                        </li>
-                        <li>
-                          <i class="fal fa-long-arrow-right"></i>
-                          Negotiate partnership agreements and maintain ongoing
-                          collaborations to ensure mutual benefit.
-                        </li>
+                            <li>
+                              <i class="fal fa-long-arrow-right"></i>
+                              Support the planning and execution of events such
+                              as university tours, exhibitions, and workshops.
+                            </li>
+                            <li>
+                              <i class="fal fa-long-arrow-right"></i>
+                              Help create marketing materials and presentations
+                              for events.
+                            </li>
+                            <li>
+                              <i class="fal fa-long-arrow-right"></i>
+                              Represent Fiqra Technologies and Fiqra Academy at
+                              local events when required.
+                            </li>
                           </ul>
                         </li>
 
                         {/* <!-- Product Expertise and Promotion --> */}
                         <br />
                         <li>
-                          <strong>Product Expertise and Promotion</strong>
+                          <strong>Marketing Analytics</strong>
                           <ul>
-                        <li>
-                          <i class="fal fa-long-arrow-right"></i>
-                          Develop a deep understanding of Fiqra Academy’s
-                          platform, features, and benefits.
-                        </li>
-                        <li>
-                          <i class="fal fa-long-arrow-right"></i>
-                          Conduct compelling product demonstrations and
-                          presentations to showcase the value of Fiqra Academy.
-                        </li>
-                        <li>
-                          <i class="fal fa-long-arrow-right"></i>
-                          Collaborate with the marketing team to design and
-                          implement effective promotional campaigns.
-                        </li>
+                            <li>
+                              <i class="fal fa-long-arrow-right"></i>
+                              Analyze website and social media analytics to measure campaign performance.
+                            </li>
+                            <li>
+                              <i class="fal fa-long-arrow-right"></i>
+                              Prepare reports on key metrics, such as engagement rates, reach, and conversion rates.
+                            </li>
+                            <li>
+                              <i class="fal fa-long-arrow-right"></i>
+                              Collaborate with the team to improve strategies based on data-driven insights.
+                            </li>
                           </ul>
                         </li>
 
                         {/* <!-- Reporting and Collaboration --> */}
                         <li>
-                          <strong>Reporting and Collaboration</strong>
+                          <strong>Partnership Development</strong>
                           <ul>
-                        <li>
-                          <i class="fal fa-long-arrow-right"></i>
-                          Provide detailed reports on sales performance, client
-                          feedback, and market trends.
-                        </li>
-                        <li>
-                          <i class="fal fa-long-arrow-right"></i>
-                          Collaborate with internal teams, including product
-                          development, marketing, and support, to ensure
-                          alignment on client needs and expectations.
-                        </li>
-                        <li>
-                          <i class="fal fa-long-arrow-right"></i>
-                          Contribute insights to the strategic direction of the
-                          business based on market data and client interactions.
-                        </li>
+                            <li>
+                              <i class="fal fa-long-arrow-right"></i>
+                              Assist in outreach efforts to establish partnerships with organizations, institutions, and influencers.
+                            </li>
+                            <li>
+                              <i class="fal fa-long-arrow-right"></i>
+                              Support collaboration initiatives with instructors and educational bodies.
+                            </li>
+                            
                           </ul>
                         </li>
                       </ul>
@@ -304,50 +292,34 @@ export default component$(() => {
                       <ul>
                         <li>
                           <i class="fal fa-long-arrow-right"></i>
-                          Bachelor’s degree in Business Administration,
-                          Marketing, or a related field. A Master’s degree is an
-                          added advantage.
+                          Currently pursuing or recently completed a degree in Marketing, Communications, Business, or a related field.
                         </li>
                         <li>
                           <i class="fal fa-long-arrow-right"></i>
-                          Over 5 years of proven experience in business
-                          development, sales, and client relationship
-                          management.
+                          Strong interest in technology, digital marketing, and education.
                         </li>
                         <li>
-                          <i class="fal fa-long-arrow-right"></i>A strong track
-                          record in B2B sales and establishing strategic
-                          partnerships.
+                          <i class="fal fa-long-arrow-right"></i>Excellent written and verbal communication skills.
                         </li>
                         <li>
                           <i class="fal fa-long-arrow-right"></i>
-                          Experience in software product or service sales is
-                          highly desirable.
+                          Proficiency in social media platforms (e.g., Instagram, Facebook, LinkedIn, Twitter).
                         </li>
                         <li>
                           <i class="fal fa-long-arrow-right"></i>
-                          Strong existing relationships in private, public, and
-                          developmental sectors are a significant advantage.
+                          Basic knowledge of graphic design tools (e.g., Canva, Adobe Creative Suite) is a plus.
                         </li>
                         <li>
                           <i class="fal fa-long-arrow-right"></i>
-                          High-level communication, negotiation, and
-                          presentation skills.
+                          Familiarity with analytics tools (e.g., Google Analytics, social media insights) is a bonus.
                         </li>
                         <li>
                           <i class="fal fa-long-arrow-right"></i>
-                          Proven ability to analyze market trends, develop
-                          strategic plans, and execute effectively.
+                          Ability to work collaboratively in a team environment.
                         </li>
                         <li>
                           <i class="fal fa-long-arrow-right"></i>
-                          Proficiency in CRM tools and sales software is an
-                          advantage.
-                        </li>
-                        <li>
-                          <i class="fal fa-long-arrow-right"></i>
-                          Self-motivated, goal-oriented, and capable of working
-                          independently in a fast-paced environment.
+                          Creativity, attention to detail, and a proactive attitude.
                         </li>
                       </ul>
                     </div>
@@ -360,22 +332,21 @@ export default component$(() => {
                       <ul>
                         <li>
                           <i class="fal fa-long-arrow-right"></i>
-                          Competitive salary with performance-based incentives.
+                          Gain hands-on experience in digital marketing for the tech and education sectors.
                         </li>
                         <li>
                           <i class="fal fa-long-arrow-right"></i>
-                          Be part of a team revolutionizing online education in
-                          Tanzania and beyond.
+                          Be part of a team revolutionizing learning and technology in Tanzania and beyond.
                         </li>
                         <li>
                           <i class="fal fa-long-arrow-right"></i>
-                          Opportunity to collaborate with forward-thinking
-                          professionals in an innovative work environment.
+                          Work in a collaborative, innovative, and supportive environment.
                         </li>
                         <li>
-                          <i class="fal fa-long-arrow-right"></i>A chance to
-                          make a tangible impact on education and workforce
-                          training through technology.
+                          <i class="fal fa-long-arrow-right"></i>Opportunity to learn from industry experts and build valuable connections.
+                        </li>
+                        <li>
+                        <i class="fal fa-long-arrow-right"></i>Flexible working arrangements with opportunities to contribute to impactful projects.
                         </li>
                       </ul>
                     </div>
@@ -391,27 +362,24 @@ export default component$(() => {
                     <ul>
                       <li>
                         <i class="fal fa-long-arrow-right"></i>A detailed resume
-                        highlighting relevant experience and expertise.
+                        highlighting relevant experience and skills.
                       </li>
                       <li>
-                        <i class="fal fa-long-arrow-right"></i>A cover letter
-                        explaining why you are a great fit for this role.
-                      </li>
-                      <li>
-                        <i class="fal fa-long-arrow-right"></i>
-                        Copies of degree certificates and academic transcripts.
+                        <i class="fal fa-long-arrow-right"></i>A cover letter explaining why you are interested in this internship and how your skills align with the role.
                       </li>
                       <li>
                         <i class="fal fa-long-arrow-right"></i>
-                        Highly encouraged: Share metrics or examples of previous
-                        business development successes to showcase your impact.
+                        A portfolio or examples of past work (optional but encouraged).
                       </li>
                     </ul>
                   </div>
 
                   <div class="career-details-job-responsiblity">
                     <h4 class="career-details-title-sm">Deadline:</h4>
-                    <p>Applications must be submitted by <strong>20th January 2025</strong></p>
+                    <p>
+                      Applications must be submitted by{" "}
+                      <strong>20th January 2025</strong>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -471,7 +439,7 @@ export default component$(() => {
             </div>
           </div>
         </div>
-        <Open_positions/>
+        <Open_positions />
         <Try_service />
       </main>
       <Footer_ />
