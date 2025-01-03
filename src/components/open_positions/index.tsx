@@ -22,7 +22,7 @@ export default component$(() => {
                 <div class="job-post-info d-flex justify-content-start align-items-center">
                   <div class="job-post-category">
                     <span class="py-10">
-                      E-Learning Developer and Instructional Designer
+                     Instructional Designer
                     </span>
                   </div>
                 </div>
