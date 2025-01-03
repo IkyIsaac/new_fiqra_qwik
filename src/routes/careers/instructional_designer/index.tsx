@@ -84,7 +84,7 @@ export default component$(() => {
                </div>
                <div class="career-details-job-responsiblity mb-45">
                   <h4 class="career-details-title-sm">Position Overview</h4>
-                  <p>We are seeking a talented and experienced Instructional Design expertise. In this role, you will collaborate with subject matter experts (SMEs), course creators, and our internal team to design and develop interactive and engaging e-learning experiences. You will be required to create instructional materials and content that cater to various learning styles. Additionally, you will work closely with subject matter experts (SMEs) to translate complex concepts into effective and visually appealing learning solutions.</p>
+                  <p>We are seeking a talented and experienced Instructional Designer. In this role, you will collaborate with subject matter experts (SMEs), course creators, and our internal team to design and develop interactive and engaging e-learning experiences. You will be required to create instructional materials and content that cater to various learning styles. Additionally, you will work closely with subject matter experts (SMEs) to translate complex concepts into effective and visually appealing learning solutions.</p>
                </div>
                <div class="career-details-job-responsiblity mb-45">
                   <h4 class="career-details-title-sm">Key Responsibilities</h4>

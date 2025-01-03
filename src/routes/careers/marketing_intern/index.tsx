@@ -137,12 +137,14 @@ export default component$(() => {
                     <h4 class="career-details-title-sm">Position Overview</h4>
                     <p>
                       Fiqra Technologies is seeking a creative, ambitious, and
-                      tech-savvy <strong>Marketing Intern</strong>to join our team. This
-                      role is ideal for individuals passionate about marketing,
-                      technology, and education who want to gain hands-on
-                      experience in a fast-paced, innovative environment. As a
-                      Marketing Intern, you will support our marketing efforts
-                      for both Fiqra Technologies and Fiqra Academy,
+                      tech-savvy <strong>Marketing Intern</strong> to join our
+                      team. This role is ideal for individuals passionate about
+                      marketing, technology, and education who want to gain
+                      hands-on experience in a fast-paced, innovative
+                      environment. <br />
+                      <br />
+                      As a Marketing Intern, you will support our marketing
+                      efforts for both Fiqra Technologies and Fiqra Academy,
                       contributing to campaigns, managing content, and analyzing
                       marketing performance. You’ll work closely with our
                       marketing team to develop and execute strategies that
@@ -156,19 +158,22 @@ export default component$(() => {
                     </h4>
                     <div class="career-details-job-list">
                       <ul>
-                        {/* <!-- Strategic Planning --> */}
+                        {/* <!-- Content Creation --> */}
                         <li>
-                          <strong>Content Creation and Management</strong>
+                          <strong>Content Creation</strong>
                           <ul>
                             <li>
                               <i class="fal fa-long-arrow-right"></i>
-                              Develop engaging content for social media, blogs,
-                              newsletters, and other digital platforms.
+                              Craft engaging content for social media, blogs,
+                              newsletters, campaigns, and other digital
+                              platforms.
                             </li>
                             <li>
                               <i class="fal fa-long-arrow-right"></i>
-                              Assist in designing promotional materials such as
-                              flyers, banners, and graphics.
+                              Provide support in creating and designing
+                              high-quality, shareable content, including
+                              graphics, videos, and written posts to captivate
+                              our audience.
                             </li>
                             <li>
                               <i class="fal fa-long-arrow-right"></i>
@@ -178,52 +183,108 @@ export default component$(() => {
                           </ul>
                         </li>
 
-                        {/* <!-- Relationship Management --> */}
+                        {/* <!-- Social Media Management --> */}
                         <li>
                           <strong>Social Media Management</strong>
                           <ul>
                             <li>
                               <i class="fal fa-long-arrow-right"></i>
-                              Manage and grow Fiqra Technologies' and Fiqra
-                              Academy's presence on social media platforms.
+                              Assist in managing and growing social media
+                              channels for the organization.
                             </li>
                             <li>
                               <i class="fal fa-long-arrow-right"></i>
-                              Plan and schedule posts, ensuring alignment with
-                              the overall marketing strategy.
+                              Assist in planning and executing marketing
+                              campaigns to promote Fiqra Academy's LMS and Fiqra
+                              Technologies' software solutions.
                             </li>
                             <li>
                               <i class="fal fa-long-arrow-right"></i>
-                              Monitor engagement and respond to comments and
-                              inquiries.
+                              Develop creative ideas for posts, reels, and
+                              stories to boost engagement.
+                            </li>
+                            <li>
+                              <i class="fal fa-long-arrow-right"></i>
+                              Provide support in proposing new tools or
+                              strategies to enhance our reach and brand
+                              visibility.
                             </li>
                           </ul>
                         </li>
 
-                        {/* <!-- Sales Growth --> */}
+                        {/* <!-- Market Research --> */}
                         <li>
-                          <strong>Campaign Support</strong>
+                          <strong>Market Research</strong>
                           <ul>
                             <li>
                               <i class="fal fa-long-arrow-right"></i>
-                              Assist in planning and executing marketing
-                              campaigns to promote Fiqra Academy’s LMS and Fiqra
-                              Technologies’ software solutions.
+                              Research and analyze market trends, competitors,
+                              and audience behavior to inform marketing
+                              strategies.
                             </li>
                             <li>
                               <i class="fal fa-long-arrow-right"></i>
                               Conduct market research to identify trends and
                               insights that can improve campaign effectiveness.
                             </li>
+                          </ul>
+                        </li>
+
+                        {/* <!-- Marketing Analytics --> */}
+                        <li>
+                          <strong>Marketing Analytics</strong>
+                          <ul>
                             <li>
                               <i class="fal fa-long-arrow-right"></i>
-                              Track and report on the performance of campaigns,
-                              providing actionable recommendations.
+                              Analyze website and social media analytics to
+                              measure campaign performance.
+                            </li>
+                            <li>
+                              <i class="fal fa-long-arrow-right"></i>
+                              Prepare reports on key metrics, such as engagement
+                              rates, reach, and conversion rates.
+                            </li>
+                            <li>
+                              <i class="fal fa-long-arrow-right"></i>
+                              Collaborate with the team to improve strategies
+                              based on data-driven insights.
                             </li>
                           </ul>
                         </li>
 
-                        {/* <!-- Partnership Development --> */}
+                        {/* <!-- Campaign Support --> */}
+                        <li>
+                          <strong>Campaign Support</strong>
+                          <ul>
+                            <li>
+                              <i class="fal fa-long-arrow-right"></i>
+                              Assist in planning, executing, and analyzing
+                              creative digital marketing campaigns across
+                              various channels (social media, email, blogs,
+                              etc.).
+                            </li>
+                            <li>
+                              <i class="fal fa-long-arrow-right"></i>
+                              Track, measure, and report on the effectiveness of
+                              the marketing campaigns to optimize future
+                              efforts.
+                            </li>
+                          </ul>
+                        </li>
+
+                        {/* <!-- Collaborative Projects --> */}
+                        <li>
+                          <strong>Collaborative Projects</strong>
+                          <ul>
+                            <li>
+                              <i class="fal fa-long-arrow-right"></i>
+                              Work closely with the team on branding initiatives
+                              to ensure consistency in branding and messaging.
+                            </li>
+                          </ul>
+                        </li>
+
+                        {/* <!-- Event Coordination --> */}
                         <li>
                           <strong>Event Coordination</strong>
                           <ul>
@@ -245,39 +306,21 @@ export default component$(() => {
                           </ul>
                         </li>
 
-                        {/* <!-- Product Expertise and Promotion --> */}
-                        <br />
-                        <li>
-                          <strong>Marketing Analytics</strong>
-                          <ul>
-                            <li>
-                              <i class="fal fa-long-arrow-right"></i>
-                              Analyze website and social media analytics to measure campaign performance.
-                            </li>
-                            <li>
-                              <i class="fal fa-long-arrow-right"></i>
-                              Prepare reports on key metrics, such as engagement rates, reach, and conversion rates.
-                            </li>
-                            <li>
-                              <i class="fal fa-long-arrow-right"></i>
-                              Collaborate with the team to improve strategies based on data-driven insights.
-                            </li>
-                          </ul>
-                        </li>
-
-                        {/* <!-- Reporting and Collaboration --> */}
+                        {/* <!-- Partnership Development --> */}
                         <li>
                           <strong>Partnership Development</strong>
                           <ul>
                             <li>
                               <i class="fal fa-long-arrow-right"></i>
-                              Assist in outreach efforts to establish partnerships with organizations, institutions, and influencers.
+                              Assist in outreach efforts to establish
+                              partnerships with organizations, institutions, and
+                              influencers.
                             </li>
                             <li>
                               <i class="fal fa-long-arrow-right"></i>
-                              Support collaboration initiatives with instructors and educational bodies.
+                              Support collaboration initiatives with instructors
+                              and educational bodies.
                             </li>
-                            
                           </ul>
                         </li>
                       </ul>
@@ -286,67 +329,80 @@ export default component$(() => {
 
                   <div class="career-details-job-responsiblity mb-45">
                     <h4 class="career-details-title-sm">
-                      Qualifications & Skills:
+                      Qualifications and Experience
                     </h4>
                     <div class="career-details-job-list">
                       <ul>
                         <li>
-                          <i class="fal fa-long-arrow-right"></i>
-                          Currently pursuing or recently completed a degree in Marketing, Communications, Business, or a related field.
+                          <i class="fal fa-long-arrow-right"></i>A relevant
+                          degree in Marketing, Public Relations, Communications,
+                          or a related field.
                         </li>
                         <li>
                           <i class="fal fa-long-arrow-right"></i>
-                          Strong interest in technology, digital marketing, and education.
-                        </li>
-                        <li>
-                          <i class="fal fa-long-arrow-right"></i>Excellent written and verbal communication skills.
-                        </li>
-                        <li>
-                          <i class="fal fa-long-arrow-right"></i>
-                          Proficiency in social media platforms (e.g., Instagram, Facebook, LinkedIn, Twitter).
+                          At least one year of proven experience in digital
+                          marketing, content creation, and social media
+                          management.
                         </li>
                         <li>
                           <i class="fal fa-long-arrow-right"></i>
-                          Basic knowledge of graphic design tools (e.g., Canva, Adobe Creative Suite) is a plus.
+                          Excellent high-level communication, public speaking,
+                          and presentation skills.
                         </li>
                         <li>
                           <i class="fal fa-long-arrow-right"></i>
-                          Familiarity with analytics tools (e.g., Google Analytics, social media insights) is a bonus.
+                          Familiarity with social media platforms and tools:
+                          LinkedIn, X, Instagram, Canva.
                         </li>
                         <li>
                           <i class="fal fa-long-arrow-right"></i>
-                          Ability to work collaboratively in a team environment.
+                          Basic knowledge of digital marketing concepts: SEO,
+                          analytics, etc. (an added advantage).
                         </li>
                         <li>
                           <i class="fal fa-long-arrow-right"></i>
-                          Creativity, attention to detail, and a proactive attitude.
+                          Highly analytical and a creative problem solver with a
+                          proactive and can-do attitude.
+                        </li>
+                        <li>
+                          <i class="fal fa-long-arrow-right"></i>
+                          High attention to detail and accuracy.
+                        </li>
+                        <li>
+                          <i class="fal fa-long-arrow-right"></i>
+                          Self-motivated, goal-oriented, and able to work
+                          independently in a fast-paced environment.
                         </li>
                       </ul>
                     </div>
                   </div>
-                  <div class="career-details-job-responsiblity mb-20">
+                  <div class="career-details-job-responsiblity mb-45">
                     <h4 class="career-details-title-sm">
-                      Why Join Fiqra Technologies?
+                      What’s in It for You?
                     </h4>
                     <div class="career-details-job-list">
                       <ul>
                         <li>
                           <i class="fal fa-long-arrow-right"></i>
-                          Gain hands-on experience in digital marketing for the tech and education sectors.
+                          <strong>Competitive salary.</strong>
                         </li>
                         <li>
                           <i class="fal fa-long-arrow-right"></i>
-                          Be part of a team revolutionizing learning and technology in Tanzania and beyond.
+                          <strong>Real-World Experience:</strong> Get hands-on
+                          exposure to marketing.
                         </li>
                         <li>
                           <i class="fal fa-long-arrow-right"></i>
-                          Work in a collaborative, innovative, and supportive environment.
+                          <strong>
+                            Mentorship and Learning Opportunities:
+                          </strong>{" "}
+                          Work alongside experienced professionals eager to help
+                          you grow.
                         </li>
                         <li>
-                          <i class="fal fa-long-arrow-right"></i>Opportunity to learn from industry experts and build valuable connections.
-                        </li>
-                        <li>
-                        <i class="fal fa-long-arrow-right"></i>Flexible working arrangements with opportunities to contribute to impactful projects.
+                          <i class="fal fa-long-arrow-right"></i>
+                          <strong>Networking Opportunities:</strong> Build
+                          connections that will benefit your future career.
                         </li>
                       </ul>
                     </div>
@@ -361,15 +417,15 @@ export default component$(() => {
                   <div class="career-details-job-list">
                     <ul>
                       <li>
-                        <i class="fal fa-long-arrow-right"></i>A detailed resume
-                        highlighting relevant experience and skills.
+                        <i class="fal fa-long-arrow-right"></i>A resume
                       </li>
                       <li>
-                        <i class="fal fa-long-arrow-right"></i>A cover letter explaining why you are interested in this internship and how your skills align with the role.
+                        <i class="fal fa-long-arrow-right"></i>A cover letter
+                        explaining why you are a great fit for this role.
                       </li>
                       <li>
-                        <i class="fal fa-long-arrow-right"></i>
-                        A portfolio or examples of past work (optional but encouraged).
+                        <i class="fal fa-long-arrow-right"></i>Relevant degree
+                        certificates and academic transcripts.
                       </li>
                     </ul>
                   </div>
