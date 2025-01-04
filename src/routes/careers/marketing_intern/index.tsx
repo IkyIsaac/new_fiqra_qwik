@@ -107,6 +107,8 @@ export default component$(() => {
                       Dar es Salaam, Tanzania (with potential for remote work in
                       specific tasks)
                     </span>
+                    <br />
+                    <br />
                     <span>
                       <svg
                         width="17"
@@ -130,9 +132,18 @@ export default component$(() => {
                           stroke-linejoin="round"
                         />
                       </svg>
-                      Intern
+                      Contract
                     </span>
-                    <span>Junior</span>
+                    <span>
+                      <svg
+                        width="17"
+                        height="17"
+                        viewBox="0 0 17 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      ></svg>
+                      Junior
+                    </span>
                   </div>
                   <div class="career-details-job-responsiblity mb-45">
                     <h4 class="career-details-title-sm">Position Overview</h4>
