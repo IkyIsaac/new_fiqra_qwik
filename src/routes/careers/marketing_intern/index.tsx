@@ -104,7 +104,8 @@ export default component$(() => {
                           stroke-width="1.5"
                         />
                       </svg>
-                      Tanzania - Dar es Salaam
+                      Dar es Salaam, Tanzania (with potential for remote work in
+                      specific tasks)
                     </span>
                     <span>
                       <svg
