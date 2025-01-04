@@ -46,7 +46,7 @@ export default component$(() => {
                       <i class="fal fa-angle-right"></i>
                     </span>
                     <span class="child-one">
-                      <a href="/careers">Careers page</a>
+                      <a href="/careers">Careers</a>
                     </span>
                     <span class="dvdr">
                       <i class="fal fa-angle-right"></i>

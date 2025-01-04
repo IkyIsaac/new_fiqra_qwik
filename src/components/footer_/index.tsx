@@ -19,7 +19,7 @@ export default component$(() => {
               <div class="col-xl-3 col-lg-3 col-md-6 pb-30">
                 <div class="tp-footer__widget tp-footer__input-inner footer-widget-3 footer-col-3-1">
                   <div class="tp-footer__logo mb-25">
-                    <a href="index.html">
+                    <a href="/">
                       <ImgLogoBlack alt="" />
                     </a>
                   </div>
