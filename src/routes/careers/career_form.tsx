@@ -6,7 +6,7 @@ import {
 } from "@builder.io/qwik";
 import emailjs from "emailjs-com";
 
-export default component$(() => {
+export default component$((props: { jobTitle: string }) => {
   const fullName = useSignal("");
   const email = useSignal("");
   const phoneNumber = useSignal("");
@@ -44,6 +44,7 @@ export default component$(() => {
       resumeFile: resumeFile.value ?? "No file link",
       coverLetter: coverLetter.value ?? "No file link",
       portfolio: portfolio.value ?? "No file link",
+      jobApplied: props.jobTitle,
     };
 
     console.log("Form Data:", formData);

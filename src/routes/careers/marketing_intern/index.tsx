@@ -9,6 +9,8 @@ import Career_form from "../career_form";
 import Open_positions from "~/components/open_positions";
 
 export default component$(() => {
+  const jobTitle= "Marketing Intern";
+  
   return (
     <>
       <style>
@@ -464,7 +466,7 @@ export default component$(() => {
                     </div>
                   </div>
                 </div>
-                <Career_form />
+                <Career_form jobTitle={jobTitle}/>
                 <div class="col-xxl-12">
                   <div class="career-details-social-box mb-20">
                     <a
