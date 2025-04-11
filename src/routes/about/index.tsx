@@ -1,6 +1,5 @@
 
 import ImgInfobipAbout from '~/media/assets/img/hero/infobip_about.png?jsx';
-import ImgInfobip from '~/media/assets/img/hero/infobip.png?jsx';
 import ImgAbout3 from '~/media/assets/img/about/about-3.jpeg?jsx';
 import ImgAbout1 from '~/media/assets/img/about/about-1.png?jsx';
 import ImgBreadcrumbShape1 from '~/media/assets/img/breadcrumb/breadcrumb-shape-1.png?jsx';
