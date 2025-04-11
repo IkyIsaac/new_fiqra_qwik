@@ -1,4 +1,6 @@
 
+import ImgInfobipAbout from '~/media/assets/img/hero/infobip_about.png?jsx';
+import ImgInfobip from '~/media/assets/img/hero/infobip.png?jsx';
 import ImgAbout3 from '~/media/assets/img/about/about-3.jpeg?jsx';
 import ImgAbout1 from '~/media/assets/img/about/about-1.png?jsx';
 import ImgBreadcrumbShape1 from '~/media/assets/img/breadcrumb/breadcrumb-shape-1.png?jsx';
@@ -110,6 +112,15 @@ export default component$(() => {
                     >
                       <div class="ab-brand-item mb-25">
                         <ImgBrandInner0 alt="" />
+                      </div>
+                    </div>
+                    <div
+                      class="col wow tpfadeUp"
+                      data-wow-duration=".9s"
+                      data-wow-delay=".2s"
+                    >
+                      <div class="ab-brand-item mb-25">
+                        <ImgInfobipAbout  alt="" />
                       </div>
                     </div>
                     <div
@@ -249,56 +260,6 @@ export default component$(() => {
                 </div>
               </div>
             </div>
-            {/* <div class="row align-items-center">
-              <div class="col-xl-4">
-                <div class="ab-company-video">
-                  <a
-                    class="popup-video"
-                    href="#"
-                  >
-                    <i class="fas fa-play"></i>
-                  </a>
-                  <span>Watch Demo</span>
-                </div>
-              </div>
-              <div class="col-xl-8">
-                <div class="row">
-                  <div class="col-md-4 col-sm-4 mb-40">
-                    <div class="ab-company-fun-fact-wrap d-flex justify-content-start">
-                      <div class="ab-company-fun-fact">
-                        <span>USED BY</span>
-                        <h4>
-                          11,000<em>+</em>
-                        </h4>
-                        <p>Creators</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4 col-sm-4 mb-40">
-                    <div class="ab-company-fun-fact-wrap d-flex justify-content-md-center justify-content-left">
-                      <div class="ab-company-fun-fact">
-                        <span>VALUE</span>
-                        <h4>
-                          46<em>m</em>
-                        </h4>
-                        <p>Revenue per Year</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4 col-sm-4 mb-40">
-                    <div class="ab-company-fun-fact-wrap ab-company-border-none d-flex justify-content-md-center justify-content-left">
-                      <div class="ab-company-fun-fact">
-                        <span>IN</span>
-                        <h4>
-                          150<em>+</em>
-                        </h4>
-                        <p>Countries using</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> */}
           </div>
         </div>
 
@@ -594,46 +555,6 @@ export default component$(() => {
                           </div>
                         </div>
                       </div>
-                      {/* <div class="swiper-slide">
-                        <div class="journey-slider-item p-relative">
-                          <div class="journey-stroke-text">
-                            <h2>05</h2>
-                          </div>
-                          <div class="journey-slider-meta">
-                            <span>Present</span>
-                          </div>
-                          <div class="journey-slider-content">
-                            <h4 class="journey-slider-title">
-                              Featured On <br />
-                              Envato
-                            </h4>
-                            <p>
-                              We envision sales teams having the tools <br />
-                              and talent they need to make remote <br /> work.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="journey-slider-item p-relative">
-                          <div class="journey-stroke-text">
-                            <h2>06</h2>
-                          </div>
-                          <div class="journey-slider-meta">
-                            <span>OCT 2020</span>
-                          </div>
-                          <div class="journey-slider-content">
-                            <h4 class="journey-slider-title">
-                              Official <br />
-                              Beta Launch
-                            </h4>
-                            <p>
-                              We envision sales teams having the tools <br />
-                              and talent they need to make remote <br /> work.
-                            </p>
-                          </div>
-                        </div>
-                      </div> */}
                     </div>
                   </div>
                   <div class="tp-scrollbar"></div>

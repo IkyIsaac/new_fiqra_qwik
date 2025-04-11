@@ -95,88 +95,72 @@ export default component$(() => {
                     <div class="tp-barnd-slider-active p-relative">
                       <div class="tp-brand-item">
                         <img
-                          width="160"
-                          height="80"
+                          src="/assets/img/hero/infobip.png"
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <img
                           src="/assets/img/hero/mcard.png"
                           alt=""
                         />
                       </div>
                       <div class="tp-brand-item">
                         <img
-                          width="160"
-                          height="80"
                           src="/assets/img/hero/sc.png"
                           alt=""
                         />
                       </div>
                       <div class="tp-brand-item">
                         <img
-                          width="160"
-                          height="64"
                           src="/assets/img/hero/hero-slider-icon-2.png"
                           alt=""
                         />
                       </div>
                       <div class="tp-brand-item">
                         <img
-                          width="160"
-                          height="64"
                           src="/assets/img/hero/hero-slider-icon-3.png"
                           alt=""
                         />
                       </div>
                       <div class="tp-brand-item">
                         <img
-                          width="160"
-                          height="64"
                           src="/assets/img/hero/hero-slider-icon-4.png"
                           alt=""
                         />
                       </div>
                       <div class="tp-brand-item">
                         <img
-                          width="160"
-                          height="64"
                           src="/assets/img/hero/hero-slider-icon-5.png"
                           alt=""
                         />
                       </div>
                       <div class="tp-brand-item">
                         <img
-                          width="160"
-                          height="64"
                           src="/assets/img/hero/hero-slider-icon-6.png"
                           alt=""
                         />
                       </div>
                       <div class="tp-brand-item">
                         <img
-                          width="160"
-                          height="64"
                           src="/assets/img/hero/hero-slider-icon-7.png"
                           alt=""
                         />
                       </div>
                       <div class="tp-brand-item">
                         <img
-                          width="160"
-                          height="64"
                           src="/assets/img/hero/hero-slider-icon-8.png"
                           alt=""
                         />
                       </div>
                       <div class="tp-brand-item">
                         <img
-                          width="160"
-                          height="64"
                           src="/assets/img/hero/hero-slider-icon-9.png"
                           alt=""
                         />
                       </div>
                       <div class="tp-brand-item">
                         <img
-                          width="160"
-                          height="64"
                           src="/assets/img/hero/hero-slider-icon-10.png"
                           alt=""
                         />
@@ -570,7 +554,8 @@ export default component$(() => {
                 <div class="tp-blog-four-item p-relative fix">
                   <div class="tp-blog-four-img fix ">
                     <a href="https://fiqra.academy/blog/Reflecting-on-Our-Unforgettable-Experience-at-the-MasterCard-Edtech-Conference-in-Abuja-Nigeria">
-                      <img src='/assets/img/blog/abuja1.png'
+                      <img
+                        src="/assets/img/blog/abuja1.png"
                         class="pic-size"
                         alt=""
                       />
