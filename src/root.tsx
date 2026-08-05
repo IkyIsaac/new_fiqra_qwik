@@ -1,4 +1,4 @@
-import { component$ } from "@builder.io/qwik";
+  import { component$ } from "@builder.io/qwik";
 import {
   QwikCityProvider,
   RouterOutlet,
@@ -33,6 +33,12 @@ export default component$(() => {
       <body lang="en">
         <RouterOutlet />
         {!isDev && <ServiceWorkerRegister />}
+        <script
+          src="https://siliana.fiqra.io/webchat/widget.js"
+          data-widget-key="uwezo-site"
+          data-color="#0f766e"
+          data-title="Chat with us"
+        />
       </body>
     </QwikCityProvider>
   );
